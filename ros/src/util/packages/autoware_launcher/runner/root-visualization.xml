@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find autoware_launcher)/plugins/leaf/rviz.xml">
+    <arg name="rviz_config_file" value="$(env HOME)/Autoware/ros/src/.config/rviz/default.rviz"/>
+  </include>
+</launch>

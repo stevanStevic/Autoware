@@ -1,0 +1,12 @@
+<launch>
+  <include file="$(find autoware_launcher)/plugins/leaf/transform_v2b.xml">
+    <arg name="parent_frame" value="base_link"/>
+    <arg name="local_frame" value="velodyne"/>
+    <arg name="tx" value="1.2"/>
+    <arg name="ty" value="0"/>
+    <arg name="tz" value="2.0"/>
+    <arg name="rx" value="0"/>
+    <arg name="ry" value="0"/>
+    <arg name="rz" value="0"/>
+  </include>
+</launch>

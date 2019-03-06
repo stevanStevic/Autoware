@@ -1,0 +1,19 @@
+format: Autoware Launcher Plugin Version 0.1
+args:
+- {name: engaged, type: bool, default: true}
+- {name: device, type: str, default: can0}
+- {name: steering_offset_deg, type: real, default: 0.0}
+- {name: command_timeout, type: int, default: 1000}
+- {name: use_ds4, type: bool, default: false}
+- {name: ds4_wired, type: bool, default: false}
+- {name: ds4_timeout, type: int, default: 1000}
+panel:
+  widget: node.panel
+  frames:
+  - {target: args.engaged, widget: basic.bool}
+  - {target: args.device, widget: basic.text}
+  - {target: args.steering_offset_deg, widget: basic.real}
+  - {target: args.command_timeout, widget: basic.int}
+  - {target: args.use_ds4, widget: basic.bool}
+  - {target: args.ds4_wired, widget: basic.bool}
+  - {target: args.ds4_timeout, widget: basic.int}

@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find autoware_launcher)/plugins/leaf/vehicle.xml">
+    <arg name="vehicle_model" value=""/>
+    <arg name="vehicle_info" value=""/>
+  </include>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find autoware_launcher)/plugins/driver/lidar/vlp32c.xml">
+    <arg name="local_frame" value="velodyne"/>
+    <arg name="device_addr" value="192.168.1.201"/>
+    <arg name="device_port" value="2368"/>
+  </include>
+</launch>

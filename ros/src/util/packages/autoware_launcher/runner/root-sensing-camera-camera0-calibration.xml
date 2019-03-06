@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find autoware_launcher)/plugins/leaf/calibration.xml">
+    <arg name="calibration_file" value="$(env HOME)/.autoware/data/calibration/calibration.yml"/>
+  </include>
+</launch>
