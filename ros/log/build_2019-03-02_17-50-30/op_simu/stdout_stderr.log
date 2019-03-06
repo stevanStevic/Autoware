@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/op_simu/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/op_planner;/home/daisuke/Autoware/ros/install/op_utility;/home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/op_planner;/home/daisuke/Autoware/ros/install/op_utility;/home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/op_simu/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Found GLEW: /usr/include  
+-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/op_simu
+[35m[1mScanning dependencies of target Simu[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/Simu.dir/src/SimpleTracker.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/Simu.dir/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/Simu.dir/src/TrajectoryFollower.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/Simu.dir/src/SimulatedTrajectoryFollower.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable devel/lib/op_simu/Simu[0m
+[ 55%] Built target Simu
+[35m[1mScanning dependencies of target op_simu[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/op_simu.dir/src/SimpleTracker.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/op_simu.dir/src/TrajectoryFollower.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/op_simu.dir/src/SimulatedTrajectoryFollower.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libop_simu.so[0m
+[100%] Built target op_simu
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 55%] Built target Simu
+[100%] Built target op_simu
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/lib/pkgconfig/op_simu.pc
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/share/op_simu/cmake/op_simuConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/share/op_simu/cmake/op_simuConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/share/op_simu/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/include/op_simu
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/include/op_simu/TrajectoryFollower.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/include/op_simu/SimpleTracker.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/include/op_simu/SimulatedTrajectoryFollower.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/lib/libop_simu.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/op_simu/lib/libop_simu.so" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/op_simu/lib/op_simu/Simu
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/op_simu/lib/op_simu/Simu" to ""

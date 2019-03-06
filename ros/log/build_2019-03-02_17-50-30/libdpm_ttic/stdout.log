@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/libdpm_ttic/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/libdpm_ttic/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Found CUDA: /usr/local/cuda-9.2 (found version "9.2") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/libdpm_ttic
+[35m[1mScanning dependencies of target cuda_binary[0m
+[  3%] [34m[1mGenerating GPU_function.cubin[0m
+[  3%] Built target cuda_binary
+[35m[1mScanning dependencies of target libdpm_ttic[0m
+[  7%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/common/common.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/main.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/detect.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/dt.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/get_boxes.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/dt_GPU.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/cuda_util.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/featurepyramid.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/fconvsMT.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/obstacle_detection.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/resize_GPU.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/load_model.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/multithreading.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/tracking.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/nms.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/GPU_init.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/nms.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/tracking.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/load_model.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/detect.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/get_boxes.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/fconvsMT.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/resize.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/featurepyramid.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/liblibdpm_ttic.so[0m
+[100%] Built target libdpm_ttic
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  3%] [34m[1mGenerating GPU_function.cubin[0m
+[  3%] Built target cuda_binary
+[100%] Built target libdpm_ttic
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/lib/pkgconfig/libdpm_ttic.pc
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/cmake/libdpm_tticConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/cmake/libdpm_tticConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/include/libdpm_ttic
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/include/libdpm_ttic/dpm_ttic.hpp
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/lib/liblibdpm_ttic.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/libdpm_ttic/lib/liblibdpm_ttic.so" to ""

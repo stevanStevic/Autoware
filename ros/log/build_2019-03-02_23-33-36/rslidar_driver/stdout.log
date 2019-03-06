@@ -1,0 +1,244 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/rslidar_driver/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/rslidar_msgs;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/rslidar_msgs;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/rslidar_driver/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   signals
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   chrono
+--   system
+--   date_time
+--   atomic
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/rslidar_driver
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[ 10%] [34m[1mGenerating dynamic reconfigure files from cfg/rslidarNode.cfg: /home/daisuke/Autoware/ros/build/rslidar_driver/devel/include/rslidar_driver/rslidarNodeConfig.h /home/daisuke/Autoware/ros/build/rslidar_driver/devel/lib/python2.7/dist-packages/rslidar_driver/cfg/rslidarNodeConfig.py[0m
+[ 10%] Built target rslidar_msgs_generate_messages_py
+[ 10%] Built target sensor_msgs_generate_messages_eus
+[ 10%] Built target bond_generate_messages_lisp
+[ 10%] Built target nodelet_generate_messages_eus
+[ 10%] Built target nodelet_topic_tools_gencfg
+[ 10%] Built target tf2_msgs_generate_messages_nodejs
+[ 10%] Built target topic_tools_generate_messages_eus
+[ 10%] Built target topic_tools_generate_messages_cpp
+[ 10%] Built target bond_generate_messages_eus
+[ 10%] Built target roscpp_generate_messages_eus
+[ 10%] Built target nodelet_generate_messages_nodejs
+[ 10%] Built target pcl_msgs_generate_messages_nodejs
+[ 10%] Built target diagnostic_msgs_generate_messages_lisp
+Generating reconfiguration files for rslidarNode in rslidar_driver
+[ 10%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 10%] Built target std_srvs_generate_messages_nodejs
+[ 10%] Built target diagnostic_msgs_generate_messages_eus
+Wrote header file in /home/daisuke/Autoware/ros/build/rslidar_driver/devel/include/rslidar_driver/rslidarNodeConfig.h
+[ 10%] Built target nodelet_generate_messages_lisp
+[ 10%] Built target nodelet_generate_messages_py
+[ 10%] Built target roscpp_generate_messages_cpp
+[ 10%] Built target bond_generate_messages_cpp
+[ 10%] Built target std_msgs_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_eus
+[ 10%] Built target pcl_msgs_generate_messages_py
+[ 10%] Built target bond_generate_messages_nodejs
+[ 10%] Built target pcl_msgs_generate_messages_lisp
+[ 10%] Built target bond_generate_messages_py
+[ 10%] Built target rslidar_driver_gencfg
+[ 10%] Built target std_srvs_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 10%] Built target rslidar_msgs_generate_messages_eus
+[ 10%] Built target diagnostic_msgs_generate_messages_py
+[ 10%] Built target rosgraph_msgs_generate_messages_lisp
+[ 10%] Built target std_srvs_generate_messages_eus
+[ 10%] Built target tf_generate_messages_lisp
+[ 10%] Built target tf_generate_messages_cpp
+[ 10%] Built target nodelet_generate_messages_cpp
+[ 10%] Built target geometry_msgs_generate_messages_py
+[ 10%] Built target geometry_msgs_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_gencfg
+[ 10%] Built target pcl_ros_gencfg
+[ 10%] Built target tf2_msgs_generate_messages_eus
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[ 10%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 10%] Built target roscpp_generate_messages_lisp
+[ 10%] Built target std_msgs_generate_messages_py
+[ 10%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 10%] Built target _catkin_empty_exported_target
+[ 10%] Built target rosgraph_msgs_generate_messages_eus
+[ 10%] Built target roscpp_generate_messages_py
+[ 10%] Built target std_srvs_generate_messages_py
+[ 10%] Built target std_msgs_generate_messages_cpp
+[ 10%] Built target tf_generate_messages_nodejs
+[ 10%] Built target sensor_msgs_generate_messages_nodejs
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[ 10%] Built target sensor_msgs_generate_messages_py
+[ 10%] Built target roscpp_generate_messages_nodejs
+[ 10%] Built target actionlib_generate_messages_cpp
+[ 10%] Built target geometry_msgs_generate_messages_eus
+[ 10%] Built target topic_tools_generate_messages_lisp
+[ 10%] Built target geometry_msgs_generate_messages_nodejs
+[ 10%] Built target std_srvs_generate_messages_cpp
+[ 10%] Built target pcl_msgs_generate_messages_cpp
+[ 10%] Built target topic_tools_generate_messages_py
+[ 10%] Built target sensor_msgs_generate_messages_lisp
+[ 10%] Built target topic_tools_generate_messages_nodejs
+[ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[ 10%] Built target rslidar_msgs_generate_messages_lisp
+[ 10%] Built target actionlib_generate_messages_eus
+[ 10%] Built target tf_generate_messages_eus
+[ 10%] Built target tf2_msgs_generate_messages_py
+[ 10%] Built target tf_generate_messages_py
+[ 10%] Built target std_msgs_generate_messages_eus
+[ 10%] Built target actionlib_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_py
+[ 10%] Built target actionlib_msgs_generate_messages_eus
+[ 10%] Built target actionlib_msgs_generate_messages_py
+[ 10%] Built target actionlib_msgs_generate_messages_lisp
+[ 10%] Built target actionlib_generate_messages_py
+[ 10%] Built target tf2_msgs_generate_messages_lisp
+[ 10%] Built target std_msgs_generate_messages_nodejs
+[ 10%] Built target tf2_msgs_generate_messages_cpp
+[ 10%] Built target rslidar_msgs_generate_messages_cpp
+[ 10%] Built target diagnostic_msgs_generate_messages_cpp
+[ 10%] Built target diagnostic_msgs_generate_messages_nodejs
+[ 10%] Built target rslidar_msgs_generate_messages_nodejs
+[ 30%] Built target rslidar_input
+[35m[1mScanning dependencies of target rslidar_driver[0m
+[35m[1mScanning dependencies of target rsdriver_nodelet[0m
+[ 40%] [32mBuilding CXX object src/CMakeFiles/rslidar_driver.dir/rsdriver.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/rsdriver_nodelet.dir/rsdriver.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/rsdriver_nodelet.dir/nodelet.cc.o[0m
+[ 70%] [32m[1mLinking CXX shared library ../devel/lib/librslidar_driver.so[0m
+[ 70%] Built target rslidar_driver
+[35m[1mScanning dependencies of target rslidar_node[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/rslidar_node.dir/rslidar_node.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library ../devel/lib/librsdriver_nodelet.so[0m
+[ 90%] Built target rsdriver_nodelet
+[100%] [32m[1mLinking CXX executable ../devel/lib/rslidar_driver/rslidar_node[0m
+[100%] Built target rslidar_node
+Built target tests
+[ 10%] Built target rslidar_driver_gencfg
+[ 10%] Built target rslidar_msgs_generate_messages_py
+[ 10%] Built target sensor_msgs_generate_messages_eus
+[ 10%] Built target actionlib_generate_messages_nodejs
+[ 10%] Built target actionlib_msgs_generate_messages_cpp
+[ 10%] Built target sensor_msgs_generate_messages_cpp
+[ 10%] Built target pcl_msgs_generate_messages_eus
+[ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[ 10%] Built target nodelet_topic_tools_gencfg
+[ 10%] Built target tf2_msgs_generate_messages_nodejs
+[ 10%] Built target bond_generate_messages_lisp
+[ 10%] Built target nodelet_generate_messages_eus
+[ 10%] Built target topic_tools_generate_messages_cpp
+[ 10%] Built target topic_tools_generate_messages_eus
+[ 10%] Built target bond_generate_messages_eus
+[ 10%] Built target roscpp_generate_messages_eus
+[ 10%] Built target diagnostic_msgs_generate_messages_lisp
+[ 10%] Built target nodelet_generate_messages_nodejs
+[ 10%] Built target pcl_msgs_generate_messages_nodejs
+[ 10%] Built target std_srvs_generate_messages_nodejs
+[ 10%] Built target diagnostic_msgs_generate_messages_eus
+[ 10%] Built target nodelet_generate_messages_py
+[ 10%] Built target roscpp_generate_messages_cpp
+[ 10%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 10%] Built target bond_generate_messages_cpp
+[ 10%] Built target nodelet_generate_messages_lisp
+[ 10%] Built target std_msgs_generate_messages_lisp
+[ 10%] Built target pcl_msgs_generate_messages_py
+[ 10%] Built target bond_generate_messages_nodejs
+[ 10%] Built target dynamic_reconfigure_generate_messages_eus
+[ 10%] Built target pcl_msgs_generate_messages_lisp
+[ 10%] Built target bond_generate_messages_py
+[ 10%] Built target std_srvs_generate_messages_lisp
+[ 10%] Built target rslidar_msgs_generate_messages_eus
+[ 10%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 10%] Built target tf_generate_messages_lisp
+[ 10%] Built target diagnostic_msgs_generate_messages_py
+[ 10%] Built target rosgraph_msgs_generate_messages_lisp
+[ 10%] Built target std_srvs_generate_messages_eus
+[ 10%] Built target tf_generate_messages_cpp
+[ 10%] Built target nodelet_generate_messages_cpp
+[ 10%] Built target geometry_msgs_generate_messages_lisp
+[ 10%] Built target geometry_msgs_generate_messages_py
+[ 10%] Built target dynamic_reconfigure_gencfg
+[ 10%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 10%] Built target tf2_msgs_generate_messages_eus
+[ 10%] Built target pcl_ros_gencfg
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[ 10%] Built target roscpp_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 10%] Built target _catkin_empty_exported_target
+[ 10%] Built target rosgraph_msgs_generate_messages_eus
+[ 10%] Built target std_msgs_generate_messages_py
+[ 10%] Built target roscpp_generate_messages_py
+[ 10%] Built target std_srvs_generate_messages_py
+[ 10%] Built target tf_generate_messages_nodejs
+[ 10%] Built target std_msgs_generate_messages_cpp
+[ 10%] Built target sensor_msgs_generate_messages_nodejs
+[ 10%] Built target roscpp_generate_messages_nodejs
+[ 10%] Built target sensor_msgs_generate_messages_py
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[ 10%] Built target actionlib_generate_messages_cpp
+[ 10%] Built target geometry_msgs_generate_messages_eus
+[ 10%] Built target geometry_msgs_generate_messages_nodejs
+[ 10%] Built target pcl_msgs_generate_messages_cpp
+[ 10%] Built target std_srvs_generate_messages_cpp
+[ 10%] Built target topic_tools_generate_messages_lisp
+[ 10%] Built target sensor_msgs_generate_messages_lisp
+[ 10%] Built target topic_tools_generate_messages_nodejs
+[ 10%] Built target topic_tools_generate_messages_py
+[ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[ 10%] Built target tf2_msgs_generate_messages_py
+[ 10%] Built target tf_generate_messages_eus
+[ 10%] Built target rslidar_msgs_generate_messages_lisp
+[ 10%] Built target tf_generate_messages_py
+[ 10%] Built target std_msgs_generate_messages_eus
+[ 10%] Built target actionlib_generate_messages_eus
+[ 10%] Built target actionlib_generate_messages_lisp
+[ 10%] Built target actionlib_msgs_generate_messages_eus
+[ 10%] Built target dynamic_reconfigure_generate_messages_py
+[ 10%] Built target actionlib_generate_messages_py
+[ 10%] Built target actionlib_msgs_generate_messages_lisp
+[ 10%] Built target actionlib_msgs_generate_messages_py
+[ 10%] Built target tf2_msgs_generate_messages_cpp
+[ 10%] Built target tf2_msgs_generate_messages_lisp
+[ 10%] Built target diagnostic_msgs_generate_messages_cpp
+[ 10%] Built target diagnostic_msgs_generate_messages_nodejs
+[ 10%] Built target rslidar_msgs_generate_messages_cpp
+[ 10%] Built target std_msgs_generate_messages_nodejs
+[ 10%] Built target rslidar_msgs_generate_messages_nodejs
+[ 30%] Built target rslidar_input
+[ 50%] Built target rslidar_driver
+[ 70%] Built target rslidar_node
+[100%] Built target rsdriver_nodelet
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_driver/include/rslidar_driver/rslidarNodeConfig.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rslidar_driver/lib/python2.7/dist-packages/rslidar_driver/__init__.py
+Listing /home/daisuke/Autoware/ros/build/rslidar_driver/devel/lib/python2.7/dist-packages/rslidar_driver/cfg ...
+Compiling /home/daisuke/Autoware/ros/build/rslidar_driver/devel/lib/python2.7/dist-packages/rslidar_driver/cfg/rslidarNodeConfig.py ...
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rslidar_driver/lib/python2.7/dist-packages/rslidar_driver/cfg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rslidar_driver/lib/python2.7/dist-packages/rslidar_driver/cfg/__init__.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rslidar_driver/lib/python2.7/dist-packages/rslidar_driver/cfg/__init__.py
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_driver/lib/python2.7/dist-packages/rslidar_driver/cfg/rslidarNodeConfig.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_driver/lib/python2.7/dist-packages/rslidar_driver/cfg/rslidarNodeConfig.py
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_driver/lib/pkgconfig/rslidar_driver.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rslidar_driver/share/rslidar_driver/cmake/rslidar_driverConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rslidar_driver/share/rslidar_driver/cmake/rslidar_driverConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rslidar_driver/share/rslidar_driver/package.xml

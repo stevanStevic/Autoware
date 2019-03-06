@@ -1,0 +1,4 @@
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_dpm_ttic_detect/nodes/vision_dpm_ttic_detect/vision_dpm_ttic_detect.cpp:28:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/install/libdpm_ttic/include/libdpm_ttic/dpm_ttic.hpp:24:19:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+  DPMTTICParam() = default;
+[01;32m[K                   ^[m[K

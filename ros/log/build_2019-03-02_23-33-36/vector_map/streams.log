@@ -1,0 +1,147 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/vector_map': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/data/packages/vector_map -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/vector_map
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/vector_map/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/vector_map/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/vector_map
+Invoked command in '/home/daisuke/Autoware/ros/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/data/packages/vector_map -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/vector_map
+Invoking command in '/home/daisuke/Autoware/ros/build/vector_map': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vector_map -- -j8 -l8
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[100%] Built target vector_map
+Invoked command in '/home/daisuke/Autoware/ros/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vector_map -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/vector_map': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vector_map --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vector_map --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/vector_map': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vector_map --target install
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target vector_map_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[100%] Built target vector_map
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig/vector_map.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vector_map/share/vector_map/cmake/vector_mapConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vector_map/share/vector_map/cmake/vector_mapConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vector_map/share/vector_map/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vector_map/lib/libvector_map.so
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vector_map/include/vector_map
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vector_map/include/vector_map/vector_map.h
+Invoked command in '/home/daisuke/Autoware/ros/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vector_map --target install

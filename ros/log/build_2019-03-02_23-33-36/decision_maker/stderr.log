@@ -1,0 +1,13 @@
+CMake Warning (dev) at CMakeLists.txt:75 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "autoware_msgs_generate_msgs_cpp" of target
+  "decision_maker_node" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/decision/packages/decision_maker/nodes/decision_maker/decision_maker_node_state_vehicle.cpp:[m[K In member function ‘[01m[Kvoid decision_maker::DecisionMakerNode::updateSensorInitState(decision_maker::cstring_t&, int)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/decision/packages/decision_maker/nodes/decision_maker/decision_maker_node_state_vehicle.cpp:34:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimeout[m[K’ [-Wunused-variable]
+   const double timeout = 1;
+[01;32m[K                ^[m[K

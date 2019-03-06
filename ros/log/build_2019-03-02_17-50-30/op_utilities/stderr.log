@@ -1,0 +1,4 @@
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp:[m[K In member function ‘[01m[Kvoid DataLoggerNS::OpenPlannerDataLogger::CompareAndLog(DataLoggerNS::VehicleDataContainer&, PlannerHNS::DetectedObject&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp:293:41:[m[K [01;35m[Kwarning: [m[Kcomparison between ‘[01m[Kenum PlannerHNS::STATE_TYPE[m[K’ and ‘[01m[Kenum PlannerHNS::BEH_STATE_TYPE[m[K’ [-Wenum-compare]
+  if(ground_truth.beh.state == predicted.behavior_state)
+[01;32m[K                                         ^[m[K

@@ -1,0 +1,75 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/glviewer': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/RobotSDK/glviewer -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/glviewer
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/glviewer/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/glviewer/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/glviewer
+Invoked command in '/home/daisuke/Autoware/ros/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/RobotSDK/glviewer -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/glviewer
+Invoking command in '/home/daisuke/Autoware/ros/build/glviewer': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/glviewer -- -j8 -l8
+[35m[1mScanning dependencies of target glviewer_automoc[0m
+[ 16%] [34m[1mAutomatic moc for target glviewer[0m
+[ 16%] Built target glviewer_automoc
+[ 33%] [34m[1mGenerating include/glviewer/moc_glviewer.cpp[0m
+[35m[1mScanning dependencies of target glviewer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/glviewer.dir/GLViewer/glviewer.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/glviewer.dir/glviewer_automoc.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/glviewer.dir/include/glviewer/moc_glviewer.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libglviewer.so[0m
+[100%] Built target glviewer
+Invoked command in '/home/daisuke/Autoware/ros/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/glviewer -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/glviewer': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/glviewer --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/glviewer --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/glviewer': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/glviewer --target install
+[ 16%] [34m[1mAutomatic moc for target glviewer[0m
+[ 16%] Built target glviewer_automoc
+[100%] Built target glviewer
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/glviewer/lib/pkgconfig/glviewer.pc
+-- Installing: /home/daisuke/Autoware/ros/install/glviewer/share/glviewer/cmake/glviewerConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/glviewer/share/glviewer/cmake/glviewerConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/glviewer/share/glviewer/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/glviewer/include/glviewer
+-- Installing: /home/daisuke/Autoware/ros/install/glviewer/include/glviewer/glviewer.h
+-- Installing: /home/daisuke/Autoware/ros/install/glviewer/lib/libglviewer.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/glviewer/lib/libglviewer.so" to ""
+Invoked command in '/home/daisuke/Autoware/ros/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/glviewer --target install

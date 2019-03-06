@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_lms5xx': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/sick/lms5xx -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/sick_lms5xx
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_lms5xx' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/sick/lms5xx -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/sick_lms5xx
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_lms5xx': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_lms5xx -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_lms5xx' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_lms5xx -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_lms5xx': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_lms5xx --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_lms5xx' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_lms5xx --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_lms5xx': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_lms5xx --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_lms5xx' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_lms5xx --target install

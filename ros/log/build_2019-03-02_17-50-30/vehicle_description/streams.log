@@ -1,0 +1,95 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/vehicle_description': /usr/bin/cmake /home/daisuke/Autoware/ros/src/vehicle/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/vehicle_description
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/vehicle_description/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/vehicle_description/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/vehicle_description
+Invoked command in '/home/daisuke/Autoware/ros/build/vehicle_description' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/vehicle/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/vehicle_description
+Invoking command in '/home/daisuke/Autoware/ros/build/vehicle_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vehicle_description -- -j8 -l8
+[35m[1mScanning dependencies of target vehicle_description_xacro_generated_to_devel_space_[0m
+Built target vehicle_description_xacro_generated_to_devel_space_
+Invoked command in '/home/daisuke/Autoware/ros/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vehicle_description -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/vehicle_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vehicle_description --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vehicle_description --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/vehicle_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vehicle_description --target install
+Built target vehicle_description_xacro_generated_to_devel_space_
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/lib/pkgconfig/vehicle_description.pc
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/launch
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/launch/vehicle_model.launch
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/launch/milee.launch
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/launch/estima_black.launch
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/launch/estima_gray.launch
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/launch/estima_white.launch
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_left_black.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_black.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_white.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_right_gray.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_right_black.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/_51225ex1diffuse.jpeg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_bg_white.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/milee.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_left_white.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/CAR_original.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/default.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/prius.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_left_gray.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/_51225ex2diffuse.jpeg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_right_white.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_bg_gray.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_gray.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/xe.dae
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/estima_bg_black.jpg
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/mesh/CAR_original.stl
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/prius.urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/default.urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/sim_default.urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/estima_white.urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/milee.urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/xe.urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/estima_gray.urdf
+-- Installing: /home/daisuke/Autoware/ros/install/vehicle_description/share/vehicle_description/urdf/estima_black.urdf
+Invoked command in '/home/daisuke/Autoware/ros/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/vehicle_description --target install

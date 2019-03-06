@@ -1,0 +1,155 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/ouster_ros/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/ouster_ros/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- ouster_ros: 1 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/ouster_ros
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _ouster_ros_generate_messages_check_deps_PacketMsg[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _ouster_ros_generate_messages_check_deps_PacketMsg
+[35m[1mScanning dependencies of target ouster_ros_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target ouster_ros_generate_messages_py[0m
+[35m[1mScanning dependencies of target ouster_ros_generate_messages_eus[0m
+[  9%] [34m[1mGenerating Python from MSG ouster_ros/PacketMsg[0m
+[ 18%] [34m[1mGenerating C++ code from ouster_ros/PacketMsg.msg[0m
+[ 27%] [34m[1mGenerating EusLisp manifest code for ouster_ros[0m
+[ 36%] [34m[1mGenerating EusLisp code from ouster_ros/PacketMsg.msg[0m
+[ 45%] [34m[1mGenerating Python msg __init__.py for ouster_ros[0m
+[ 45%] Built target ouster_ros_generate_messages_cpp
+[35m[1mScanning dependencies of target ouster_ros_gencpp[0m
+[35m[1mScanning dependencies of target ouster_ros_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target ouster_ros_generate_messages_lisp[0m
+[ 45%] Built target ouster_ros_gencpp
+[ 54%] [34m[1mGenerating Javascript code from ouster_ros/PacketMsg.msg[0m
+[ 63%] [34m[1mGenerating Lisp code from ouster_ros/PacketMsg.msg[0m
+[35m[1mScanning dependencies of target ouster_ros[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ouster_ros.dir/src/os1_node.cpp.o[0m
+[ 72%] Built target ouster_ros_generate_messages_py
+[ 72%] Built target ouster_ros_generate_messages_nodejs
+[ 72%] Built target ouster_ros_generate_messages_lisp
+[ 72%] Built target ouster_ros_generate_messages_eus
+[ 90%] [32mBuilding CXX object CMakeFiles/ouster_ros.dir/src/os1_ros.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ouster_ros.dir/src/os1.cpp.o[0m
+In file included from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/ouster/src/os1_ros.cpp:4:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/ouster/include/ouster/os1_packet.h:65:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::OS1::tables_initialized[m[K’ defined but not used [-Wunused-variable]
+ static bool tables_initialized = init_tables();
+[01;32m[K             ^[m[K
+[100%] [32m[1mLinking CXX executable devel/lib/ouster_ros/ouster_ros[0m
+[100%] Built target ouster_ros
+[35m[1mScanning dependencies of target ouster_ros_generate_messages[0m
+[100%] Built target ouster_ros_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target _ouster_ros_generate_messages_check_deps_PacketMsg
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  9%] Built target ouster_ros_generate_messages_cpp
+[  9%] Built target ouster_ros_gencpp
+[ 45%] Built target ouster_ros
+[ 45%] Built target sensor_msgs_generate_messages_py
+[ 45%] Built target std_msgs_generate_messages_py
+[ 63%] Built target ouster_ros_generate_messages_py
+[ 63%] Built target sensor_msgs_generate_messages_eus
+[ 63%] Built target std_msgs_generate_messages_eus
+[ 81%] Built target ouster_ros_generate_messages_eus
+[ 81%] Built target std_msgs_generate_messages_lisp
+[ 81%] Built target sensor_msgs_generate_messages_lisp
+[ 90%] Built target ouster_ros_generate_messages_lisp
+[ 90%] Built target std_msgs_generate_messages_nodejs
+[ 90%] Built target sensor_msgs_generate_messages_nodejs
+[100%] Built target ouster_ros_generate_messages_nodejs
+[100%] Built target ouster_ros_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/ouster_ros/msg/PacketMsg.msg
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/ouster_ros/cmake/ouster_ros-msg-paths.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/include/ouster_ros
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/include/ouster_ros/PacketMsg.h
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/roseus/ros/ouster_ros
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/roseus/ros/ouster_ros/manifest.l
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/roseus/ros/ouster_ros/msg
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/roseus/ros/ouster_ros/msg/PacketMsg.l
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/common-lisp/ros/ouster_ros
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/common-lisp/ros/ouster_ros/msg
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/common-lisp/ros/ouster_ros/msg/_package_PacketMsg.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/common-lisp/ros/ouster_ros/msg/_package.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/common-lisp/ros/ouster_ros/msg/ouster_ros-msg.asd
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/gennodejs/ros/ouster_ros
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/gennodejs/ros/ouster_ros/msg
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/gennodejs/ros/ouster_ros/msg/PacketMsg.js
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/gennodejs/ros/ouster_ros/msg/_index.js
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/gennodejs/ros/ouster_ros/_index.js
+Listing /home/daisuke/Autoware/ros/build/ouster_ros/devel/lib/python2.7/dist-packages/ouster_ros ...
+Compiling /home/daisuke/Autoware/ros/build/ouster_ros/devel/lib/python2.7/dist-packages/ouster_ros/__init__.py ...
+Listing /home/daisuke/Autoware/ros/build/ouster_ros/devel/lib/python2.7/dist-packages/ouster_ros/msg ...
+Compiling /home/daisuke/Autoware/ros/build/ouster_ros/devel/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py ...
+Compiling /home/daisuke/Autoware/ros/build/ouster_ros/devel/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py ...
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros/__init__.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros/__init__.py
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.py
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/__init__.py
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/python2.7/dist-packages/ouster_ros/msg/_PacketMsg.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/lib/pkgconfig/ouster_ros.pc
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/ouster_ros/cmake/ouster_ros-msg-extras.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/ouster_ros/share/ouster_ros/package.xml

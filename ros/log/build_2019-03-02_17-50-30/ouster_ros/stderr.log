@@ -1,0 +1,4 @@
+In file included from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/ouster/src/os1_ros.cpp:4:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/ouster/include/ouster/os1_packet.h:65:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::OS1::tables_initialized[m[K’ defined but not used [-Wunused-variable]
+ static bool tables_initialized = init_tables();
+[01;32m[K             ^[m[K

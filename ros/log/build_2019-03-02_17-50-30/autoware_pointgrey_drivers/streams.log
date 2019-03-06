@@ -1,0 +1,767 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers
+'FlyCapture SDK' is not installed. 'grasshopper3_camera' will not be built.
+'SDK for Ladybug' is not installed. 'ladybug_camera' will not be built.
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers -- -j8 -l8
+[35m[1mScanning dependencies of target spinnaker_camera[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spinnaker_camera.dir/nodes/spinnaker/spinnaker.cpp.o[0m
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Node.h:23:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:21[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/Base.h:24:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/Base.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/Base.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/Base.h:57:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Node.h:25:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:21[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/Container.h:58:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4312 )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Node.h:26:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:21[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/ISelector.h:29:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ISelector.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ISelector.h:72:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Node.h:27:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:21[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/INode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/INode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/INode.h:34:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/INode.h:35:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Node.h:27:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:21[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/INode.h:418:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:21:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/Node.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/Node.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/Node.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:21:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/Node.h:310:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/INodeMap.h:23:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:25[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IPort.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IPort.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IPort.h:67:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:25:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/INodeMap.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/INodeMap.h:28:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/INodeMap.h:106:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:26:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IDeviceInfo.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IDeviceInfo.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IDeviceInfo.h:103:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/ValueNode.h:25:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:30[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IValue.h:28:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IValue.h:29:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IValue.h:92:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:30:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/ValueNode.h:29:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ValueNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ValueNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ValueNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4275 ) // warning C4275: non dll-interface struct 'S
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:30:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/ValueNode.h:111:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumeration.h:23:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNode.h:28[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:24[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IEnumEntry.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IEnumEntry.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IEnumEntry.h:80:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNode.h:28:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:24[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IEnumeration.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IEnumeration.h:28:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IEnumeration.h:111:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:24:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNode.h:34:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:24:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/ICategory.h:29:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ICategory.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ICategory.h:68:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:25:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IInteger.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IInteger.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IInteger.h:135:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:26:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IFloat.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IFloat.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IFloat.h:150:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:27:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IRegister.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IRegister.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IRegister.h:86:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:30:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IBoolean.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IBoolean.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IBoolean.h:85:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:32:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IPortRecorder.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IPortRecorder.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IPortRecorder.h:128:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:33:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IPortConstruct.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IPortConstruct.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IPortConstruct.h:67:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:34:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IChunkPort.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IChunkPort.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IChunkPort.h:88:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:35:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IString.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IString.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IString.h:96:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:37:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/INodeMapDyn.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/INodeMapDyn.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:37:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/INodeMapDyn.h:142:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:38:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IDestroy.h:23:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IDestroy.h:24:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IDestroy.h:60:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:41:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/ICommand.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ICommand.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ICommand.h:78:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/IEnumerationT.h:23:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:26[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:434:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (push) // icc -W4 complains: controlling expression is constant
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:435:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 279)
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/Pointer.h:437:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (pop)
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:31:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumNodeT.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:33:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumEntryNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumEntryNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumEntryNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EnumEntryNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:34:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/PortNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/PortNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/PortNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/PortNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning (disable : 4275 ) // warning C4275: non dll-interface struct 'S
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:34:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/PortNode.h:180:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:35:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IntegerNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IntegerNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IntegerNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IntegerNode.h:34:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:36:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatNode.h:34:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatNode.h:35:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:37:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/StringNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/StringNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/StringNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/StringNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/NodeMap.h:38:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:22[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/BooleanNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/BooleanNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/BooleanNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/BooleanNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:35:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/CategoryNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/CategoryNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/CategoryNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/CategoryNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:36:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/CommandNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/CommandNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/CommandNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/CommandNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:37:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/RegisterNode.h:30:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/RegisterNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/RegisterNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/RegisterNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:43:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/ChunkPort.h:26:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(push)
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ChunkPort.h:27:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable: 4251) // GenApi::CChunkPort::m_ptrPort' : class 'GenAp
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ChunkPort.h:28:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4068 ) // unknown pragma; refers to BullsEyeCoverag
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ChunkPort.h:97:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma BullseyeCoverage off [-Wunknown-pragmas]
+ #pragma BullseyeCoverage off
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ChunkPort.h:102:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma BullseyeCoverage on [-Wunknown-pragmas]
+ #pragma BullseyeCoverage on
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/ChunkPort.h:174:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(pop)
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/EventAdapter.h:23:0[m[K,
+                 from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:44[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/EventPort.h:21:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(push)
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EventPort.h:22:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4068 ) // unknown pragma; refers to BullsEyeCoverag
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EventPort.h:96:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma BullseyeCoverage off [-Wunknown-pragmas]
+ #pragma BullseyeCoverage off
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EventPort.h:101:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma BullseyeCoverage on [-Wunknown-pragmas]
+ #pragma BullseyeCoverage on
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/EventPort.h:164:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(pop)
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:50:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/IntRegNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IntRegNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IntRegNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/IntRegNode.h:34:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:51:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/StringRegNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/StringRegNode.h:34:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/StringRegNode.h:35:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/StringRegNode.h:36:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:53:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatRegNode.h:31:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatRegNode.h:32:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable : 4250 ) // C4250 - 'class1' : inherits 'class2::membe
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatRegNode.h:33:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/FloatRegNode.h:34:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:55:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/PortWriteList.h:24:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/PortWriteList.h:25:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/PortWriteList.h:94:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( pop )
+[01;32m[K ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32:0[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:62:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( push )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:63:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4244 ) // conversion from 'std::streamsize' to 'size_
+[01;32m[K ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:32:0[m[K:
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:65:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( pop )
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:70:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4068 ) // unknown pragma; refers to BullsEyeCoverag
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:71:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be use
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:72:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4702 ) // unreachable code in <list>,...
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:73:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base
+[01;32m[K ^[m[K
+[01m[K/usr/include/spinnaker/SpinGenApi/SpinnakerGenApi.h:74:0:[m[K [01;35m[Kwarning: [m[Kignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning( disable: 4312 ) // 'type cast' : conversion from 'uintptr_t' t
+[01;32m[K ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:[m[K In constructor ‘[01m[KSpinnakerCamera::SpinnakerCamera()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:97:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < camList_.GetSize(); i++)
+[01;32m[K                       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:[m[K In destructor ‘[01m[KSpinnakerCamera::~SpinnakerCamera()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:226:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < camList_.GetSize(); i++)
+[01;32m[K                     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:230:18:[m[K [01;35m[Kwarning: [m[Kpassing NULL to non-pointer argument 1 of ‘[01m[Kvirtual Spinnaker::CameraPtr& Spinnaker::CameraPtr::operator=(int)[m[K’ [-Wconversion-null]
+     pCamList_[i] = NULL;
+[01;32m[K                  ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:[m[K In member function ‘[01m[Kvoid SpinnakerCamera::publish_image(int)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:281:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KXPadding[m[K’ [-Wunused-variable]
+         unsigned int XPadding = pResultImage->GetXPadding();
+[01;32m[K                      ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:282:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KYPadding[m[K’ [-Wunused-variable]
+         unsigned int YPadding = pResultImage->GetYPadding();
+[01;32m[K                      ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:283:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krowsize[m[K’ [-Wunused-variable]
+         unsigned int rowsize = pResultImage->GetWidth();
+[01;32m[K                      ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:284:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolsize[m[K’ [-Wunused-variable]
+         unsigned int colsize = pResultImage->GetHeight();
+[01;32m[K                      ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:[m[K In member function ‘[01m[Kvoid SpinnakerCamera::spin()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:314:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < camList_.GetSize(); i++)
+[01;32m[K                     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/camera/packages/pointgrey/nodes/spinnaker/spinnaker.cpp:320:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < camList_.GetSize(); i++)
+[01;32m[K                     ^[m[K
+[100%] [32m[1mLinking CXX executable devel/lib/autoware_pointgrey_drivers/spinnaker_camera[0m
+[100%] Built target spinnaker_camera
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers --target install
+[100%] Built target spinnaker_camera
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers/lib/pkgconfig/autoware_pointgrey_drivers.pc
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers/share/autoware_pointgrey_drivers/cmake/autoware_pointgrey_driversConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers/share/autoware_pointgrey_drivers/cmake/autoware_pointgrey_driversConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers/share/autoware_pointgrey_drivers/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers/lib/autoware_pointgrey_drivers/spinnaker_camera
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers/lib/autoware_pointgrey_drivers/spinnaker_camera" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_pointgrey_drivers/share/autoware_pointgrey_drivers/launch/spinnaker.launch
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_pointgrey_drivers --target install

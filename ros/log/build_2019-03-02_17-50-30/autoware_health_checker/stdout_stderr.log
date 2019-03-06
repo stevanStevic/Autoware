@@ -1,0 +1,490 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/autoware_health_checker/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_system_msgs;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_system_msgs;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/autoware_health_checker/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/autoware_health_checker
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target people_msgs_generate_messages_cpp[0m
+[  0%] Built target people_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  0%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[  0%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  0%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target people_msgs_generate_messages_lisp[0m
+[  0%] Built target people_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_py[0m
+[  0%] Built target jsk_rviz_plugins_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_lisp[0m
+[  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_eus[0m
+[  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_py[0m
+[  0%] Built target jsk_hark_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_cpp[0m
+[  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target people_msgs_generate_messages_nodejs[0m
+[  0%] Built target people_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target map_msgs_generate_messages_nodejs[0m
+[  0%] Built target map_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_system_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  0%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_system_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  0%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target people_msgs_generate_messages_eus[0m
+[  0%] Built target people_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[  0%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_system_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_utils_gencfg[0m
+[  0%] Built target jsk_recognition_utils_gencfg
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_hark_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_hark_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_rviz_plugins_gencfg[0m
+[  0%] Built target jsk_rviz_plugins_gencfg
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[  0%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[  0%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target people_msgs_generate_messages_py[0m
+[  0%] Built target people_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_py[0m
+[  0%] Built target autoware_system_msgs_generate_messages_py
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_rviz_plugins_generate_messages_nodejs[0m
+[  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  0%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[  0%] Built target nodelet_topic_tools_gencfg
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target map_msgs_generate_messages_cpp[0m
+[  0%] Built target map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target map_msgs_generate_messages_eus[0m
+[  0%] Built target map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target map_msgs_generate_messages_lisp[0m
+[  0%] Built target map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target map_msgs_generate_messages_py[0m
+[  0%] Built target map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target health_analyzer[0m
+[  8%] [32mBuilding CXX object CMakeFiles/health_analyzer.dir/src/health_analyzer_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/health_analyzer.dir/src/health_analyzer.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable devel/lib/autoware_health_checker/health_analyzer[0m
+[ 25%] Built target health_analyzer
+[35m[1mScanning dependencies of target node_status_publisher[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/node_status_publisher.dir/src/node_status_publisher.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/node_status_publisher.dir/src/rate_checker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node_status_publisher.dir/src/diag_buffer.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library devel/lib/libnode_status_publisher.so[0m
+[ 58%] Built target node_status_publisher
+[35m[1mScanning dependencies of target system_status_subscriber[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/system_status_subscriber.dir/src/system_status_subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library devel/lib/libsystem_status_subscriber.so[0m
+[ 75%] Built target system_status_subscriber
+[35m[1mScanning dependencies of target health_aggregator[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/health_aggregator.dir/src/health_aggregator_node.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/health_aggregator.dir/src/health_aggregator.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/autoware_health_checker/health_aggregator[0m
+[100%] Built target health_aggregator
+[35m[1mScanning dependencies of target gtest[0m
+[ 14%] [32mBuilding CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 28%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 28%] Built target gtest
+[35m[1mScanning dependencies of target test-autoware_health_checker[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/test-autoware_health_checker.dir/test/src/test_autoware_health_checker.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/test-autoware_health_checker.dir/src/rate_checker.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/test-autoware_health_checker.dir/src/diag_buffer.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/test-autoware_health_checker.dir/src/node_status_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/autoware_health_checker/test-autoware_health_checker[0m
+[100%] Built target test-autoware_health_checker
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target people_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target people_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target jsk_rviz_plugins_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target jsk_hark_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[  0%] Built target people_msgs_generate_messages_nodejs
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target autoware_system_msgs_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target autoware_system_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target people_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target autoware_system_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_utils_gencfg
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_hark_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[  0%] Built target jsk_rviz_plugins_gencfg
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target people_msgs_generate_messages_py
+[  0%] Built target autoware_system_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[ 25%] Built target health_analyzer
+[ 50%] Built target health_aggregator
+[ 66%] Built target system_status_subscriber
+[100%] Built target node_status_publisher
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig/autoware_health_checker.pc
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/share/autoware_health_checker/cmake/autoware_health_checkerConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/share/autoware_health_checker/cmake/autoware_health_checkerConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/share/autoware_health_checker/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/lib/autoware_health_checker/health_aggregator
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/autoware_health_checker/health_aggregator" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/lib/autoware_health_checker/health_analyzer
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/autoware_health_checker/health_analyzer" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker/rate_checker.h
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker/constants.h
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker/health_analyzer.h
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker/diag_buffer.h
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker/health_aggregator.h
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker/node_status_publisher.h
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/include/autoware_health_checker/system_status_subscriber.h
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/lib/libnode_status_publisher.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/libnode_status_publisher.so" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_health_checker/lib/libsystem_status_subscriber.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/libsystem_status_subscriber.so" to ""

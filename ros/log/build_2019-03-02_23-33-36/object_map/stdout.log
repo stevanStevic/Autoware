@@ -1,0 +1,345 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/object_map/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/object_map/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing:  OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing:  OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_IO
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_GEOMETRY
+-- looking for PCL_FEATURES
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_RECOGNITION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_PEOPLE
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_TRACKING
+-- looking for PCL_APPS
+-- Could NOT find PCL_APPS (missing:  PCL_APPS_LIBRARY) 
+-- looking for PCL_MODELER
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/object_map
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target grid_map_msgs_generate_messages_py
+[  0%] Built target grid_map_msgs_generate_messages_lisp
+[ 12%] Built target laserscan2costmap
+[ 12%] Built target nav_msgs_generate_messages_lisp
+[ 12%] Built target topic_tools_generate_messages_lisp
+[ 25%] Built target object_map_utils_lib
+[ 25%] Built target topic_tools_generate_messages_py
+[ 25%] Built target topic_tools_generate_messages_eus
+[ 25%] Built target std_srvs_generate_messages_nodejs
+[ 25%] Built target nav_msgs_generate_messages_nodejs
+[ 25%] Built target std_srvs_generate_messages_lisp
+[ 25%] Built target topic_tools_generate_messages_nodejs
+[ 25%] Built target nodelet_topic_tools_gencfg
+[ 25%] Built target sensor_msgs_generate_messages_lisp
+[ 25%] Built target actionlib_msgs_generate_messages_lisp
+[ 25%] Built target autoware_msgs_generate_messages_py
+[ 25%] Built target jsk_footstep_msgs_generate_messages_py
+[ 25%] Built target std_srvs_generate_messages_eus
+[ 25%] Built target vector_map_msgs_generate_messages_lisp
+[ 25%] Built target sensor_msgs_generate_messages_eus
+[ 25%] Built target actionlib_msgs_generate_messages_nodejs
+[ 25%] Built target actionlib_generate_messages_lisp
+[ 25%] Built target actionlib_generate_messages_nodejs
+[ 25%] Built target actionlib_msgs_generate_messages_cpp
+[ 25%] Built target vector_map_msgs_generate_messages_cpp
+[ 25%] Built target tf2_msgs_generate_messages_py
+[ 25%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 25%] Built target visualization_msgs_generate_messages_nodejs
+[ 25%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 25%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 25%] Built target pcl_msgs_generate_messages_nodejs
+[ 25%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 25%] Built target pcl_msgs_generate_messages_eus
+[ 25%] Built target autoware_msgs_generate_messages_lisp
+[ 25%] Built target autoware_msgs_generate_messages_nodejs
+[ 25%] Built target pcl_msgs_generate_messages_cpp
+[ 25%] Built target jsk_recognition_msgs_generate_messages_py
+[ 25%] Built target grid_map_msgs_generate_messages_eus
+[ 25%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 25%] Built target actionlib_msgs_generate_messages_py
+[ 25%] Built target geometry_msgs_generate_messages_lisp
+[ 25%] Built target std_msgs_generate_messages_nodejs
+[ 25%] Built target geometry_msgs_generate_messages_py
+[ 25%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 25%] Built target pcl_msgs_generate_messages_lisp
+[ 25%] Built target bond_generate_messages_py
+[ 25%] Built target autoware_msgs_generate_messages_eus
+[ 25%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_lisp
+[ 25%] Built target geometry_msgs_generate_messages_eus
+[ 25%] Built target geometry_msgs_generate_messages_nodejs
+[ 25%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 25%] Built target sensor_msgs_generate_messages_cpp
+[ 25%] Built target geometry_msgs_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_cpp
+[ 25%] Built target sensor_msgs_generate_messages_nodejs
+[ 25%] Built target autoware_msgs_generate_messages_cpp
+[ 25%] Built target roscpp_generate_messages_cpp
+[ 25%] Built target nodelet_generate_messages_py
+[ 25%] Built target roscpp_generate_messages_eus
+[ 25%] Built target roscpp_generate_messages_lisp
+[ 25%] Built target bond_generate_messages_eus
+[ 25%] Built target sensor_msgs_generate_messages_py
+[ 25%] Built target roscpp_generate_messages_nodejs
+[ 25%] Built target grid_map_msgs_generate_messages_cpp
+[ 25%] Built target std_srvs_generate_messages_py
+[ 25%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 25%] Built target roscpp_generate_messages_py
+[ 25%] Built target tf_generate_messages_nodejs
+[ 25%] Built target std_msgs_generate_messages_py
+[ 25%] Built target rosgraph_msgs_generate_messages_lisp
+[ 25%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 25%] Built target actionlib_generate_messages_cpp
+[ 25%] Built target rosgraph_msgs_generate_messages_py
+[ 25%] Built target tf_generate_messages_lisp
+[ 25%] Built target tf_generate_messages_eus
+[ 25%] Built target tf_generate_messages_py
+[ 25%] Built target rosgraph_msgs_generate_messages_eus
+[ 25%] Built target tf2_msgs_generate_messages_cpp
+[ 25%] Built target actionlib_generate_messages_eus
+[ 25%] Built target std_msgs_generate_messages_eus
+[ 25%] Built target tf2_msgs_generate_messages_eus
+[ 25%] Built target pcl_ros_gencfg
+[ 25%] Built target nav_msgs_generate_messages_eus
+[ 25%] Built target grid_map_msgs_generate_messages_nodejs
+[ 25%] Built target nodelet_generate_messages_cpp
+[ 25%] Built target nav_msgs_generate_messages_cpp
+[ 25%] Built target tf2_msgs_generate_messages_lisp
+[ 25%] Built target topic_tools_generate_messages_cpp
+[ 25%] Built target tf2_msgs_generate_messages_nodejs
+[ 25%] Built target visualization_msgs_generate_messages_cpp
+[ 25%] Built target nodelet_generate_messages_eus
+[ 25%] Built target visualization_msgs_generate_messages_lisp
+[ 25%] Built target visualization_msgs_generate_messages_py
+[ 25%] Built target dynamic_reconfigure_generate_messages_py
+[ 25%] Built target actionlib_generate_messages_py
+[ 25%] Built target tf_generate_messages_cpp
+[ 25%] Built target nodelet_generate_messages_lisp
+[ 25%] Built target vector_map_msgs_generate_messages_eus
+[ 25%] Built target vector_map_msgs_generate_messages_py
+[ 25%] Built target std_srvs_generate_messages_cpp
+[ 25%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 25%] Built target visualization_msgs_generate_messages_eus
+[ 25%] Built target dynamic_reconfigure_generate_messages_eus
+[ 25%] Built target pcl_msgs_generate_messages_py
+[ 25%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 25%] Built target bond_generate_messages_nodejs
+[ 25%] Built target nodelet_generate_messages_nodejs
+[ 25%] Built target vector_map_msgs_generate_messages_nodejs
+[ 25%] Built target dynamic_reconfigure_gencfg
+[ 25%] Built target bond_generate_messages_cpp
+[ 37%] Built target points2costmap
+[ 50%] Built target wayarea2grid_lib
+[ 62%] Built target grid_map_filter_lib
+[ 62%] Built target rosgraph_msgs_generate_messages_cpp
+[ 62%] Built target nav_msgs_generate_messages_py
+[ 62%] Built target actionlib_msgs_generate_messages_eus
+[ 75%] Built target wayarea2grid
+[ 87%] Built target grid_map_filter
+[35m[1mScanning dependencies of target potential_field[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/potential_field.dir/nodes/potential_field/potential_field.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/object_map/potential_field[0m
+[100%] Built target potential_field
+Built target tests
+[ 12%] Built target object_map_utils_lib
+[ 25%] Built target wayarea2grid_lib
+[ 37%] Built target wayarea2grid
+[ 50%] Built target laserscan2costmap
+[ 50%] Built target bond_generate_messages_lisp
+[ 50%] Built target grid_map_msgs_generate_messages_py
+[ 50%] Built target grid_map_msgs_generate_messages_lisp
+[ 50%] Built target nav_msgs_generate_messages_py
+[ 50%] Built target nav_msgs_generate_messages_nodejs
+[ 50%] Built target nav_msgs_generate_messages_lisp
+[ 50%] Built target topic_tools_generate_messages_py
+[ 50%] Built target topic_tools_generate_messages_lisp
+[ 50%] Built target topic_tools_generate_messages_eus
+[ 50%] Built target std_srvs_generate_messages_nodejs
+[ 50%] Built target std_srvs_generate_messages_lisp
+[ 50%] Built target std_srvs_generate_messages_eus
+[ 50%] Built target nodelet_topic_tools_gencfg
+[ 50%] Built target topic_tools_generate_messages_nodejs
+[ 50%] Built target sensor_msgs_generate_messages_lisp
+[ 50%] Built target actionlib_msgs_generate_messages_lisp
+[ 50%] Built target autoware_msgs_generate_messages_py
+[ 50%] Built target vector_map_msgs_generate_messages_lisp
+[ 50%] Built target actionlib_msgs_generate_messages_eus
+[ 50%] Built target jsk_footstep_msgs_generate_messages_py
+[ 50%] Built target actionlib_generate_messages_lisp
+[ 50%] Built target actionlib_msgs_generate_messages_cpp
+[ 50%] Built target sensor_msgs_generate_messages_eus
+[ 50%] Built target actionlib_generate_messages_nodejs
+[ 50%] Built target actionlib_msgs_generate_messages_nodejs
+[ 50%] Built target tf2_msgs_generate_messages_py
+[ 50%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 50%] Built target vector_map_msgs_generate_messages_cpp
+[ 50%] Built target visualization_msgs_generate_messages_nodejs
+[ 50%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 50%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 50%] Built target pcl_msgs_generate_messages_nodejs
+[ 50%] Built target pcl_msgs_generate_messages_eus
+[ 50%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 50%] Built target autoware_msgs_generate_messages_lisp
+[ 50%] Built target rosgraph_msgs_generate_messages_cpp
+[ 50%] Built target std_srvs_generate_messages_cpp
+[ 50%] Built target autoware_msgs_generate_messages_nodejs
+[ 50%] Built target pcl_msgs_generate_messages_cpp
+[ 50%] Built target jsk_recognition_msgs_generate_messages_py
+[ 50%] Built target grid_map_msgs_generate_messages_eus
+[ 50%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 50%] Built target actionlib_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_nodejs
+[ 50%] Built target geometry_msgs_generate_messages_lisp
+[ 50%] Built target geometry_msgs_generate_messages_py
+[ 50%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 50%] Built target pcl_msgs_generate_messages_lisp
+[ 50%] Built target bond_generate_messages_py
+[ 50%] Built target autoware_msgs_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 50%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 50%] Built target geometry_msgs_generate_messages_eus
+[ 50%] Built target geometry_msgs_generate_messages_nodejs
+[ 50%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 50%] Built target sensor_msgs_generate_messages_cpp
+[ 50%] Built target geometry_msgs_generate_messages_cpp
+[ 50%] Built target std_msgs_generate_messages_cpp
+[ 50%] Built target sensor_msgs_generate_messages_nodejs
+[ 50%] Built target autoware_msgs_generate_messages_cpp
+[ 50%] Built target roscpp_generate_messages_cpp
+[ 50%] Built target nodelet_generate_messages_py
+[ 50%] Built target roscpp_generate_messages_eus
+[ 50%] Built target bond_generate_messages_eus
+[ 50%] Built target roscpp_generate_messages_lisp
+[ 50%] Built target sensor_msgs_generate_messages_py
+[ 50%] Built target roscpp_generate_messages_nodejs
+[ 50%] Built target grid_map_msgs_generate_messages_cpp
+[ 50%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 50%] Built target roscpp_generate_messages_py
+[ 50%] Built target std_srvs_generate_messages_py
+[ 50%] Built target tf_generate_messages_nodejs
+[ 50%] Built target std_msgs_generate_messages_py
+[ 50%] Built target rosgraph_msgs_generate_messages_eus
+[ 50%] Built target rosgraph_msgs_generate_messages_lisp
+[ 50%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 50%] Built target actionlib_generate_messages_cpp
+[ 50%] Built target rosgraph_msgs_generate_messages_py
+[ 50%] Built target tf_generate_messages_lisp
+[ 50%] Built target tf_generate_messages_eus
+[ 50%] Built target tf_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_eus
+[ 50%] Built target actionlib_generate_messages_eus
+[ 50%] Built target tf2_msgs_generate_messages_cpp
+[ 50%] Built target nav_msgs_generate_messages_eus
+[ 50%] Built target pcl_ros_gencfg
+[ 50%] Built target tf2_msgs_generate_messages_eus
+[ 50%] Built target nodelet_generate_messages_cpp
+[ 50%] Built target grid_map_msgs_generate_messages_nodejs
+[ 50%] Built target nav_msgs_generate_messages_cpp
+[ 50%] Built target tf2_msgs_generate_messages_lisp
+[ 50%] Built target tf2_msgs_generate_messages_nodejs
+[ 50%] Built target topic_tools_generate_messages_cpp
+[ 50%] Built target nodelet_generate_messages_eus
+[ 50%] Built target visualization_msgs_generate_messages_cpp
+[ 50%] Built target visualization_msgs_generate_messages_lisp
+[ 50%] Built target visualization_msgs_generate_messages_py
+[ 50%] Built target actionlib_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_py
+[ 50%] Built target tf_generate_messages_cpp
+[ 50%] Built target vector_map_msgs_generate_messages_eus
+[ 50%] Built target nodelet_generate_messages_lisp
+[ 50%] Built target vector_map_msgs_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 50%] Built target bond_generate_messages_nodejs
+[ 50%] Built target visualization_msgs_generate_messages_eus
+[ 50%] Built target pcl_msgs_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_eus
+[ 50%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 50%] Built target vector_map_msgs_generate_messages_nodejs
+[ 50%] Built target dynamic_reconfigure_gencfg
+[ 50%] Built target nodelet_generate_messages_nodejs
+[ 50%] Built target bond_generate_messages_cpp
+[ 62%] Built target potential_field
+[ 75%] Built target points2costmap
+[ 87%] Built target grid_map_filter_lib
+[100%] Built target grid_map_filter
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/object_map/lib/pkgconfig/object_map.pc
+-- Installing: /home/daisuke/Autoware/ros/install/object_map/share/object_map/cmake/object_mapConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/cmake/object_mapConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/lib/object_map/wayarea2grid
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/lib/libwayarea2grid_lib.so
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/lib/libgrid_map_filter_lib.so
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/lib/object_map/grid_map_filter
+-- Installing: /home/daisuke/Autoware/ros/install/object_map/lib/object_map/potential_field
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/object_map/lib/object_map/potential_field" to ""
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/lib/object_map/points2costmap
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/lib/object_map/laserscan2costmap
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/lib/libobject_map_utils_lib.so
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/launch/wayarea2grid.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/launch/potential_field.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/launch/points2costmap.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/launch/laserscan2costmap.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/launch/grid_map_filter.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/config
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/config/grid_map_filter.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/object_map/share/object_map/config/potential.yaml

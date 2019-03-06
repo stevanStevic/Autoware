@@ -1,0 +1,46 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/autoware_rviz_plugins/state_panel -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/autoware_rviz_plugins
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/autoware_rviz_plugins/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/autoware_rviz_plugins/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Using Qt5 based on the rviz_QT_VERSION: 5.5.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/autoware_rviz_plugins
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/autoware_rviz_plugins/state_panel -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/autoware_rviz_plugins
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_rviz_plugins -- -j8 -l8
+[ 20%] [34m[1mAutomatic moc for target autoware_rviz_plugins[0m
+[ 20%] Built target autoware_rviz_plugins_automoc
+[100%] Built target autoware_rviz_plugins
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_rviz_plugins -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_rviz_plugins --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_rviz_plugins --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_rviz_plugins --target install
+[ 20%] [34m[1mAutomatic moc for target autoware_rviz_plugins[0m
+[ 20%] Built target autoware_rviz_plugins_automoc
+[100%] Built target autoware_rviz_plugins
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/lib/pkgconfig/autoware_rviz_plugins.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/cmake/autoware_rviz_pluginsConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/cmake/autoware_rviz_pluginsConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/lib/libautoware_rviz_plugins.so
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/media
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/media/flag.dae
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/icons
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/icons/classes
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/icons/classes/OpFlag.png
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_rviz_plugins/share/autoware_rviz_plugins/plugin_description.xml
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_rviz_plugins --target install

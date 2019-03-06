@@ -1,0 +1,170 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/tablet_socket/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/gnss;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/gnss;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/tablet_socket/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/tablet_socket
+[  0%] Built target autoware_can_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target autoware_can_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target autoware_can_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 50%] Built target tablet_receiver
+[100%] Built target tablet_sender
+Built target tests
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target autoware_can_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 50%] Built target tablet_receiver
+[100%] Built target tablet_sender
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/tablet_socket/lib/pkgconfig/tablet_socket.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket/share/tablet_socket/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket/lib/tablet_socket/tablet_receiver
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket/lib/tablet_socket/tablet_sender

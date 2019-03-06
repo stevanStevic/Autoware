@@ -1,0 +1,44 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/state_machine_lib': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/common/libs/state_machine_lib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/state_machine_lib
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/state_machine_lib/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/state_machine_lib/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/state_machine_lib
+Invoked command in '/home/daisuke/Autoware/ros/build/state_machine_lib' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/common/libs/state_machine_lib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/state_machine_lib
+Invoking command in '/home/daisuke/Autoware/ros/build/state_machine_lib': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/state_machine_lib -- -j8 -l8
+[35m[1mScanning dependencies of target state_machine_lib[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/state_machine_lib.dir/src/state_context.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libstate_machine_lib.so[0m
+[100%] Built target state_machine_lib
+Invoked command in '/home/daisuke/Autoware/ros/build/state_machine_lib' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/state_machine_lib -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/state_machine_lib': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/state_machine_lib --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/state_machine_lib' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/state_machine_lib --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/state_machine_lib': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/state_machine_lib --target install
+[100%] Built target state_machine_lib
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/state_machine_lib/lib/pkgconfig/state_machine_lib.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/state_machine_lib/share/state_machine_lib/cmake/state_machine_libConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/state_machine_lib/share/state_machine_lib/cmake/state_machine_libConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/state_machine_lib/share/state_machine_lib/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/state_machine_lib/include/state_machine_lib
+-- Installing: /home/daisuke/Autoware/ros/install/state_machine_lib/include/state_machine_lib/state_flags.hpp
+-- Installing: /home/daisuke/Autoware/ros/install/state_machine_lib/include/state_machine_lib/state.hpp
+-- Installing: /home/daisuke/Autoware/ros/install/state_machine_lib/include/state_machine_lib/state_common.hpp
+-- Installing: /home/daisuke/Autoware/ros/install/state_machine_lib/include/state_machine_lib/state_context.hpp
+-- Installing: /home/daisuke/Autoware/ros/install/state_machine_lib/lib/libstate_machine_lib.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/state_machine_lib/lib/libstate_machine_lib.so" to ""
+Invoked command in '/home/daisuke/Autoware/ros/build/state_machine_lib' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/state_machine_lib --target install

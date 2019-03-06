@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/sick_ldmrs_description/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/sick_ldmrs_description/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/sick_ldmrs_description
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/lib/pkgconfig/sick_ldmrs_description.pc
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/launch
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/show_urdf.launch
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/upload_urdf.launch
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs.dae
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs_color.png
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs.urdf.xacro
+-- Installing: /home/daisuke/Autoware/ros/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs_macros.urdf.xacro

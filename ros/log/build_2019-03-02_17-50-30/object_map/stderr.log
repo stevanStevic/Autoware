@@ -1,0 +1,7 @@
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/semantics/packages/object_map/nodes/points2costmap/points2costmap.cpp:101:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::vector<int> {anonymous}::filterCostMap(std::vector<int>&)[m[K’ defined but not used [-Wunused-function]
+ std::vector<int> filterCostMap(std::vector<int>& cost_map)
+[01;32m[K                  ^[m[K

@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_gpu': /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/localization/lib/ndt_gpu -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/ndt_gpu
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_gpu' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/localization/lib/ndt_gpu -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/ndt_gpu
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_gpu': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_gpu -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_gpu' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_gpu -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_gpu': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_gpu --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_gpu' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_gpu --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_gpu': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_gpu --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_gpu' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_gpu --target install

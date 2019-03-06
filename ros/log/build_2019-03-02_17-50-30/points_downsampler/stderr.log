@@ -1,0 +1,4 @@
+[01m[K/home/daisuke/Autoware/ros/src/sensing/filters/packages/points_downsampler/nodes/random_filter/random_filter.cpp:[m[K In function ‘[01m[Kvoid scan_callback(const ConstPtr&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/filters/packages/points_downsampler/nodes/random_filter/random_filter.cpp:74:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(scan.points.size() >= sample_num)
+[01;32m[K                         ^[m[K

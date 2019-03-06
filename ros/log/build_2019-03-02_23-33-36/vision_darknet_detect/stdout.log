@@ -1,0 +1,156 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/vision_darknet_detect/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/vision_darknet_detect/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/vision_darknet_detect
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 94%] Built target vision_darknet_detect_lib
+[35m[1mScanning dependencies of target vision_darknet_detect[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect_node.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect[0m
+[100%] Built target vision_darknet_detect
+Built target tests
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 94%] Built target vision_darknet_detect_lib
+[100%] Built target vision_darknet_detect
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/pkgconfig/vision_darknet_detect.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect" to ""
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg/
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg

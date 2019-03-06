@@ -1,0 +1,62 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/xsens_driver': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/xsens/src/xsens_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/xsens_driver
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/xsens_driver/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/custom_msgs;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/custom_msgs;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/xsens_driver/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/xsens_driver
+Invoked command in '/home/daisuke/Autoware/ros/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/xsens/src/xsens_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/xsens_driver
+Invoking command in '/home/daisuke/Autoware/ros/build/xsens_driver': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/xsens_driver -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/xsens_driver -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/xsens_driver': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/xsens_driver --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/xsens_driver --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/xsens_driver': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/xsens_driver --target install
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/lib/pkgconfig/xsens_driver.pc
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/share/xsens_driver/cmake/xsens_driverConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/share/xsens_driver/cmake/xsens_driverConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/share/xsens_driver/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/lib/xsens_driver/mtnode.py
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/lib/xsens_driver/mtdef.py
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/lib/xsens_driver/mtdevice.py
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/share/xsens_driver/launch
+-- Installing: /home/daisuke/Autoware/ros/install/xsens_driver/share/xsens_driver/launch/mti300.launch
+Invoked command in '/home/daisuke/Autoware/ros/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/xsens_driver --target install

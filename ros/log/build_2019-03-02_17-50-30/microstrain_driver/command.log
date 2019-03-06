@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/microstrain_driver': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/microstrain_driver
+Invoked command in '/home/daisuke/Autoware/ros/build/microstrain_driver' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/microstrain_driver
+Invoking command in '/home/daisuke/Autoware/ros/build/microstrain_driver': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/microstrain_driver -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/microstrain_driver -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/microstrain_driver': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/microstrain_driver --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/microstrain_driver --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/microstrain_driver': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/microstrain_driver --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/microstrain_driver --target install

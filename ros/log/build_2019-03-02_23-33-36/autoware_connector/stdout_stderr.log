@@ -1,0 +1,183 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/autoware_connector/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/autoware_connector/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/autoware_connector
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target autoware_can_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target autoware_can_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target autoware_can_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target autoware_can_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_py
+[ 66%] Built target can_odometry
+[100%] Built target can_status_translator
+Built target tests
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target autoware_can_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 50%] Built target can_odometry
+[100%] Built target can_status_translator
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/autoware_connector/lib/pkgconfig/autoware_connector.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/share/autoware_connector/cmake/autoware_connectorConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/share/autoware_connector/cmake/autoware_connectorConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/share/autoware_connector/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/lib/autoware_connector/can_status_translator
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/lib/autoware_connector/can_odometry
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/share/autoware_connector/launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/share/autoware_connector/launch/can2odom.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/autoware_connector/share/autoware_connector/launch/vel_pose_connect.launch

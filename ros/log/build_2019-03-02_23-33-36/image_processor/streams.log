@@ -1,0 +1,42 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/image_processor': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/filters/packages/image_processor -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/image_processor
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/image_processor/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/image_processor/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/image_processor
+Invoked command in '/home/daisuke/Autoware/ros/build/image_processor' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/filters/packages/image_processor -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/image_processor
+Invoking command in '/home/daisuke/Autoware/ros/build/image_processor': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/image_processor -- -j8 -l8
+[ 50%] Built target image_rotator
+[100%] Built target image_rectifier
+Invoked command in '/home/daisuke/Autoware/ros/build/image_processor' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/image_processor -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/image_processor': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/image_processor --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/image_processor' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/image_processor --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/image_processor': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/image_processor --target install
+[ 50%] Built target image_rectifier
+[100%] Built target image_rotator
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/image_processor/lib/pkgconfig/image_processor.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/cmake/image_processorConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/cmake/image_processorConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/lib/image_processor/image_rotator
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/lib/image_processor/image_rectifier
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/launch/launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/launch/launch/image_rotator.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/launch/launch/image_rectifier_ladybug.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/launch/launch/image_rectifier.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/image_processor/share/image_processor/launch/launch/image_rotator_ladybug.launch
+Invoked command in '/home/daisuke/Autoware/ros/build/image_processor' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/image_processor --target install

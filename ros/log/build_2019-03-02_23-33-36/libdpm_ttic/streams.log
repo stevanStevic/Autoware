@@ -1,0 +1,156 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/libdpm_ttic': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/libdpm_ttic
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/libdpm_ttic/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/libdpm_ttic/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp: In function ‘int main()’:
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:61:3: warning: ‘CUresult cuDeviceComputeCapability(int*, int*, CUdevice)’ is deprecated [-Wdeprecated-declarations]
+   cuDeviceComputeCapability(&major, &minor, devHandle);
+   ^
+In file included from /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:21:0:
+/usr/local/cuda-9.2/bin/../targets/x86_64-linux/include/cuda.h:2531:36: note: declared here
+ __CUDA_DEPRECATED CUresult CUDAAPI cuDeviceComputeCapability(int *major, int *minor, CUdevice dev);
+                                    ^
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:61:3: warning: ‘CUresult cuDeviceComputeCapability(int*, int*, CUdevice)’ is deprecated [-Wdeprecated-declarations]
+   cuDeviceComputeCapability(&major, &minor, devHandle);
+   ^
+In file included from /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:21:0:
+/usr/local/cuda-9.2/bin/../targets/x86_64-linux/include/cuda.h:2531:36: note: declared here
+ __CUDA_DEPRECATED CUresult CUDAAPI cuDeviceComputeCapability(int *major, int *minor, CUdevice dev);
+                                    ^
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:61:54: warning: ‘CUresult cuDeviceComputeCapability(int*, int*, CUdevice)’ is deprecated [-Wdeprecated-declarations]
+   cuDeviceComputeCapability(&major, &minor, devHandle);
+                                                      ^
+In file included from /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:21:0:
+/usr/local/cuda-9.2/bin/../targets/x86_64-linux/include/cuda.h:2531:36: note: declared here
+ __CUDA_DEPRECATED CUresult CUDAAPI cuDeviceComputeCapability(int *major, int *minor, CUdevice dev);
+                                    ^
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/libdpm_ttic
+Invoked command in '/home/daisuke/Autoware/ros/build/libdpm_ttic' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/libdpm_ttic
+Invoking command in '/home/daisuke/Autoware/ros/build/libdpm_ttic': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/libdpm_ttic -- -j8 -l8
+ptxas warning : Stack size for entry function 'dt1d_y' cannot be statically determined
+ptxas warning : Stack size for entry function 'dt1d_x' cannot be statically determined
+ptxas info    : 22 bytes gmem
+ptxas info    : Compiling entry function 'resize' for 'sm_61'
+ptxas info    : Function properties for resize
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 364 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_feat' for 'sm_61'
+ptxas info    : Function properties for calc_feat
+    120 bytes stack frame, 124 bytes spill stores, 144 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0], 48 bytes cmem[2], 3 textures
+ptxas info    : Compiling entry function 'calc_norm' for 'sm_61'
+ptxas info    : Function properties for calc_norm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 356 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_hist' for 'sm_61'
+ptxas info    : Function properties for calc_hist
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0], 68 bytes cmem[2], 4 textures
+ptxas info    : Compiling entry function 'calc_a_score' for 'sm_61'
+ptxas info    : Function properties for calc_a_score
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 400 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function 'dt1d_y' for 'sm_61'
+ptxas info    : Function properties for dt1d_y
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 428 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'dt1d_x' for 'sm_61'
+ptxas info    : Function properties for dt1d_x
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 432 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'inverse_Q' for 'sm_61'
+ptxas info    : Function properties for inverse_Q
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function 'process_part' for 'sm_61'
+ptxas info    : Function properties for process_part
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'process_root' for 'sm_61'
+ptxas info    : Function properties for process_root
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures
+[  3%] [34m[1mGenerating GPU_function.cubin[0m
+[  3%] Built target cuda_binary
+[100%] Built target libdpm_ttic
+Invoked command in '/home/daisuke/Autoware/ros/build/libdpm_ttic' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/libdpm_ttic -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/libdpm_ttic': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/libdpm_ttic --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/libdpm_ttic' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/libdpm_ttic --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/libdpm_ttic': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/libdpm_ttic --target install
+ptxas warning : Stack size for entry function 'dt1d_y' cannot be statically determined
+ptxas warning : Stack size for entry function 'dt1d_x' cannot be statically determined
+ptxas info    : 22 bytes gmem
+ptxas info    : Compiling entry function 'resize' for 'sm_61'
+ptxas info    : Function properties for resize
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 364 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_feat' for 'sm_61'
+ptxas info    : Function properties for calc_feat
+    120 bytes stack frame, 124 bytes spill stores, 144 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0], 48 bytes cmem[2], 3 textures
+ptxas info    : Compiling entry function 'calc_norm' for 'sm_61'
+ptxas info    : Function properties for calc_norm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 356 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_hist' for 'sm_61'
+ptxas info    : Function properties for calc_hist
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0], 68 bytes cmem[2], 4 textures
+ptxas info    : Compiling entry function 'calc_a_score' for 'sm_61'
+ptxas info    : Function properties for calc_a_score
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 400 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function 'dt1d_y' for 'sm_61'
+ptxas info    : Function properties for dt1d_y
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 428 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'dt1d_x' for 'sm_61'
+ptxas info    : Function properties for dt1d_x
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 432 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'inverse_Q' for 'sm_61'
+ptxas info    : Function properties for inverse_Q
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function 'process_part' for 'sm_61'
+ptxas info    : Function properties for process_part
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'process_root' for 'sm_61'
+ptxas info    : Function properties for process_root
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures
+[  3%] [34m[1mGenerating GPU_function.cubin[0m
+[  3%] Built target cuda_binary
+[100%] Built target libdpm_ttic
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/lib/pkgconfig/libdpm_ttic.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/cmake/libdpm_tticConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/cmake/libdpm_tticConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/libdpm_ttic/include/libdpm_ttic
+-- Up-to-date: /home/daisuke/Autoware/ros/install/libdpm_ttic/include/libdpm_ttic/dpm_ttic.hpp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/libdpm_ttic/lib/liblibdpm_ttic.so
+Invoked command in '/home/daisuke/Autoware/ros/build/libdpm_ttic' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/libdpm_ttic --target install

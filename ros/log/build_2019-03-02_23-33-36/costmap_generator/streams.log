@@ -1,0 +1,54 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/costmap_generator': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/object_map:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/object_map/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/object_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/object_map/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/semantics/packages/costmap_generator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/costmap_generator
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/costmap_generator/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/object_map;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/object_map;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/costmap_generator/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+CMake Error at /home/daisuke/Autoware/ros/install/object_map/share/object_map/cmake/object_mapConfig.cmake:110 (message):
+  Project 'object_map' specifies 'include' as an include dir, which is not
+  found.  It does not exist in
+  '/home/daisuke/Autoware/ros/install/object_map/include'.  Report the
+  problem to the maintainer 'ando <antm678@ertl.jp>, amc
+  <abrahammonrroy@yahoo.com>' and request to fix the problem.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:5 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/daisuke/Autoware/ros/build/costmap_generator/CMakeFiles/CMakeOutput.log".
+See also "/home/daisuke/Autoware/ros/build/costmap_generator/CMakeFiles/CMakeError.log".
+Invoked command in '/home/daisuke/Autoware/ros/build/costmap_generator' returned '1': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/object_map:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/object_map/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/object_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/object_map/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/semantics/packages/costmap_generator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/costmap_generator

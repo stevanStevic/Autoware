@@ -1,0 +1,69 @@
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:[m[K In constructor ‘[01m[KMqttReceiver::MqttReceiver()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:84:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [-Wunused-but-set-variable]
+   int ret = mosquitto_loop(mqtt_client, -1, 1);
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:[m[K In destructor ‘[01m[KMqttReceiver::~MqttReceiver()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:90:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_loop_stop(mqtt_client, 1);
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:[m[K At global scope:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:95:83:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::on_connect(mosquitto*, void*, int)[m[K’ to have static linkage [-fpermissive]
+ ic void MqttReceiver::on_connect(struct mosquitto *mosq, void *obj, int result)
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:101:82:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::on_disconnect(mosquitto*, void*, int)[m[K’ to have static linkage [-fpermissive]
+ tic void MqttReceiver::on_disconnect(struct mosquitto *mosq, void *obj, int rc)
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:106:39:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::load_config()[m[K’ to have static linkage [-fpermissive]
+ static void MqttReceiver::load_config()
+[01;32m[K                                       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:133:112:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::on_message(mosquitto*, void*, const mosquitto_message*)[m[K’ to have static linkage [-fpermissive]
+ age(struct mosquitto *mosq, void *obj, const struct mosquitto_message *message)
+[01;32m[K                                                                               ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:41:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:18:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcaninfo_downsample[m[K’ defined but not used [-Wunused-variable]
+ static float caninfo_downsample;
+[01;32m[K              ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:143:37:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttSender::load_config()[m[K’ to have static linkage [-fpermissive]
+ static void MqttSender::load_config()
+[01;32m[K                                     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::targetVelocityArrayCallback(const Float64MultiArray&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:176:20:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < sizeof(msg.data); i++) {
+[01;32m[K                    ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:181:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::twistCmdCallback(const TwistStamped&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:201:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::stateCallback(const String&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:216:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::currentPoseCallback(const PoseStamped&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:240:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::modeInfoCallback(const mode_info&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:259:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+     int ret = mosquitto_publish(
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::canInfoCallback(const CANInfoConstPtr&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:345:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+     int ret = mosquitto_publish(
+[01;32m[K         ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:45:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:[m[K At global scope:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:12:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kaccel_max_val[m[K’ defined but not used [-Wunused-variable]
+ static int accel_max_val;
+[01;32m[K            ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:13:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbrake_max_val[m[K’ defined but not used [-Wunused-variable]
+ static int brake_max_val;
+[01;32m[K            ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:14:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksteer_max_val[m[K’ defined but not used [-Wunused-variable]
+ static float steer_max_val;
+[01;32m[K              ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:15:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klinear_x_max_val[m[K’ defined but not used [-Wunused-variable]
+ static float linear_x_max_val;
+[01;32m[K              ^[m[K

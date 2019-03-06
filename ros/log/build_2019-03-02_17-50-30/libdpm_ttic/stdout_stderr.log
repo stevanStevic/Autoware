@@ -1,0 +1,203 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/libdpm_ttic/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/libdpm_ttic/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Found CUDA: /usr/local/cuda-9.2 (found version "9.2") 
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp: In function ‘int main()’:
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:61:3: warning: ‘CUresult cuDeviceComputeCapability(int*, int*, CUdevice)’ is deprecated [-Wdeprecated-declarations]
+   cuDeviceComputeCapability(&major, &minor, devHandle);
+   ^
+In file included from /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:21:0:
+/usr/local/cuda-9.2/bin/../targets/x86_64-linux/include/cuda.h:2531:36: note: declared here
+ __CUDA_DEPRECATED CUresult CUDAAPI cuDeviceComputeCapability(int *major, int *minor, CUdevice dev);
+                                    ^
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:61:3: warning: ‘CUresult cuDeviceComputeCapability(int*, int*, CUdevice)’ is deprecated [-Wdeprecated-declarations]
+   cuDeviceComputeCapability(&major, &minor, devHandle);
+   ^
+In file included from /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:21:0:
+/usr/local/cuda-9.2/bin/../targets/x86_64-linux/include/cuda.h:2531:36: note: declared here
+ __CUDA_DEPRECATED CUresult CUDAAPI cuDeviceComputeCapability(int *major, int *minor, CUdevice dev);
+                                    ^
+/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:61:54: warning: ‘CUresult cuDeviceComputeCapability(int*, int*, CUdevice)’ is deprecated [-Wdeprecated-declarations]
+   cuDeviceComputeCapability(&major, &minor, devHandle);
+                                                      ^
+In file included from /home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/libs/dpm_ttic/util/capability_version_checker.cpp:21:0:
+/usr/local/cuda-9.2/bin/../targets/x86_64-linux/include/cuda.h:2531:36: note: declared here
+ __CUDA_DEPRECATED CUresult CUDAAPI cuDeviceComputeCapability(int *major, int *minor, CUdevice dev);
+                                    ^
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/libdpm_ttic
+ptxas warning : Stack size for entry function 'dt1d_y' cannot be statically determined
+ptxas warning : Stack size for entry function 'dt1d_x' cannot be statically determined
+ptxas info    : 22 bytes gmem
+ptxas info    : Compiling entry function 'resize' for 'sm_61'
+ptxas info    : Function properties for resize
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 364 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_feat' for 'sm_61'
+ptxas info    : Function properties for calc_feat
+    120 bytes stack frame, 124 bytes spill stores, 144 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0], 48 bytes cmem[2], 3 textures
+ptxas info    : Compiling entry function 'calc_norm' for 'sm_61'
+ptxas info    : Function properties for calc_norm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 356 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_hist' for 'sm_61'
+ptxas info    : Function properties for calc_hist
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0], 68 bytes cmem[2], 4 textures
+ptxas info    : Compiling entry function 'calc_a_score' for 'sm_61'
+ptxas info    : Function properties for calc_a_score
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 400 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function 'dt1d_y' for 'sm_61'
+ptxas info    : Function properties for dt1d_y
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 428 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'dt1d_x' for 'sm_61'
+ptxas info    : Function properties for dt1d_x
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 432 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'inverse_Q' for 'sm_61'
+ptxas info    : Function properties for inverse_Q
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function 'process_part' for 'sm_61'
+ptxas info    : Function properties for process_part
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'process_root' for 'sm_61'
+ptxas info    : Function properties for process_root
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures
+[35m[1mScanning dependencies of target cuda_binary[0m
+[  3%] [34m[1mGenerating GPU_function.cubin[0m
+[  3%] Built target cuda_binary
+[35m[1mScanning dependencies of target libdpm_ttic[0m
+[  7%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/common/common.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/main.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/detect.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/dt.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/get_boxes.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/dt_GPU.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/cuda_util.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/featurepyramid.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/fconvsMT.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/obstacle_detection.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/resize_GPU.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/load_model.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/multithreading.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/tracking.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/nms.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/GPU_init.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/nms.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/tracking.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/load_model.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/detect.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/gpu/get_boxes.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/fconvsMT.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/resize.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/libdpm_ttic.dir/cpu/featurepyramid.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/liblibdpm_ttic.so[0m
+[100%] Built target libdpm_ttic
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  3%] [34m[1mGenerating GPU_function.cubin[0m
+[  3%] Built target cuda_binary
+[100%] Built target libdpm_ttic
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/lib/pkgconfig/libdpm_ttic.pc
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/cmake/libdpm_tticConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/cmake/libdpm_tticConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/share/libdpm_ttic/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/include/libdpm_ttic
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/include/libdpm_ttic/dpm_ttic.hpp
+-- Installing: /home/daisuke/Autoware/ros/install/libdpm_ttic/lib/liblibdpm_ttic.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/libdpm_ttic/lib/liblibdpm_ttic.so" to ""
+ptxas warning : Stack size for entry function 'dt1d_y' cannot be statically determined
+ptxas warning : Stack size for entry function 'dt1d_x' cannot be statically determined
+ptxas info    : 22 bytes gmem
+ptxas info    : Compiling entry function 'resize' for 'sm_61'
+ptxas info    : Function properties for resize
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, 364 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_feat' for 'sm_61'
+ptxas info    : Function properties for calc_feat
+    120 bytes stack frame, 124 bytes spill stores, 144 bytes spill loads
+ptxas info    : Used 32 registers, 376 bytes cmem[0], 48 bytes cmem[2], 3 textures
+ptxas info    : Compiling entry function 'calc_norm' for 'sm_61'
+ptxas info    : Function properties for calc_norm
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 356 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'calc_hist' for 'sm_61'
+ptxas info    : Function properties for calc_hist
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 27 registers, 360 bytes cmem[0], 68 bytes cmem[2], 4 textures
+ptxas info    : Compiling entry function 'calc_a_score' for 'sm_61'
+ptxas info    : Function properties for calc_a_score
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 30 registers, 400 bytes cmem[0], 12 bytes cmem[2]
+ptxas info    : Compiling entry function 'dt1d_y' for 'sm_61'
+ptxas info    : Function properties for dt1d_y
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 428 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'dt1d_x' for 'sm_61'
+ptxas info    : Function properties for dt1d_x
+    8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 432 bytes cmem[0]
+ptxas info    : Function properties for _Z9dt_helperPfS_Piiiiiiff
+    72 bytes stack frame, 64 bytes spill stores, 64 bytes spill loads
+ptxas info    : Compiling entry function 'inverse_Q' for 'sm_61'
+ptxas info    : Function properties for inverse_Q
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 392 bytes cmem[0]
+ptxas info    : Compiling entry function 'process_part' for 'sm_61'
+ptxas info    : Function properties for process_part
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures
+ptxas info    : Compiling entry function 'process_root' for 'sm_61'
+ptxas info    : Function properties for process_root
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, 388 bytes cmem[0], 2 textures

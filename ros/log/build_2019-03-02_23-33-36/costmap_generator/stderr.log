@@ -1,0 +1,11 @@
+CMake Error at /home/daisuke/Autoware/ros/install/object_map/share/object_map/cmake/object_mapConfig.cmake:110 (message):
+  Project 'object_map' specifies 'include' as an include dir, which is not
+  found.  It does not exist in
+  '/home/daisuke/Autoware/ros/install/object_map/include'.  Report the
+  problem to the maintainer 'ando <antm678@ertl.jp>, amc
+  <abrahammonrroy@yahoo.com>' and request to fix the problem.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:5 (find_package)
+
+

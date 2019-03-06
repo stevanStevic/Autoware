@@ -1,0 +1,454 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/waypoint_planner': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/waypoint_planner
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/waypoint_planner/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/waypoint_follower;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_health_checker;/home/daisuke/Autoware/ros/install/astar_search;/home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/autoware_system_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/waypoint_follower;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_health_checker;/home/daisuke/Autoware/ros/install/astar_search;/home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/autoware_system_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/waypoint_planner/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/waypoint_planner
+Invoked command in '/home/daisuke/Autoware/ros/build/waypoint_planner' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/waypoint_planner
+Invoking command in '/home/daisuke/Autoware/ros/build/waypoint_planner': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/waypoint_planner -- -j8 -l8
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_system_msgs_generate_messages_cpp
+[  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_nodejs[0m
+[  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[  0%] Built target tablet_socket_msgs_generate_messages_eus
+[  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_py[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target tablet_socket_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  0%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  0%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_cpp[0m
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_py[0m
+[  0%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target autoware_system_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[  0%] Built target autoware_system_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  0%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_lisp[0m
+[  0%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target autoware_system_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target astar_avoid[0m
+[35m[1mScanning dependencies of target velocity_set[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/velocity_set.dir/src/velocity_set/velocity_set.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/velocity_set.dir/src/velocity_set/velocity_set_info.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/velocity_set.dir/src/velocity_set/velocity_set_path.cpp.o[0m
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/src/astar_avoid/astar_avoid.cpp:17:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:[m[K In constructor ‘[01m[KAstarAvoid::AstarAvoid()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:106:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KAstarAvoid::closest_waypoint_initialized_[m[K’ will be initialized after [-Wreorder]
+   bool closest_waypoint_initialized_;
+[01;32m[K        ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:88:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AstarAvoid::terminate_thread_[m[K’ [-Wreorder]
+   bool terminate_thread_;
+[01;32m[K        ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/src/astar_avoid/astar_avoid.cpp:19:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ AstarAvoid::AstarAvoid()
+[01;32m[K ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/src/velocity_set/velocity_set_info.cpp:17:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/src/velocity_set/../../src/velocity_set/velocity_set_info.h:[m[K In constructor ‘[01m[KVelocitySetInfo::VelocitySetInfo()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/src/velocity_set/../../src/velocity_set/velocity_set_info.h:53:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KVelocitySetInfo::set_pose_[m[K’ will be initialized after [-Wreorder]
+   bool set_pose_;
+[01;32m[K        ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/src/velocity_set/../../src/velocity_set/velocity_set_info.h:45:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint VelocitySetInfo::wpidx_detectionResultByOtherNodes_[m[K’ [-Wreorder]
+   int wpidx_detectionResultByOtherNodes_; // waypoints index@finalwaypoints
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/waypoint_planner/src/velocity_set/velocity_set_info.cpp:27:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ VelocitySetInfo::VelocitySetInfo()
+[01;32m[K ^[m[K
+[ 75%] [32m[1mLinking CXX executable devel/lib/waypoint_planner/astar_avoid[0m
+[ 75%] Built target astar_avoid
+[ 87%] [32mBuilding CXX object CMakeFiles/velocity_set.dir/src/velocity_set/libvelocity_set.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/waypoint_planner/velocity_set[0m
+[100%] Built target velocity_set
+Invoked command in '/home/daisuke/Autoware/ros/build/waypoint_planner' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/waypoint_planner -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/waypoint_planner': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/waypoint_planner --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/waypoint_planner' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/waypoint_planner --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/waypoint_planner': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/waypoint_planner --target install
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[  0%] Built target autoware_system_msgs_generate_messages_cpp
+[  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[  0%] Built target tablet_socket_msgs_generate_messages_eus
+[  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target tablet_socket_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target autoware_system_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target autoware_system_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target autoware_system_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[ 62%] Built target velocity_set
+[100%] Built target astar_avoid
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/lib/pkgconfig/waypoint_planner.pc
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/share/waypoint_planner/cmake/waypoint_plannerConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/share/waypoint_planner/cmake/waypoint_plannerConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/share/waypoint_planner/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/lib/waypoint_planner/astar_avoid
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/waypoint_planner/lib/waypoint_planner/astar_avoid" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/lib/waypoint_planner/velocity_set
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/waypoint_planner/lib/waypoint_planner/velocity_set" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/share/waypoint_planner/launch
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/share/waypoint_planner/launch/astar_avoid.launch
+-- Installing: /home/daisuke/Autoware/ros/install/waypoint_planner/share/waypoint_planner/launch/velocity_set.launch
+Invoked command in '/home/daisuke/Autoware/ros/build/waypoint_planner' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower:/home/daisuke/Autoware/ros/install/vector_map:/home/daisuke/Autoware/ros/install/vector_map_msgs:/home/daisuke/Autoware/ros/install/autoware_health_checker:/home/daisuke/Autoware/ros/install/astar_search:/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_system_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_config_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib:/home/daisuke/Autoware/ros/install/vector_map/lib:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib:/home/daisuke/Autoware/ros/install/astar_search/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map/lib/pkgconfig:/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_health_checker/lib/pkgconfig:/home/daisuke/Autoware/ros/install/astar_search/lib/pkgconfig:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/vector_map_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/waypoint_follower/share:/home/daisuke/Autoware/ros/install/vector_map/share:/home/daisuke/Autoware/ros/install/vector_map_msgs/share:/home/daisuke/Autoware/ros/install/autoware_health_checker/share:/home/daisuke/Autoware/ros/install/astar_search/share:/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_system_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_config_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/waypoint_planner --target install

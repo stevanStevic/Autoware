@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/pc2_downsampler -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/pc2_downsampler
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/pc2_downsampler -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/pc2_downsampler
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target install

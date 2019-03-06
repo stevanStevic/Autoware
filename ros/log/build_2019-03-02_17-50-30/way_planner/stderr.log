@@ -1,0 +1,33 @@
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/way_planner.cpp:27[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:105:41:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (iSecondPart > 0 && iSecondPart < str.size())
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/SocketServer.h:19:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/SocketServer.cpp:8[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:105:41:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (iSecondPart > 0 && iSecondPart < str.size())
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/ROSHelpers.cpp:8:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:105:41:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (iSecondPart > 0 && iSecondPart < str.size())
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/way_planner_core.cpp:17[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/include/ROSHelpers.h:105:41:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (iSecondPart > 0 && iSecondPart < str.size())
+[01;32m[K                                         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::PlannerMainLoop()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/way_planner_core.cpp:712:67:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+      if(ret == true && info.iGlobalPath >= 0 &&  info.iGlobalPath < m_Generated
+[01;32m[K                                                                   ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/way_planner_core.cpp:712:132:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+ th < m_GeneratedTotalPaths.size() && info.iFront > 0 && info.iFront < m_Generat
+[01;32m[K                                                                     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/mission/packages/way_planner/nodes/way_planner_core.cpp:718:31:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+        if(m_iCurrentGoalIndex >= m_GoalsPos.size())
+[01;32m[K                               ^[m[K

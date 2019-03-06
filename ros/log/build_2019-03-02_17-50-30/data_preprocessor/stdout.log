@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/data_preprocessor/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/data_preprocessor/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/data_preprocessor
+[35m[1mScanning dependencies of target get_Image[0m
+[35m[1mScanning dependencies of target get_PCD[0m
+[35m[1mScanning dependencies of target get_Depth[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/get_Image.dir/nodes/get_Image/get_Image.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/get_PCD.dir/nodes/get_PCD/get_PCD.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/get_Depth.dir/nodes/get_Depth/get_Depth.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_Image[0m
+[ 66%] Built target get_Image
+[ 83%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_PCD[0m
+[100%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_Depth[0m
+[100%] Built target get_PCD
+[100%] Built target get_Depth
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 33%] Built target get_PCD
+[ 66%] Built target get_Image
+[100%] Built target get_Depth
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/data_preprocessor/lib/pkgconfig/data_preprocessor.pc
+-- Installing: /home/daisuke/Autoware/ros/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/data_preprocessor/share/data_preprocessor/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/data_preprocessor/lib/data_preprocessor/get_Image
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/data_preprocessor/lib/data_preprocessor/get_Image" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/data_preprocessor/lib/data_preprocessor/get_PCD
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/data_preprocessor/lib/data_preprocessor/get_PCD" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/data_preprocessor/lib/data_preprocessor/get_Depth
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/data_preprocessor/lib/data_preprocessor/get_Depth" to ""

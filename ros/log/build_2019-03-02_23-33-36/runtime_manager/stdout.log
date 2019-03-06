@@ -1,0 +1,92 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/runtime_manager/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/runtime_manager/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/runtime_manager
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/pkgconfig/runtime_manager.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/cmake/runtime_managerConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/cmake/runtime_managerConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/ftrace.py
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/proc_manager.py
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/rtmgr.py
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/runtime_manager_dialog.py
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/test_pub.py
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/test_srv.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/3dm_gx5_15.sh
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/add_perm.sh
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/adis16470.sh
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/avt_vimba.sh
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/gazebo.sh
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/mti300.sh
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/vg440.sh
+-- Installing: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/computing.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/data.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/empty.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/interface.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/main.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/map.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/qs.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/rtmgr_icon.xpm
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/rtmgr.wxg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/sensing.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/setup.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/simulation.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/state.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/status.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/topics.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/vector_map_files.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/viewer.yaml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/autoware_logo_1.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/autoware_logo_2.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/autoware_logo_2_white.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/axe.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/database.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/dec.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/inc.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/mobile.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/nagoya_university.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/tablet.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/lib/runtime_manager/images/vehicle.png
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/check.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/control.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/init.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/map.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/perception.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/planning.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/sensor.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/set.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl64e_s2.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl64e_s3.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl32e.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp16.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp16_hires.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp32c.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/vscan.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/vehicle_socket.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/uvc_camera.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/traffic_light.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/synchronization.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/tablet_socket.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/setup_tf.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/setup_vehicle_info.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/points2image.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/mqtt_socket.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/ex_mat_pub.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/calibration_publisher.launch
+-- Up-to-date: /home/daisuke/Autoware/ros/install/runtime_manager/share/runtime_manager/launch_files/avt_camera.launch

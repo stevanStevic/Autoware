@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/sick/ldmrs/sick_ldmrs_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/sick_ldmrs_description
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/lidar/packages/sick/ldmrs/sick_ldmrs_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/sick_ldmrs_description
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_ldmrs_description -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_ldmrs_description -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_ldmrs_description --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_ldmrs_description --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_ldmrs_description --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sick_ldmrs_description --target install

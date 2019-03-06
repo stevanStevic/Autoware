@@ -1,0 +1,423 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/vision_darknet_detect/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/vision_darknet_detect/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found CUDA: /usr/local/cuda-9.2 (found version "9.2") 
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Try OpenMP C flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -fopenmp  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/vision_darknet_detect
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_py[0m
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[  0%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[  0%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  3%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_activation_kernels.cu.o[0m
+[  3%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_maxpool_layer_kernels.cu.o[0m
+[  5%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_deconvolutional_kernels.cu.o[0m
+[  7%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_im2col_kernels.cu.o[0m
+[  8%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_blas_kernels.cu.o[0m
+[ 10%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_dropout_layer_kernels.cu.o[0m
+[ 12%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_crop_layer_kernels.cu.o[0m
+[ 14%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_col2im_kernels.cu.o[0m
+[ 17%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_convolutional_kernels.cu.o[0m
+[ 17%] [34m[1mBuilding NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_avgpool_layer_kernels.cu.o[0m
+[35m[1mScanning dependencies of target vision_darknet_detect_lib[0m
+[ 19%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/gemm.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/utils.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/im2col.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/col2im.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/blas.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/crop_layer.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/dropout_layer.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/maxpool_layer.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/softmax_layer.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/data.c.o[0m
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/utils.c:[m[K In function ‘[01m[Kread_file[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/utils.c:267:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(text, 1, size, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/utils.c:[m[K In function ‘[01m[Kfgetl[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/utils.c:355:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfgets[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fgets(&line[curr], readsize, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/data.c:[m[K In function ‘[01m[Kload_regression_labels_paths[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/data.c:574:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(file, "%f", &(y.vals[i][j]));
+[01;32m[K             ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/data.c:[m[K In function ‘[01m[Kload_cifar10_data[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/data.c:1354:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(bytes, 1, 3073, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/data.c:[m[K In function ‘[01m[Kload_all_cifar10[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/data.c:1417:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(bytes, 1, 3073, fp);
+[01;32m[K             ^[m[K
+[ 36%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/matrix.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/activations.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/network.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/connected_layer.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/image.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/cost_layer.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/parser.c.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/list.c.o[0m
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_connected_weights[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1085:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.outputs, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1086:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.weights, sizeof(float), l.outputs*l.inputs, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1093:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.outputs, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1094:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.outputs, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1095:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.outputs, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_batchnorm_weights[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1109:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.scales, sizeof(float), l.c, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1110:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.rolling_mean, sizeof(float), l.c, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1111:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.rolling_variance, sizeof(float), l.c, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_convolutional_weights_binary[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1121:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.n, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1123:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1124:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1125:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1131:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(&mean, sizeof(float), 1, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1135:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(&c, sizeof(char), 1, fp);
+[01;32m[K             ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_convolutional_weights[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1156:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.n, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1158:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1159:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1160:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1188:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.weights, sizeof(float), num, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_weights_upto[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1217:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&major, sizeof(int), 1, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1218:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&minor, sizeof(int), 1, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1219:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&revision, sizeof(int), 1, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1221:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(net->seen, sizeof(size_t), 1, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1224:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(&iseen, sizeof(int), 1, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1279:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(l.biases, sizeof(float), l.outputs, fp);
+[01;32m[K             ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/perception/detection/vision_detector/packages/vision_darknet_detect/darknet/src/parser.c:1280:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(l.weights, sizeof(float), size, fp);
+[01;32m[K             ^[m[K
+[ 50%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/option_list.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/detection_layer.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/route_layer.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/avgpool_layer.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/normalization_layer.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/layer.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/local_layer.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/shortcut_layer.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/logistic_layer.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/activation_layer.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/rnn_layer.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/crnn_layer.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/batchnorm_layer.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/region_layer.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/reorg_layer.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/tree.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/lstm_layer.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/l2norm_layer.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/yolo_layer.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/gru_layer.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/box.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/upsample_layer.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/convolutional_layer.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/deconvolutional_layer.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/cuda.c.o[0m
+[ 94%] [32m[1mLinking CXX shared library devel/lib/libvision_darknet_detect_lib.so[0m
+[ 94%] Built target vision_darknet_detect_lib
+[35m[1mScanning dependencies of target vision_darknet_detect[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect_node.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect[0m
+[100%] Built target vision_darknet_detect
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/vision_darknet_detect/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_config_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/vision_darknet_detect/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/vision_darknet_detect
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  1%] [32m[1mLinking CXX shared library devel/lib/libvision_darknet_detect_lib.so[0m
+[ 94%] Built target vision_darknet_detect_lib
+[ 96%] [32m[1mLinking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect[0m
+[100%] Built target vision_darknet_detect
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/pkgconfig/vision_darknet_detect.pc
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/launch
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg/
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+-- Installing: /home/daisuke/Autoware/ros/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg

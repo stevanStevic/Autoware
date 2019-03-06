@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs': /usr/bin/cmake /home/daisuke/Autoware/ros/src/msgs/autoware_can_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/autoware_can_msgs
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/msgs/autoware_can_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/autoware_can_msgs
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_can_msgs -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_can_msgs -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_can_msgs --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_can_msgs --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_can_msgs --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/autoware_can_msgs --target install

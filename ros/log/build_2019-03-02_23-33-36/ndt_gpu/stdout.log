@@ -1,0 +1,94 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/ndt_gpu/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/ndt_gpu/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing:  OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing:  OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_IO
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_GEOMETRY
+-- looking for PCL_FEATURES
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_RECOGNITION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_PEOPLE
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_TRACKING
+-- looking for PCL_APPS
+-- Could NOT find PCL_APPS (missing:  PCL_APPS_LIBRARY) 
+-- looking for PCL_MODELER
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/ndt_gpu
+[100%] Built target ndt_gpu
+Built target tests
+[100%] Built target ndt_gpu
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/ndt_gpu/lib/pkgconfig/ndt_gpu.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/share/ndt_gpu/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/debug.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/MatrixHost.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/VoxelGrid.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/MatrixDevice.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/Registration.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/common.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/Matrix.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/include/ndt_gpu/SymmetricEigenSolver.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_gpu/lib/libndt_gpu.so

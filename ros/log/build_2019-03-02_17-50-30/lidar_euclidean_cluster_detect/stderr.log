@@ -1,0 +1,8 @@
+-- USING ACCELERATED CLUSTERING --
+Version: 9.2
+Library: /usr/local/cuda/lib64/stubs/libcuda.so
+Runtime: /usr/local/cuda-9.2/lib64/libcudart.so
+-- USING ACCELERATED CLUSTERING --
+Version: 9.2
+Library: /usr/local/cuda/lib64/stubs/libcuda.so
+Runtime: /usr/local/cuda-9.2/lib64/libcudart.so

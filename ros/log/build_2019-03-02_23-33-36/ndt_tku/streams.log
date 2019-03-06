@@ -1,0 +1,37 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_tku': /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/localization/lib/ndt_tku -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/ndt_tku
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/ndt_tku/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/ndt_tku/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/ndt_tku
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_tku' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/localization/lib/ndt_tku -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/ndt_tku
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_tku': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_tku -- -j8 -l8
+[100%] Built target ndt_tku
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_tku -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_tku': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_tku --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_tku --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/ndt_tku': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_tku --target install
+[100%] Built target ndt_tku
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/ndt_tku/lib/pkgconfig/ndt_tku.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_tku/share/ndt_tku/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_tku/lib/libndt_tku.so
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_tku/include
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_tku/include/algebra.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/ndt_tku/include/ndt.h
+Invoked command in '/home/daisuke/Autoware/ros/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/ndt_tku --target install

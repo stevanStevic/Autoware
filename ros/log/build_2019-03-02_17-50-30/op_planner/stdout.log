@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/op_planner/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/op_utility;/home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/op_utility;/home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/op_planner/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/op_planner
+[35m[1mScanning dependencies of target op_planner[0m
+[  7%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/BehaviorPrediction.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/PlannerH.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/PlanningHelpers.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/SimuDecisionMaker.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/PassiveDecisionMaker.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/TrajectoryCosts.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/MatrixOperations.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/MappingHelpers.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/DecisionMaker.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/LocalPlannerH.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/TrajectoryDynamicCosts.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/op_planner.dir/src/BehaviorStateMachine.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libop_planner.so[0m
+[100%] Built target op_planner
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[100%] Built target op_planner
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/lib/pkgconfig/op_planner.pc
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/share/op_planner/cmake/op_plannerConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/share/op_planner/cmake/op_plannerConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/share/op_planner/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/TrajectoryDynamicCosts.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/PlannerCommonDef.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/DecisionMaker.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/BehaviorStateMachine.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/PlanningHelpers.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/PassiveDecisionMaker.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/TrajectoryCosts.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/MatrixOperations.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/SimuDecisionMaker.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/PlannerH.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/MappingHelpers.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/LocalPlannerH.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/RoadNetwork.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/include/op_planner/BehaviorPrediction.h
+-- Installing: /home/daisuke/Autoware/ros/install/op_planner/lib/libop_planner.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/op_planner/lib/libop_planner.so" to ""

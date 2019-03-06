@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description': /usr/bin/cmake /home/daisuke/Autoware/ros/src/simulation/gazebo_simulator/vehicle/sensor_model/imu/gazebo_imu_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/gazebo_imu_description
+Invoked command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/simulation/gazebo_simulator/vehicle/sensor_model/imu/gazebo_imu_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/gazebo_imu_description
+Invoking command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/gazebo_imu_description -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/gazebo_imu_description -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/gazebo_imu_description --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/gazebo_imu_description --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/gazebo_imu_description --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/gazebo_imu_description --target install

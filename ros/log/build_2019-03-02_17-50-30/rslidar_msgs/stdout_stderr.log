@@ -1,0 +1,143 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/rslidar_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/rslidar_msgs/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rslidar_msgs: 2 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/rslidar_msgs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _rslidar_msgs_generate_messages_check_deps_rslidarScan[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _rslidar_msgs_generate_messages_check_deps_rslidarPacket[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _rslidar_msgs_generate_messages_check_deps_rslidarScan
+[  0%] Built target _rslidar_msgs_generate_messages_check_deps_rslidarPacket
+[35m[1mScanning dependencies of target rslidar_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rslidar_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rslidar_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rslidar_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rslidar_msgs_generate_messages_py[0m
+[  8%] [34m[1mGenerating C++ code from rslidar_msgs/rslidarScan.msg[0m
+[ 16%] [34m[1mGenerating Javascript code from rslidar_msgs/rslidarPacket.msg[0m
+[ 25%] [34m[1mGenerating C++ code from rslidar_msgs/rslidarPacket.msg[0m
+[ 33%] [34m[1mGenerating Lisp code from rslidar_msgs/rslidarScan.msg[0m
+[ 41%] [34m[1mGenerating Lisp code from rslidar_msgs/rslidarPacket.msg[0m
+[ 50%] [34m[1mGenerating EusLisp code from rslidar_msgs/rslidarScan.msg[0m
+[ 58%] [34m[1mGenerating Python from MSG rslidar_msgs/rslidarPacket[0m
+[ 66%] [34m[1mGenerating EusLisp code from rslidar_msgs/rslidarPacket.msg[0m
+[ 75%] [34m[1mGenerating Javascript code from rslidar_msgs/rslidarScan.msg[0m
+[ 83%] [34m[1mGenerating Python from MSG rslidar_msgs/rslidarScan[0m
+[ 91%] [34m[1mGenerating EusLisp manifest code for rslidar_msgs[0m
+[ 91%] Built target rslidar_msgs_generate_messages_lisp
+[ 91%] Built target rslidar_msgs_generate_messages_cpp
+[ 91%] Built target rslidar_msgs_generate_messages_nodejs
+[100%] [34m[1mGenerating Python msg __init__.py for rslidar_msgs[0m
+[100%] Built target rslidar_msgs_generate_messages_py
+[100%] Built target rslidar_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rslidar_msgs_generate_messages[0m
+[100%] Built target rslidar_msgs_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target _rslidar_msgs_generate_messages_check_deps_rslidarPacket
+[  0%] Built target _rslidar_msgs_generate_messages_check_deps_rslidarScan
+[  0%] Built target std_msgs_generate_messages_eus
+[ 25%] Built target rslidar_msgs_generate_messages_eus
+[ 25%] Built target std_msgs_generate_messages_py
+[ 50%] Built target rslidar_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 66%] Built target rslidar_msgs_generate_messages_lisp
+[ 66%] Built target std_msgs_generate_messages_nodejs
+[ 83%] Built target rslidar_msgs_generate_messages_nodejs
+[ 83%] Built target std_msgs_generate_messages_cpp
+[100%] Built target rslidar_msgs_generate_messages_cpp
+[100%] Built target rslidar_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/rslidar_msgs/msg/rslidarPacket.msg
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/rslidar_msgs/msg/rslidarScan.msg
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/rslidar_msgs/cmake/rslidar_msgs-msg-paths.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/include/rslidar_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/include/rslidar_msgs/rslidarPacket.h
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/include/rslidar_msgs/rslidarScan.h
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/roseus/ros/rslidar_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/roseus/ros/rslidar_msgs/manifest.l
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/roseus/ros/rslidar_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/roseus/ros/rslidar_msgs/msg/rslidarPacket.l
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/roseus/ros/rslidar_msgs/msg/rslidarScan.l
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs/msg/rslidarPacket.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs/msg/rslidar_msgs-msg.asd
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs/msg/_package.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs/msg/rslidarScan.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs/msg/_package_rslidarScan.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/common-lisp/ros/rslidar_msgs/msg/_package_rslidarPacket.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/gennodejs/ros/rslidar_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/gennodejs/ros/rslidar_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/gennodejs/ros/rslidar_msgs/msg/rslidarPacket.js
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/gennodejs/ros/rslidar_msgs/msg/rslidarScan.js
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/gennodejs/ros/rslidar_msgs/msg/_index.js
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/gennodejs/ros/rslidar_msgs/_index.js
+Listing /home/daisuke/Autoware/ros/build/rslidar_msgs/devel/lib/python2.7/dist-packages/rslidar_msgs ...
+Compiling /home/daisuke/Autoware/ros/build/rslidar_msgs/devel/lib/python2.7/dist-packages/rslidar_msgs/__init__.py ...
+Listing /home/daisuke/Autoware/ros/build/rslidar_msgs/devel/lib/python2.7/dist-packages/rslidar_msgs/msg ...
+Compiling /home/daisuke/Autoware/ros/build/rslidar_msgs/devel/lib/python2.7/dist-packages/rslidar_msgs/msg/__init__.py ...
+Compiling /home/daisuke/Autoware/ros/build/rslidar_msgs/devel/lib/python2.7/dist-packages/rslidar_msgs/msg/_rslidarPacket.py ...
+Compiling /home/daisuke/Autoware/ros/build/rslidar_msgs/devel/lib/python2.7/dist-packages/rslidar_msgs/msg/_rslidarScan.py ...
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/__init__.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/__init__.py
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/msg/_rslidarScan.py
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/msg/_rslidarPacket.py
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/msg/__init__.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/msg/__init__.py
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/msg/_rslidarScan.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/python2.7/dist-packages/rslidar_msgs/msg/_rslidarPacket.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/lib/pkgconfig/rslidar_msgs.pc
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/rslidar_msgs/cmake/rslidar_msgs-msg-extras.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/rslidar_msgs/cmake/rslidar_msgsConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/rslidar_msgs/cmake/rslidar_msgsConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/rslidar_msgs/share/rslidar_msgs/package.xml

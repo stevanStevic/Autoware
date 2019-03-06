@@ -1,0 +1,7 @@
+[01m[K/home/daisuke/Autoware/ros/src/util/packages/data_preprocessor/nodes/get_Depth/get_Depth.cpp:[m[K In member function ‘[01m[Kvoid SaveDepth::create_depth()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/util/packages/data_preprocessor/nodes/get_Depth/get_Depth.cpp:169:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kw[m[K’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for (int w; w<width; w++){
+[01;32m[K            ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/util/packages/data_preprocessor/nodes/get_Depth/get_Depth.cpp:170:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kh[m[K’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     for (int h; h<height; h++){
+[01;32m[K              ^[m[K

@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/microstrain_driver/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/microstrain_driver/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/microstrain_driver
+[35m[1mScanning dependencies of target microstrain_driver[0m
+[  5%] [32mBuilding CXX object CMakeFiles/microstrain_driver.dir/src/microstrain.cpp.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/src/mip_sdk_user_functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_system.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_ahrs.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_gps.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_filter.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/ring_buffer.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Utilities/Source/byteswap_utilities.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_3dm.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_inteface.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_base.c.o[0m
+[ 76%] [32m[1mLinking CXX shared library devel/lib/libmicrostrain_driver.so[0m
+[ 76%] Built target microstrain_driver
+[35m[1mScanning dependencies of target 3dm_gx5_15_node[0m
+[35m[1mScanning dependencies of target 3dm_gx5_45_node[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/3dm_gx5_15_node.dir/src/3dm_gx5_15_node.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/3dm_gx5_45_node.dir/src/3dm_gx5_45_node.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable devel/lib/microstrain_driver/3dm_gx5_15_node[0m
+[ 94%] Built target 3dm_gx5_15_node
+[100%] [32m[1mLinking CXX executable devel/lib/microstrain_driver/3dm_gx5_45_node[0m
+[100%] Built target 3dm_gx5_45_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 76%] Built target microstrain_driver
+[ 88%] Built target 3dm_gx5_45_node
+[100%] Built target 3dm_gx5_15_node
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/lib/pkgconfig/microstrain_driver.pc
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/share/microstrain_driver/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/lib/libmicrostrain_driver.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/microstrain_driver/lib/libmicrostrain_driver.so" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/share/microstrain_driver/launch
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/share/microstrain_driver/launch/3dm_gx5_15.launch
+-- Installing: /home/daisuke/Autoware/ros/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch

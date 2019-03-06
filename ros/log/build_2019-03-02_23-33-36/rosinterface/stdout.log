@@ -1,0 +1,33 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/rosinterface/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/rosinterface/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/rosinterface
+[ 16%] [34m[1mAutomatic moc for target rosinterface[0m
+[ 16%] Built target rosinterface_automoc
+[100%] Built target rosinterface
+Built target tests
+[ 16%] [34m[1mAutomatic moc for target rosinterface[0m
+[ 16%] Built target rosinterface_automoc
+[100%] Built target rosinterface
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/rosinterface/lib/pkgconfig/rosinterface.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rosinterface/share/rosinterface/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rosinterface/include/rosinterface
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rosinterface/include/rosinterface/rosinterface.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/rosinterface/lib/librosinterface.so

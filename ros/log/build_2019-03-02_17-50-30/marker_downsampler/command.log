@@ -1,0 +1,8 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/marker_downsampler': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/marker_downsampler
+Invoked command in '/home/daisuke/Autoware/ros/build/marker_downsampler' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/marker_downsampler
+Invoking command in '/home/daisuke/Autoware/ros/build/marker_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/marker_downsampler -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/marker_downsampler -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/marker_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/marker_downsampler --target tests -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/marker_downsampler --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/marker_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/marker_downsampler --target install
+Invoked command in '/home/daisuke/Autoware/ros/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/marker_downsampler --target install

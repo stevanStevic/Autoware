@@ -1,0 +1,455 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/lidar_euclidean_cluster_detect/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/lidar_euclidean_cluster_detect/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Try OpenMP C flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Try OpenMP CXX flag = [-fopenmp]
+-- Performing Test OpenMP_FLAG_DETECTED
+-- Performing Test OpenMP_FLAG_DETECTED - Success
+-- Found OpenMP: -fopenmp  
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'yaml-cpp'
+--   Found yaml-cpp, version 0.5.2
+-- Found CUDA: /usr/local/cuda-9.2 (found version "9.2") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/lidar_euclidean_cluster_detect
+[ 20%] [34m[1mBuilding NVCC (Device) object CMakeFiles/gpu_euclidean_clustering.dir/nodes/lidar_euclidean_cluster_detect/gpu_euclidean_clustering_generated_gpu_euclidean_clustering.cu.o[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[ 20%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[ 20%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[ 20%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[ 20%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[ 20%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[ 20%] Built target vector_map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[ 20%] Built target vector_map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[ 20%] Built target vector_map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_nodejs[0m
+[ 20%] Built target vector_map_server_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_lisp[0m
+[ 20%] Built target vector_map_server_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[ 20%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[ 20%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[ 20%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_nodejs[0m
+[ 20%] Built target grid_map_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[ 20%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[ 20%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[ 20%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[ 20%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[ 20%] Built target vector_map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[ 20%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[ 20%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[ 20%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[ 20%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[ 20%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target gpu_euclidean_clustering[0m
+[ 40%] [32m[1mLinking CXX shared library devel/lib/libgpu_euclidean_clustering.so[0m
+[ 40%] Built target gpu_euclidean_clustering
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[ 40%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[ 40%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[ 40%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[ 40%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[ 40%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[ 40%] Built target jsk_footstep_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[ 40%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[ 40%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[ 40%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[ 40%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[ 40%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[ 40%] Built target autoware_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[ 40%] Built target jsk_recognition_msgs_generate_messages_py
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_eus[0m
+[ 40%] Built target grid_map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[ 40%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[ 40%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 40%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 40%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 40%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[ 40%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[ 40%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[ 40%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[ 40%] Built target autoware_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 40%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[ 40%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 40%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 40%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[ 40%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[ 40%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 40%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 40%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[ 40%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[ 40%] Built target autoware_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[ 40%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[ 40%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[ 40%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[ 40%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[ 40%] Built target vector_map_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[ 40%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[ 40%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_cpp[0m
+[ 40%] Built target vector_map_server_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[ 40%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 40%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[ 40%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 40%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[ 40%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 40%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_cpp[0m
+[ 40%] Built target grid_map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[ 40%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 40%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[ 40%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[ 40%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 40%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 40%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[ 40%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 40%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[ 40%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[ 40%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[ 40%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[ 40%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[ 40%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[ 40%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_py[0m
+[ 40%] Built target vector_map_server_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[ 40%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[ 40%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[ 40%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_eus[0m
+[ 40%] Built target vector_map_server_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[ 40%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[ 40%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[ 40%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[ 40%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[ 40%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[ 40%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[ 40%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[ 40%] Built target nodelet_topic_tools_gencfg
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[ 40%] Built target autoware_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[ 40%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[ 40%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[ 40%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[ 40%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[ 40%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[ 40%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[ 40%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 40%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[ 40%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[ 40%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_lisp[0m
+[ 40%] Built target grid_map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_py[0m
+[ 40%] Built target grid_map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[ 40%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[ 40%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[ 40%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target lidar_euclidean_cluster_detect[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/lidar_euclidean_cluster_detect.dir/nodes/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/lidar_euclidean_cluster_detect.dir/nodes/lidar_euclidean_cluster_detect/cluster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect[0m
+[100%] Built target lidar_euclidean_cluster_detect
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/lidar_euclidean_cluster_detect/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/vector_map_server;/home/daisuke/Autoware/ros/install/vector_map;/home/daisuke/Autoware/ros/install/vector_map_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/lidar_euclidean_cluster_detect/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/lidar_euclidean_cluster_detect
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 20%] [32m[1mLinking CXX shared library devel/lib/libgpu_euclidean_clustering.so[0m
+[ 40%] Built target gpu_euclidean_clustering
+[ 40%] Built target tf2_msgs_generate_messages_cpp
+[ 40%] Built target nav_msgs_generate_messages_py
+[ 40%] Built target nav_msgs_generate_messages_nodejs
+[ 40%] Built target nav_msgs_generate_messages_lisp
+[ 40%] Built target grid_map_msgs_generate_messages_py
+[ 40%] Built target grid_map_msgs_generate_messages_lisp
+[ 40%] Built target visualization_msgs_generate_messages_py
+[ 40%] Built target visualization_msgs_generate_messages_nodejs
+[ 40%] Built target visualization_msgs_generate_messages_lisp
+[ 40%] Built target visualization_msgs_generate_messages_cpp
+[ 40%] Built target vector_map_msgs_generate_messages_py
+[ 40%] Built target vector_map_msgs_generate_messages_lisp
+[ 40%] Built target vector_map_msgs_generate_messages_cpp
+[ 40%] Built target vector_map_server_generate_messages_nodejs
+[ 40%] Built target vector_map_server_generate_messages_lisp
+[ 40%] Built target tf2_msgs_generate_messages_py
+[ 40%] Built target tf2_msgs_generate_messages_nodejs
+[ 40%] Built target nav_msgs_generate_messages_cpp
+[ 40%] Built target grid_map_msgs_generate_messages_nodejs
+[ 40%] Built target tf2_msgs_generate_messages_lisp
+[ 40%] Built target actionlib_msgs_generate_messages_lisp
+[ 40%] Built target autoware_msgs_generate_messages_py
+[ 40%] Built target std_srvs_generate_messages_eus
+[ 40%] Built target vector_map_msgs_generate_messages_eus
+[ 40%] Built target tf_generate_messages_cpp
+[ 40%] Built target actionlib_msgs_generate_messages_eus
+[ 40%] Built target jsk_footstep_msgs_generate_messages_py
+[ 40%] Built target actionlib_generate_messages_lisp
+[ 40%] Built target actionlib_msgs_generate_messages_cpp
+[ 40%] Built target sensor_msgs_generate_messages_eus
+[ 40%] Built target actionlib_generate_messages_nodejs
+[ 40%] Built target actionlib_msgs_generate_messages_nodejs
+[ 40%] Built target topic_tools_generate_messages_py
+[ 40%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 40%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 40%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 40%] Built target pcl_msgs_generate_messages_nodejs
+[ 40%] Built target std_srvs_generate_messages_nodejs
+[ 40%] Built target std_srvs_generate_messages_lisp
+[ 40%] Built target pcl_msgs_generate_messages_eus
+[ 40%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 40%] Built target autoware_msgs_generate_messages_lisp
+[ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[ 40%] Built target jsk_recognition_msgs_generate_messages_py
+[ 40%] Built target grid_map_msgs_generate_messages_eus
+[ 40%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 40%] Built target actionlib_msgs_generate_messages_py
+[ 40%] Built target std_msgs_generate_messages_nodejs
+[ 40%] Built target geometry_msgs_generate_messages_lisp
+[ 40%] Built target geometry_msgs_generate_messages_py
+[ 40%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 40%] Built target pcl_msgs_generate_messages_lisp
+[ 40%] Built target bond_generate_messages_py
+[ 40%] Built target autoware_msgs_generate_messages_eus
+[ 40%] Built target std_msgs_generate_messages_lisp
+[ 40%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 40%] Built target geometry_msgs_generate_messages_eus
+[ 40%] Built target geometry_msgs_generate_messages_nodejs
+[ 40%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 40%] Built target sensor_msgs_generate_messages_cpp
+[ 40%] Built target geometry_msgs_generate_messages_cpp
+[ 40%] Built target std_msgs_generate_messages_cpp
+[ 40%] Built target sensor_msgs_generate_messages_nodejs
+[ 40%] Built target autoware_msgs_generate_messages_cpp
+[ 40%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 40%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 40%] Built target actionlib_generate_messages_py
+[ 40%] Built target dynamic_reconfigure_generate_messages_py
+[ 40%] Built target vector_map_msgs_generate_messages_nodejs
+[ 40%] Built target dynamic_reconfigure_gencfg
+[ 40%] Built target roscpp_generate_messages_cpp
+[ 40%] Built target vector_map_server_generate_messages_cpp
+[ 40%] Built target nodelet_generate_messages_py
+[ 40%] Built target roscpp_generate_messages_eus
+[ 40%] Built target bond_generate_messages_eus
+[ 40%] Built target roscpp_generate_messages_lisp
+[ 40%] Built target sensor_msgs_generate_messages_py
+[ 40%] Built target roscpp_generate_messages_nodejs
+[ 40%] Built target grid_map_msgs_generate_messages_cpp
+[ 40%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 40%] Built target roscpp_generate_messages_py
+[ 40%] Built target std_srvs_generate_messages_py
+[ 40%] Built target tf_generate_messages_nodejs
+[ 40%] Built target std_msgs_generate_messages_py
+[ 40%] Built target rosgraph_msgs_generate_messages_eus
+[ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 40%] Built target actionlib_generate_messages_cpp
+[ 40%] Built target rosgraph_msgs_generate_messages_py
+[ 40%] Built target tf_generate_messages_lisp
+[ 40%] Built target nodelet_generate_messages_cpp
+[ 40%] Built target nav_msgs_generate_messages_eus
+[ 40%] Built target pcl_ros_gencfg
+[ 40%] Built target tf2_msgs_generate_messages_eus
+[ 40%] Built target visualization_msgs_generate_messages_eus
+[ 40%] Built target vector_map_server_generate_messages_py
+[ 40%] Built target pcl_msgs_generate_messages_py
+[ 40%] Built target dynamic_reconfigure_generate_messages_eus
+[ 40%] Built target bond_generate_messages_nodejs
+[ 40%] Built target vector_map_server_generate_messages_eus
+[ 40%] Built target nodelet_generate_messages_lisp
+[ 40%] Built target nodelet_generate_messages_nodejs
+[ 40%] Built target bond_generate_messages_cpp
+[ 40%] Built target bond_generate_messages_lisp
+[ 40%] Built target nodelet_generate_messages_eus
+[ 40%] Built target topic_tools_generate_messages_cpp
+[ 40%] Built target topic_tools_generate_messages_eus
+[ 40%] Built target nodelet_topic_tools_gencfg
+[ 40%] Built target autoware_msgs_generate_messages_nodejs
+[ 40%] Built target pcl_msgs_generate_messages_cpp
+[ 40%] Built target std_srvs_generate_messages_cpp
+[ 40%] Built target topic_tools_generate_messages_lisp
+[ 40%] Built target sensor_msgs_generate_messages_lisp
+[ 40%] Built target topic_tools_generate_messages_nodejs
+[ 40%] Built target tf_generate_messages_eus
+[ 40%] Built target tf_generate_messages_py
+[ 40%] Built target std_msgs_generate_messages_eus
+[ 40%] Built target actionlib_generate_messages_eus
+[ 60%] [32m[1mLinking CXX executable devel/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect[0m
+[100%] Built target lidar_euclidean_cluster_detect
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/lib/pkgconfig/lidar_euclidean_cluster_detect.pc
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/cmake/lidar_euclidean_cluster_detectConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/cmake/lidar_euclidean_cluster_detectConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/lib/libgpu_euclidean_clustering.so
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/gpu_euclidean_clustering.h
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/cluster.h
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/gencolors.cpp
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/euclidean_clustering_Exp.launch
+-- Installing: /home/daisuke/Autoware/ros/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/lidar_euclidean_cluster_detect.launch

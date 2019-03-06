@@ -1,0 +1,137 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs': /usr/bin/cmake /home/daisuke/Autoware/ros/src/socket/packages/tablet_socket_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/tablet_socket_msgs
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/tablet_socket_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/tablet_socket_msgs/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- tablet_socket_msgs: 6 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/tablet_socket_msgs
+Invoked command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/socket/packages/tablet_socket_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/tablet_socket_msgs
+Invoking command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/tablet_socket_msgs -- -j8 -l8
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_error_info
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_route_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_info
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_Waypoint
+[ 18%] Built target tablet_socket_msgs_generate_messages_nodejs
+[ 40%] Built target tablet_socket_msgs_generate_messages_py
+[ 59%] Built target tablet_socket_msgs_generate_messages_cpp
+[ 78%] Built target tablet_socket_msgs_generate_messages_lisp
+[100%] Built target tablet_socket_msgs_generate_messages_eus
+[100%] Built target tablet_socket_msgs_generate_messages
+Invoked command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/tablet_socket_msgs -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/tablet_socket_msgs --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/tablet_socket_msgs --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/tablet_socket_msgs --target install
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_Waypoint
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_info
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_route_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_error_info
+[ 18%] Built target tablet_socket_msgs_generate_messages_cpp
+[ 18%] Built target std_msgs_generate_messages_eus
+[ 40%] Built target tablet_socket_msgs_generate_messages_eus
+[ 40%] Built target std_msgs_generate_messages_nodejs
+[ 59%] Built target tablet_socket_msgs_generate_messages_nodejs
+[ 59%] Built target std_msgs_generate_messages_lisp
+[ 78%] Built target tablet_socket_msgs_generate_messages_lisp
+[ 78%] Built target std_msgs_generate_messages_py
+[100%] Built target tablet_socket_msgs_generate_messages_py
+[100%] Built target tablet_socket_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/Waypoint.msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/error_info.msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/gear_cmd.msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/mode_cmd.msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/mode_info.msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/route_cmd.msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgs-msg-paths.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/include/tablet_socket_msgs
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/include/tablet_socket_msgs/Waypoint.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/include/tablet_socket_msgs/mode_info.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/include/tablet_socket_msgs/mode_cmd.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/include/tablet_socket_msgs/gear_cmd.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/include/tablet_socket_msgs/route_cmd.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/include/tablet_socket_msgs/error_info.h
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/manifest.l
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/gear_cmd.l
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/mode_cmd.l
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/route_cmd.l
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/Waypoint.l
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/error_info.l
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/mode_info.l
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_route_cmd.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_Waypoint.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/error_info.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_mode_cmd.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/Waypoint.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/mode_info.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_error_info.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/route_cmd.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_mode_info.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_gear_cmd.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/tablet_socket_msgs-msg.asd
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/gear_cmd.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/mode_cmd.lisp
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/gear_cmd.js
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/error_info.js
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/route_cmd.js
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/Waypoint.js
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/mode_info.js
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/mode_cmd.js
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/_index.js
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/_index.js
+Listing /home/daisuke/Autoware/ros/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs ...
+Listing /home/daisuke/Autoware/ros/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg ...
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.pyc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.py
+-- Installing: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig/tablet_socket_msgs.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgs-msg-extras.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgsConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgsConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/tablet_socket_msgs/share/tablet_socket_msgs/package.xml
+Invoked command in '/home/daisuke/Autoware/ros/build/tablet_socket_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/tablet_socket_msgs --target install

@@ -1,0 +1,18 @@
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip.c:[m[K In function ‘[01m[Kmip_add_field[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip.c:189:3:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kmemcpy[m[K’ [-Wimplicit-function-declaration]
+   memcpy(field_data_ptr, field_data, data_size);
+
+[01;32m[K   ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip.c:189:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kmemcpy[m[K’
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip.c:189:3:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<string.h>[m[K’ or provide a declaration of ‘[01m[Kmemcpy[m[K’
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip.c:[m[K In function ‘[01m[Kmip_add_formatted_field[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip.c:250:2:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kmemcpy[m[K’
+  memcpy(field_location, field, field_header_ptr->size);
+
+[01;32m[K  ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip.c:250:2:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<string.h>[m[K’ or provide a declaration of ‘[01m[Kmemcpy[m[K’
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip_sdk_inteface.c:[m[K In function ‘[01m[K__mip_interface_command_response_handler[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/microstrain/MIPSDK/C/Library/Source/mip_sdk_inteface.c:755:49:[m[K [01;35m[Kwarning: [m[Kassignment from incompatible pointer type [-Wincompatible-pointer-types]
+    device_interface->command_response_data      = field_header_ptr;
+
+[01;32m[K                                                 ^[m[K

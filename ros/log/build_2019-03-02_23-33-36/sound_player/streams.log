@@ -1,0 +1,34 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/sound_player': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/sound_player -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/sound_player
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/sound_player/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/sound_player/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/sound_player
+Invoked command in '/home/daisuke/Autoware/ros/build/sound_player' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/sound_player -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/sound_player
+Invoking command in '/home/daisuke/Autoware/ros/build/sound_player': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sound_player -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/sound_player' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sound_player -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/sound_player': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sound_player --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/sound_player' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sound_player --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/sound_player': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sound_player --target install
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/sound_player/lib/pkgconfig/sound_player.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/sound_player/share/sound_player/cmake/sound_playerConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/sound_player/share/sound_player/cmake/sound_playerConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/sound_player/share/sound_player/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/sound_player/lib/sound_player/sound_player.py
+-- Up-to-date: /home/daisuke/Autoware/ros/install/sound_player/lib/sound_player/sound_player.yaml
+Invoked command in '/home/daisuke/Autoware/ros/build/sound_player' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/sound_player --target install

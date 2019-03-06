@@ -1,0 +1,322 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/roi_object_filter': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/detection/object_filter/packages/roi_object_filter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/roi_object_filter
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/roi_object_filter/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/roi_object_filter/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/roi_object_filter
+Invoked command in '/home/daisuke/Autoware/ros/build/roi_object_filter' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/computing/perception/detection/object_filter/packages/roi_object_filter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/roi_object_filter
+Invoking command in '/home/daisuke/Autoware/ros/build/roi_object_filter': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/roi_object_filter -- -j8 -l8
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target grid_map_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target grid_map_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target grid_map_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target grid_map_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target grid_map_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target roi_object_filter_lib[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/roi_object_filter_lib.dir/src/roi_object_filter.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library devel/lib/libroi_object_filter_lib.so[0m
+[ 50%] Built target roi_object_filter_lib
+[35m[1mScanning dependencies of target roi_object_filter[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/roi_object_filter.dir/src/roi_object_filter_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/roi_object_filter/roi_object_filter[0m
+[100%] Built target roi_object_filter
+Invoked command in '/home/daisuke/Autoware/ros/build/roi_object_filter' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/roi_object_filter -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/roi_object_filter': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/roi_object_filter --target tests -- -j8 -l8
+[ 33%] Built target gtest
+[ 33%] Built target visualization_msgs_generate_messages_py
+[ 33%] Built target std_srvs_generate_messages_lisp
+[ 33%] Built target pcl_msgs_generate_messages_nodejs
+[ 33%] Built target std_srvs_generate_messages_nodejs
+[ 33%] Built target autoware_msgs_generate_messages_lisp
+[ 33%] Built target pcl_msgs_generate_messages_eus
+[ 33%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[ 33%] Built target jsk_recognition_msgs_generate_messages_py
+[ 33%] Built target grid_map_msgs_generate_messages_lisp
+[ 33%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 33%] Built target std_srvs_generate_messages_eus
+[ 33%] Built target geometry_msgs_generate_messages_lisp
+[ 33%] Built target tf_generate_messages_cpp
+[ 33%] Built target geometry_msgs_generate_messages_py
+[ 33%] Built target std_msgs_generate_messages_nodejs
+[ 33%] Built target autoware_msgs_generate_messages_cpp
+[ 33%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 33%] Built target actionlib_msgs_generate_messages_cpp
+[ 33%] Built target actionlib_generate_messages_py
+[ 33%] Built target grid_map_msgs_generate_messages_eus
+[ 33%] Built target actionlib_generate_messages_nodejs
+[ 33%] Built target sensor_msgs_generate_messages_eus
+[ 33%] Built target std_msgs_generate_messages_cpp
+[ 33%] Built target geometry_msgs_generate_messages_cpp
+[ 33%] Built target geometry_msgs_generate_messages_eus
+[ 33%] Built target autoware_msgs_generate_messages_py
+[ 33%] Built target geometry_msgs_generate_messages_nodejs
+[ 33%] Built target autoware_msgs_generate_messages_eus
+[ 33%] Built target sensor_msgs_generate_messages_nodejs
+[ 33%] Built target std_msgs_generate_messages_lisp
+[ 33%] Built target sensor_msgs_generate_messages_py
+[ 33%] Built target roscpp_generate_messages_cpp
+[ 33%] Built target roscpp_generate_messages_eus
+[ 33%] Built target pcl_msgs_generate_messages_lisp
+[ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 33%] Built target roscpp_generate_messages_nodejs
+[ 33%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 33%] Built target actionlib_generate_messages_cpp
+[ 33%] Built target grid_map_msgs_generate_messages_cpp
+[ 33%] Built target roscpp_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_py
+[ 33%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 33%] Built target tf_generate_messages_lisp
+[ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[ 33%] Built target rosgraph_msgs_generate_messages_eus
+[ 33%] Built target nav_msgs_generate_messages_py
+[ 33%] Built target std_msgs_generate_messages_py
+[ 33%] Built target std_srvs_generate_messages_py
+[ 33%] Built target tf_generate_messages_nodejs
+[ 33%] Built target sensor_msgs_generate_messages_cpp
+[ 33%] Built target roscpp_generate_messages_lisp
+[ 33%] Built target jsk_footstep_msgs_generate_messages_py
+[ 33%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 33%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 33%] Built target visualization_msgs_generate_messages_nodejs
+[ 33%] Built target actionlib_generate_messages_lisp
+[ 33%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 33%] Built target actionlib_msgs_generate_messages_eus
+[ 33%] Built target tf2_msgs_generate_messages_py
+[ 33%] Built target actionlib_msgs_generate_messages_lisp
+[ 33%] Built target topic_tools_generate_messages_py
+[ 33%] Built target actionlib_msgs_generate_messages_nodejs
+[ 33%] Built target actionlib_msgs_generate_messages_py
+[ 33%] Built target nav_msgs_generate_messages_nodejs
+[ 33%] Built target grid_map_msgs_generate_messages_py
+[ 33%] Built target nav_msgs_generate_messages_lisp
+[ 33%] Built target visualization_msgs_generate_messages_lisp
+[ 33%] Built target autoware_msgs_generate_messages_nodejs
+[ 33%] Built target pcl_msgs_generate_messages_cpp
+[ 33%] Built target visualization_msgs_generate_messages_cpp
+[ 33%] Built target std_srvs_generate_messages_cpp
+[ 33%] Built target topic_tools_generate_messages_cpp
+[ 33%] Built target topic_tools_generate_messages_lisp
+[ 33%] Built target sensor_msgs_generate_messages_lisp
+[ 33%] Built target tf_generate_messages_eus
+[ 33%] Built target tf_generate_messages_py
+[ 33%] Built target topic_tools_generate_messages_nodejs
+[ 33%] Built target topic_tools_generate_messages_eus
+[ 33%] Built target std_msgs_generate_messages_eus
+[ 33%] Built target actionlib_generate_messages_eus
+[ 33%] Built target grid_map_msgs_generate_messages_nodejs
+[ 33%] Built target nav_msgs_generate_messages_eus
+[ 33%] Built target tf2_msgs_generate_messages_cpp
+[ 33%] Built target tf2_msgs_generate_messages_eus
+[ 33%] Built target tf2_msgs_generate_messages_lisp
+[ 33%] Built target nav_msgs_generate_messages_cpp
+[ 33%] Built target tf2_msgs_generate_messages_nodejs
+[ 33%] Built target visualization_msgs_generate_messages_eus
+[ 33%] Built target pcl_msgs_generate_messages_py
+[ 66%] Built target roi_object_filter_lib
+[35m[1mScanning dependencies of target test-roi_object_filter[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/test-roi_object_filter.dir/test/src/test_roi_object_filter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/roi_object_filter/test-roi_object_filter[0m
+[100%] Built target test-roi_object_filter
+[100%] Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/roi_object_filter' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/roi_object_filter --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/roi_object_filter': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/roi_object_filter --target install
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target grid_map_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target grid_map_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target grid_map_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target grid_map_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target grid_map_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[ 50%] Built target roi_object_filter_lib
+[100%] Built target roi_object_filter
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/roi_object_filter/lib/pkgconfig/roi_object_filter.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/roi_object_filter/share/roi_object_filter/cmake/roi_object_filterConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/roi_object_filter/share/roi_object_filter/cmake/roi_object_filterConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/roi_object_filter/share/roi_object_filter/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/roi_object_filter/lib/libroi_object_filter_lib.so
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/roi_object_filter/lib/libroi_object_filter_lib.so" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/roi_object_filter/lib/roi_object_filter/roi_object_filter
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/roi_object_filter/lib/roi_object_filter/roi_object_filter" to ""
+Invoked command in '/home/daisuke/Autoware/ros/build/roi_object_filter' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/roi_object_filter --target install

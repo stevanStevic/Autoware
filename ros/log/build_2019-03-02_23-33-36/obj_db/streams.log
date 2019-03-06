@@ -1,0 +1,105 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/obj_db': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/data/packages/obj_db -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/obj_db
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/obj_db/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/gnss;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/gnss;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/obj_db/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/obj_db
+Invoked command in '/home/daisuke/Autoware/ros/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/data/packages/obj_db -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/obj_db
+Invoking command in '/home/daisuke/Autoware/ros/build/obj_db': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/obj_db -- -j8 -l8
+[ 33%] Built target obj_db
+[ 33%] Built target std_msgs_generate_messages_eus
+[ 33%] Built target roscpp_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_eus
+[ 33%] Built target visualization_msgs_generate_messages_py
+[ 33%] Built target geometry_msgs_generate_messages_nodejs
+[ 33%] Built target std_msgs_generate_messages_nodejs
+[ 33%] Built target geometry_msgs_generate_messages_eus
+[ 33%] Built target roscpp_generate_messages_cpp
+[ 33%] Built target visualization_msgs_generate_messages_lisp
+[ 33%] Built target roscpp_generate_messages_eus
+[ 33%] Built target geometry_msgs_generate_messages_lisp
+[ 33%] Built target std_msgs_generate_messages_lisp
+[ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[ 33%] Built target visualization_msgs_generate_messages_eus
+[ 33%] Built target std_msgs_generate_messages_cpp
+[ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[ 33%] Built target autoware_can_msgs_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 33%] Built target visualization_msgs_generate_messages_cpp
+[ 33%] Built target roscpp_generate_messages_nodejs
+[ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[ 33%] Built target rosgraph_msgs_generate_messages_py
+[ 33%] Built target std_msgs_generate_messages_py
+[ 33%] Built target roscpp_generate_messages_lisp
+[ 55%] Built target obj_uploader
+[ 77%] Built target obj_downloader
+[ 77%] Built target visualization_msgs_generate_messages_nodejs
+[ 77%] Built target geometry_msgs_generate_messages_cpp
+[ 77%] Built target geometry_msgs_generate_messages_py
+[ 77%] Built target autoware_can_msgs_generate_messages_eus
+[ 77%] Built target autoware_can_msgs_generate_messages_nodejs
+[100%] Built target can_uploader
+Invoked command in '/home/daisuke/Autoware/ros/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/obj_db -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/obj_db': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/obj_db --target tests -- -j8 -l8
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/obj_db --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/obj_db': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/obj_db --target install
+[  0%] Built target std_msgs_generate_messages_eus
+[ 33%] Built target obj_db
+[ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[ 33%] Built target autoware_can_msgs_generate_messages_eus
+[ 33%] Built target geometry_msgs_generate_messages_py
+[ 33%] Built target geometry_msgs_generate_messages_cpp
+[ 33%] Built target visualization_msgs_generate_messages_nodejs
+[ 33%] Built target roscpp_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_eus
+[ 33%] Built target geometry_msgs_generate_messages_nodejs
+[ 33%] Built target visualization_msgs_generate_messages_py
+[ 33%] Built target std_msgs_generate_messages_nodejs
+[ 33%] Built target geometry_msgs_generate_messages_eus
+[ 33%] Built target roscpp_generate_messages_cpp
+[ 33%] Built target visualization_msgs_generate_messages_lisp
+[ 33%] Built target roscpp_generate_messages_eus
+[ 33%] Built target geometry_msgs_generate_messages_lisp
+[ 33%] Built target std_msgs_generate_messages_lisp
+[ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[ 33%] Built target visualization_msgs_generate_messages_eus
+[ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[ 33%] Built target std_msgs_generate_messages_cpp
+[ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 33%] Built target autoware_can_msgs_generate_messages_py
+[ 33%] Built target visualization_msgs_generate_messages_cpp
+[ 33%] Built target roscpp_generate_messages_nodejs
+[ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[ 33%] Built target rosgraph_msgs_generate_messages_py
+[ 33%] Built target std_msgs_generate_messages_py
+[ 33%] Built target roscpp_generate_messages_lisp
+[ 55%] Built target can_uploader
+[ 77%] Built target obj_uploader
+[100%] Built target obj_downloader
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/obj_db/lib/pkgconfig/obj_db.pc
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/share/obj_db/cmake/obj_dbConfig.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/share/obj_db/cmake/obj_dbConfig-version.cmake
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/share/obj_db/package.xml
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/lib/obj_db/can_uploader
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/lib/obj_db/obj_uploader
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/lib/libobj_db.so
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/lib/obj_db/obj_downloader
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/include/obj_db/include
+-- Up-to-date: /home/daisuke/Autoware/ros/install/obj_db/include/obj_db/include/obj_db.h
+Invoked command in '/home/daisuke/Autoware/ros/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/gnss:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/daisuke/Autoware/ros/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/gnss/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/gnss/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/obj_db --target install

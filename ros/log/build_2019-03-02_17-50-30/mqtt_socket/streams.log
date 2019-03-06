@@ -1,0 +1,305 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/mqtt_socket': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/mqtt_socket
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/mqtt_socket/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/daisuke/Autoware/ros/install/tablet_socket_msgs;/home/daisuke/Autoware/ros/install/autoware_msgs;/home/daisuke/Autoware/ros/install/autoware_can_msgs;/home/daisuke/Autoware/ros/install/autoware_build_flags;/opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/mqtt_socket/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/mqtt_socket
+Invoked command in '/home/daisuke/Autoware/ros/build/mqtt_socket' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/mqtt_socket
+Invoking command in '/home/daisuke/Autoware/ros/build/mqtt_socket': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/mqtt_socket -- -j8 -l8
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[  0%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_can_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[  0%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[  0%] Built target autoware_can_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_can_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_can_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target mqtt_receiver[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mqtt_receiver.dir/nodes/mqtt_receiver/mqtt_receiver.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable devel/lib/mqtt_socket/mqtt_receiver[0m
+[ 50%] Built target mqtt_receiver
+[35m[1mScanning dependencies of target mqtt_sender[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mqtt_sender.dir/nodes/mqtt_sender/mqtt_sender.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/mqtt_socket/mqtt_sender[0m
+[100%] Built target mqtt_sender
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:[m[K In constructor ‘[01m[KMqttReceiver::MqttReceiver()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:84:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kret[m[K’ set but not used [-Wunused-but-set-variable]
+   int ret = mosquitto_loop(mqtt_client, -1, 1);
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:[m[K In destructor ‘[01m[KMqttReceiver::~MqttReceiver()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:90:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_loop_stop(mqtt_client, 1);
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:[m[K At global scope:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:95:83:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::on_connect(mosquitto*, void*, int)[m[K’ to have static linkage [-fpermissive]
+ ic void MqttReceiver::on_connect(struct mosquitto *mosq, void *obj, int result)
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:101:82:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::on_disconnect(mosquitto*, void*, int)[m[K’ to have static linkage [-fpermissive]
+ tic void MqttReceiver::on_disconnect(struct mosquitto *mosq, void *obj, int rc)
+[01;32m[K                                                                               ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:106:39:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::load_config()[m[K’ to have static linkage [-fpermissive]
+ static void MqttReceiver::load_config()
+[01;32m[K                                       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:133:112:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttReceiver::on_message(mosquitto*, void*, const mosquitto_message*)[m[K’ to have static linkage [-fpermissive]
+ age(struct mosquitto *mosq, void *obj, const struct mosquitto_message *message)
+[01;32m[K                                                                               ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_receiver/mqtt_receiver.cpp:41:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:18:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcaninfo_downsample[m[K’ defined but not used [-Wunused-variable]
+ static float caninfo_downsample;
+[01;32m[K              ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:143:37:[m[K [01;35m[Kwarning: [m[Kcannot declare member function ‘[01m[Kstatic void MqttSender::load_config()[m[K’ to have static linkage [-fpermissive]
+ static void MqttSender::load_config()
+[01;32m[K                                     ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::targetVelocityArrayCallback(const Float64MultiArray&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:176:20:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < sizeof(msg.data); i++) {
+[01;32m[K                    ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:181:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::twistCmdCallback(const TwistStamped&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:201:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::stateCallback(const String&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:216:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::currentPoseCallback(const PoseStamped&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:240:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+   int ret = mosquitto_publish(
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::modeInfoCallback(const mode_info&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:259:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+     int ret = mosquitto_publish(
+[01;32m[K         ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:[m[K In member function ‘[01m[Kvoid MqttSender::canInfoCallback(const CANInfoConstPtr&)[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:345:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [-Wunused-variable]
+     int ret = mosquitto_publish(
+[01;32m[K         ^[m[K
+In file included from [01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/nodes/mqtt_sender/mqtt_sender.cpp:45:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:[m[K At global scope:
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:12:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kaccel_max_val[m[K’ defined but not used [-Wunused-variable]
+ static int accel_max_val;
+[01;32m[K            ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:13:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbrake_max_val[m[K’ defined but not used [-Wunused-variable]
+ static int brake_max_val;
+[01;32m[K            ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:14:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksteer_max_val[m[K’ defined but not used [-Wunused-variable]
+ static float steer_max_val;
+[01;32m[K              ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/socket/packages/mqtt_socket/include/mqtt_socket/mqtt_setting.hpp:15:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klinear_x_max_val[m[K’ defined but not used [-Wunused-variable]
+ static float linear_x_max_val;
+[01;32m[K              ^[m[K
+Invoked command in '/home/daisuke/Autoware/ros/build/mqtt_socket' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/mqtt_socket -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/mqtt_socket': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/mqtt_socket --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/mqtt_socket' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/mqtt_socket --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/mqtt_socket': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/mqtt_socket --target install
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target autoware_can_msgs_generate_messages_lisp
+[  0%] Built target autoware_can_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target autoware_can_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 50%] Built target mqtt_receiver
+[100%] Built target mqtt_sender
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/mqtt_socket/lib/pkgconfig/mqtt_socket.pc
+-- Installing: /home/daisuke/Autoware/ros/install/mqtt_socket/share/mqtt_socket/cmake/mqtt_socketConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/mqtt_socket/share/mqtt_socket/cmake/mqtt_socketConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/mqtt_socket/share/mqtt_socket/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/mqtt_socket/lib/mqtt_socket/mqtt_receiver
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/mqtt_socket/lib/mqtt_socket/mqtt_receiver" to ""
+-- Installing: /home/daisuke/Autoware/ros/install/mqtt_socket/lib/mqtt_socket/mqtt_sender
+-- Set runtime path of "/home/daisuke/Autoware/ros/install/mqtt_socket/lib/mqtt_socket/mqtt_sender" to ""
+Invoked command in '/home/daisuke/Autoware/ros/build/mqtt_socket' returned '0': CMAKE_PREFIX_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs:/home/daisuke/Autoware/ros/install/autoware_msgs:/home/daisuke/Autoware/ros/install/autoware_can_msgs:/home/daisuke/Autoware/ros/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/pkgconfig:/home/daisuke/Autoware/ros/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_msgs/lib/python2.7/dist-packages:/home/daisuke/Autoware/ros/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/daisuke/Autoware/ros/install/tablet_socket_msgs/share:/home/daisuke/Autoware/ros/install/autoware_msgs/share:/home/daisuke/Autoware/ros/install/autoware_can_msgs/share:/home/daisuke/Autoware/ros/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/mqtt_socket --target install

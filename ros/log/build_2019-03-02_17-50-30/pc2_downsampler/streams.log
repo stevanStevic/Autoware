@@ -1,0 +1,57 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/pc2_downsampler -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/pc2_downsampler
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/pc2_downsampler/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/pc2_downsampler/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/pc2_downsampler
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/util/packages/pc2_downsampler -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/pc2_downsampler
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler -- -j8 -l8
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/pc2_downsampler': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target install
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/pc2_downsampler/lib/pkgconfig/pc2_downsampler.pc
+-- Installing: /home/daisuke/Autoware/ros/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/pc2_downsampler/share/pc2_downsampler/package.xml
+-- Installing: /home/daisuke/Autoware/ros/install/pc2_downsampler/lib/pc2_downsampler/app.py
+Invoked command in '/home/daisuke/Autoware/ros/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/pc2_downsampler --target install

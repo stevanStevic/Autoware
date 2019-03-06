@@ -1,0 +1,319 @@
+Invoking command in '/home/daisuke/Autoware/ros/build/custom_msgs': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/xsens/src/custom_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/custom_msgs
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/daisuke/Autoware/ros/build/custom_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /home/daisuke/Autoware/ros/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /home/daisuke/pyenv/shims/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /home/daisuke/pyenv/shims/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/daisuke/Autoware/ros/build/custom_msgs/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- custom_msgs: 11 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daisuke/Autoware/ros/build/custom_msgs
+Invoked command in '/home/daisuke/Autoware/ros/build/custom_msgs' returned '0': /usr/bin/cmake /home/daisuke/Autoware/ros/src/sensing/drivers/imu/packages/xsens/src/custom_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_LIBRARY_PATH=/usr/local/cuda/lib64/stubs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daisuke/Autoware/ros/install/custom_msgs
+Invoking command in '/home/daisuke/Autoware/ros/build/custom_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/custom_msgs -- -j8 -l8
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_orientationEstimate[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_orientationEstimate
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_gnssSample[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_gnssSample
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_positionEstimate[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_positionEstimate
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_ImuSensorSample[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_ImuSensorSample
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_baroSample[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_baroSample
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_GnssSensorSample[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_GnssSensorSample
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_Internal[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_Internal
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_sensorSample[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_sensorSample
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_XsensQuaternion[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_XsensQuaternion
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_BaroSensorSample[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_BaroSensorSample
+[35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_velocityEstimate[0m
+[  0%] Built target _custom_msgs_generate_messages_check_deps_velocityEstimate
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target custom_msgs_generate_messages_eus[0m
+[  1%] [34m[1mGenerating EusLisp code from custom_msgs/Internal.msg[0m
+[  3%] [34m[1mGenerating EusLisp code from custom_msgs/gnssSample.msg[0m
+[  5%] [34m[1mGenerating EusLisp code from custom_msgs/positionEstimate.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from custom_msgs/ImuSensorSample.msg[0m
+[  8%] [34m[1mGenerating EusLisp code from custom_msgs/velocityEstimate.msg[0m
+[ 10%] [34m[1mGenerating EusLisp code from custom_msgs/baroSample.msg[0m
+[ 12%] [34m[1mGenerating EusLisp code from custom_msgs/GnssSensorSample.msg[0m
+[ 14%] [34m[1mGenerating EusLisp code from custom_msgs/BaroSensorSample.msg[0m
+[ 15%] [34m[1mGenerating EusLisp code from custom_msgs/sensorSample.msg[0m
+[ 17%] [34m[1mGenerating EusLisp manifest code for custom_msgs[0m
+[ 19%] [34m[1mGenerating EusLisp code from custom_msgs/orientationEstimate.msg[0m
+[ 21%] [34m[1mGenerating EusLisp code from custom_msgs/XsensQuaternion.msg[0m
+[ 21%] Built target custom_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target custom_msgs_generate_messages_cpp[0m
+[ 22%] [34m[1mGenerating C++ code from custom_msgs/Internal.msg[0m
+[ 24%] [34m[1mGenerating C++ code from custom_msgs/positionEstimate.msg[0m
+[ 26%] [34m[1mGenerating C++ code from custom_msgs/ImuSensorSample.msg[0m
+[ 28%] [34m[1mGenerating C++ code from custom_msgs/velocityEstimate.msg[0m
+[ 29%] [34m[1mGenerating C++ code from custom_msgs/baroSample.msg[0m
+[ 31%] [34m[1mGenerating C++ code from custom_msgs/GnssSensorSample.msg[0m
+[ 33%] [34m[1mGenerating C++ code from custom_msgs/BaroSensorSample.msg[0m
+[ 35%] [34m[1mGenerating C++ code from custom_msgs/sensorSample.msg[0m
+[ 36%] [34m[1mGenerating C++ code from custom_msgs/gnssSample.msg[0m
+[ 38%] [34m[1mGenerating C++ code from custom_msgs/orientationEstimate.msg[0m
+[ 40%] [34m[1mGenerating C++ code from custom_msgs/XsensQuaternion.msg[0m
+[ 40%] Built target custom_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target custom_msgs_generate_messages_nodejs[0m
+[ 42%] [34m[1mGenerating Javascript code from custom_msgs/Internal.msg[0m
+[ 43%] [34m[1mGenerating Javascript code from custom_msgs/ImuSensorSample.msg[0m
+[ 45%] [34m[1mGenerating Javascript code from custom_msgs/velocityEstimate.msg[0m
+[ 47%] [34m[1mGenerating Javascript code from custom_msgs/baroSample.msg[0m
+[ 49%] [34m[1mGenerating Javascript code from custom_msgs/GnssSensorSample.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from custom_msgs/BaroSensorSample.msg[0m
+[ 52%] [34m[1mGenerating Javascript code from custom_msgs/sensorSample.msg[0m
+[ 54%] [34m[1mGenerating Javascript code from custom_msgs/positionEstimate.msg[0m
+[ 56%] [34m[1mGenerating Javascript code from custom_msgs/gnssSample.msg[0m
+[ 57%] [34m[1mGenerating Javascript code from custom_msgs/orientationEstimate.msg[0m
+[ 59%] [34m[1mGenerating Javascript code from custom_msgs/XsensQuaternion.msg[0m
+[ 59%] Built target custom_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target custom_msgs_generate_messages_lisp[0m
+[ 61%] [34m[1mGenerating Lisp code from custom_msgs/Internal.msg[0m
+[ 63%] [34m[1mGenerating Lisp code from custom_msgs/velocityEstimate.msg[0m
+[ 64%] [34m[1mGenerating Lisp code from custom_msgs/baroSample.msg[0m
+[ 66%] [34m[1mGenerating Lisp code from custom_msgs/GnssSensorSample.msg[0m
+[ 68%] [34m[1mGenerating Lisp code from custom_msgs/BaroSensorSample.msg[0m
+[ 70%] [34m[1mGenerating Lisp code from custom_msgs/sensorSample.msg[0m
+[ 71%] [34m[1mGenerating Lisp code from custom_msgs/ImuSensorSample.msg[0m
+[ 73%] [34m[1mGenerating Lisp code from custom_msgs/positionEstimate.msg[0m
+[ 75%] [34m[1mGenerating Lisp code from custom_msgs/gnssSample.msg[0m
+[ 77%] [34m[1mGenerating Lisp code from custom_msgs/orientationEstimate.msg[0m
+[ 78%] [34m[1mGenerating Lisp code from custom_msgs/XsensQuaternion.msg[0m
+[ 78%] Built target custom_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target custom_msgs_generate_messages_py[0m
+[ 80%] [34m[1mGenerating Python from MSG custom_msgs/Internal[0m
+[ 82%] [34m[1mGenerating Python from MSG custom_msgs/baroSample[0m
+[ 84%] [34m[1mGenerating Python from MSG custom_msgs/GnssSensorSample[0m
+[ 85%] [34m[1mGenerating Python from MSG custom_msgs/BaroSensorSample[0m
+[ 87%] [34m[1mGenerating Python from MSG custom_msgs/sensorSample[0m
+[ 89%] [34m[1mGenerating Python from MSG custom_msgs/velocityEstimate[0m
+[ 91%] [34m[1mGenerating Python from MSG custom_msgs/ImuSensorSample[0m
+[ 92%] [34m[1mGenerating Python from MSG custom_msgs/positionEstimate[0m
+[ 94%] [34m[1mGenerating Python from MSG custom_msgs/gnssSample[0m
+[ 96%] [34m[1mGenerating Python from MSG custom_msgs/orientationEstimate[0m
+[ 98%] [34m[1mGenerating Python from MSG custom_msgs/XsensQuaternion[0m
+[100%] [34m[1mGenerating Python msg __init__.py for custom_msgs[0m
+[100%] Built target custom_msgs_generate_messages_py
+[35m[1mScanning dependencies of target custom_msgs_generate_messages[0m
+[100%] Built target custom_msgs_generate_messages
+Invoked command in '/home/daisuke/Autoware/ros/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/custom_msgs -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/custom_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/custom_msgs --target tests -- -j8 -l8
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/daisuke/Autoware/ros/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/custom_msgs --target tests -- -j8 -l8
+Invoking command in '/home/daisuke/Autoware/ros/build/custom_msgs': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/custom_msgs --target install
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _custom_msgs_generate_messages_check_deps_velocityEstimate
+[  0%] Built target _custom_msgs_generate_messages_check_deps_BaroSensorSample
+[  0%] Built target _custom_msgs_generate_messages_check_deps_XsensQuaternion
+[  0%] Built target _custom_msgs_generate_messages_check_deps_sensorSample
+[  0%] Built target _custom_msgs_generate_messages_check_deps_Internal
+[  0%] Built target _custom_msgs_generate_messages_check_deps_orientationEstimate
+[  0%] Built target _custom_msgs_generate_messages_check_deps_gnssSample
+[  0%] Built target _custom_msgs_generate_messages_check_deps_positionEstimate
+[  0%] Built target _custom_msgs_generate_messages_check_deps_ImuSensorSample
+[  0%] Built target _custom_msgs_generate_messages_check_deps_baroSample
+[  0%] Built target _custom_msgs_generate_messages_check_deps_GnssSensorSample
+[ 19%] Built target custom_msgs_generate_messages_cpp
+[ 19%] Built target std_msgs_generate_messages_py
+[ 19%] Built target sensor_msgs_generate_messages_py
+[ 40%] Built target custom_msgs_generate_messages_py
+[ 40%] Built target std_msgs_generate_messages_lisp
+[ 40%] Built target sensor_msgs_generate_messages_lisp
+[ 59%] Built target custom_msgs_generate_messages_lisp
+[ 59%] Built target sensor_msgs_generate_messages_nodejs
+[ 59%] Built target std_msgs_generate_messages_nodejs
+[ 78%] Built target custom_msgs_generate_messages_nodejs
+[ 78%] Built target std_msgs_generate_messages_eus
+[ 78%] Built target sensor_msgs_generate_messages_eus
+[100%] Built target custom_msgs_generate_messages_eus
+[100%] Built target custom_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/XsensQuaternion.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/ImuSensorSample.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/BaroSensorSample.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/GnssSensorSample.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/Internal.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/sensorSample.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/baroSample.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/gnssSample.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/orientationEstimate.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/velocityEstimate.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/msg/positionEstimate.msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/cmake/custom_msgs-msg-paths.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/baroSample.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/sensorSample.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/velocityEstimate.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/Internal.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/ImuSensorSample.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/GnssSensorSample.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/orientationEstimate.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/positionEstimate.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/gnssSample.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/XsensQuaternion.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/include/custom_msgs/BaroSensorSample.h
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/manifest.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/gnssSample.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/BaroSensorSample.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/baroSample.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/Internal.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/positionEstimate.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/sensorSample.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/velocityEstimate.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/GnssSensorSample.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/orientationEstimate.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/ImuSensorSample.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/roseus/ros/custom_msgs/msg/XsensQuaternion.l
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/custom_msgs-msg.asd
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_positionEstimate.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/BaroSensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/gnssSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/GnssSensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_gnssSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/XsensQuaternion.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_baroSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_GnssSensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/sensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_XsensQuaternion.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_sensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/Internal.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/baroSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_Internal.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_orientationEstimate.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/velocityEstimate.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_ImuSensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_velocityEstimate.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_BaroSensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/orientationEstimate.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/ImuSensorSample.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/positionEstimate.lisp
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/orientationEstimate.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/BaroSensorSample.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/ImuSensorSample.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/GnssSensorSample.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/velocityEstimate.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/sensorSample.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/XsensQuaternion.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/baroSample.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/Internal.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/positionEstimate.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/_index.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/gnssSample.js
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/gennodejs/ros/custom_msgs/_index.js
+Listing /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/__init__.py ...
+Listing /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.py ...
+Compiling /home/daisuke/Autoware/ros/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.py ...
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/__init__.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/__init__.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/__init__.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.py
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.pyc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/lib/pkgconfig/custom_msgs.pc
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/cmake/custom_msgs-msg-extras.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+-- Installing: /home/daisuke/Autoware/ros/install/custom_msgs/share/custom_msgs/package.xml
+Invoked command in '/home/daisuke/Autoware/ros/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/daisuke/Autoware/ros/build/custom_msgs --target install

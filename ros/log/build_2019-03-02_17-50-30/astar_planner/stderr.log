@@ -1,0 +1,11 @@
+In file included from [01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/astar_planner/nodes/velocity_set/velocity_set_info.cpp:17:0[m[K:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/astar_planner/nodes/velocity_set/velocity_set_info.h:[m[K In constructor ‘[01m[KVelocitySetInfo::VelocitySetInfo()[m[K’:
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/astar_planner/nodes/velocity_set/velocity_set_info.h:55:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KVelocitySetInfo::use_obstacle_sim_[m[K’ will be initialized after [-Wreorder]
+   bool use_obstacle_sim_;
+[01;32m[K        ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/astar_planner/nodes/velocity_set/velocity_set_info.h:45:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint VelocitySetInfo::wpidx_detectionResultByOtherNodes_[m[K’ [-Wreorder]
+   int wpidx_detectionResultByOtherNodes_; // waypoints index@finalwaypoints
+[01;32m[K       ^[m[K
+[01m[K/home/daisuke/Autoware/ros/src/computing/planning/motion/packages/astar_planner/nodes/velocity_set/velocity_set_info.cpp:27:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [-Wreorder]
+ VelocitySetInfo::VelocitySetInfo()
+[01;32m[K ^[m[K
