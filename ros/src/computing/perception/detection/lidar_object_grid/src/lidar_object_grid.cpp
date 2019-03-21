@@ -2,7 +2,8 @@
 
 #include "lidar_object_grid/lidar_object_grid.hpp"
 
-LidarObjectGrid::LidarObjectGrid()
+LidarObjectGrid::LidarObjectGrid() :
+    m_outputCoordianteFrame("base_link") // TODO: replace this later when args parsing is implemented
 {
 
 }
@@ -95,7 +96,7 @@ bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ>& filtere
   grid.resize(xGridSize);
   for(auto i = 0; i < grid.size(); ++i)
   {
-    grid.at(i).resize(yGridSize);
+    grid[i].resize(yGridSize);
   }
 
   for(auto i = 0; i < filteredCloud.size(); ++i)
@@ -106,13 +107,44 @@ bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ>& filtere
     int xInd = (int)floor(xx / scale);
     int yInd = (int)floor(yy / scale);
 
-    grid.at(xInd).at(yInd).m_pointCount++;
+    grid[xInd][yInd].m_pointCount++;
 
-    if(filteredCloud.points[i].z > grid.at(xInd).at(yInd).m_height)
+    if(filteredCloud.points[i].z > grid[xInd][yInd].m_height)
     {
-      grid.at(xInd).at(yInd).m_height = filteredCloud.points[i].z;
+      grid[xInd][yInd].m_height = filteredCloud.points[i].z;
     }
   }
 
   return true;
+}
+
+visualization_msgs::Marker LidarObjectGrid::generateMarker(const int posX, const int posY,
+                                                const int posZ,
+                                                const float alpha,
+                                                const int scale,
+                                                const float height)
+{
+  visualization_msgs::Marker marker;  
+  marker.header.frame_id = m_outputCoordianteFrame;
+  marker.header.stamp = ros::Time();
+  marker.ns =  std::to_string(static_cast<int>(posX)) + std::to_string(static_cast<int>(posY));
+  marker.id = 0;
+  marker.type = visualization_msgs::Marker::CUBE;
+  marker.action = visualization_msgs::Marker::ADD;
+  marker.pose.position.x = static_cast<float>(posX);
+  marker.pose.position.y = static_cast<float>(posY);
+  marker.pose.position.z = static_cast<float>(posZ);
+  marker.pose.orientation.x = 0.0;
+  marker.pose.orientation.y = 0.0;
+  marker.pose.orientation.z = 0.0;
+  marker.pose.orientation.w = 1.0; // Straight up orientetaion
+  marker.scale.x = static_cast<float>(scale);
+  marker.scale.y = static_cast<float>(scale);
+  marker.scale.z = height;
+  marker.color.a = alpha;
+  marker.color.r = 0.0;
+  marker.color.g = 1.0;
+  marker.color.b = 0.0; 
+
+  return marker;
 }

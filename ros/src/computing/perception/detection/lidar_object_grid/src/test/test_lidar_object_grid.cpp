@@ -69,6 +69,31 @@ class ProcessingTest : public LidarObjectGridTest
   pcl::PointCloud<pcl::PointXYZ> cloudSpread;
 };
 
+class GenerateSingleMarker : public LidarObjectGridTest
+{
+};
+
+TEST_F(GenerateSingleMarker, markerGeneration)
+{
+  int posX = 1;
+  int posY = 1;
+  int posZ = 1;
+  float alpha = 1.f;
+  int scale = 1;
+  float height = 1.f;
+
+  visualization_msgs::Marker marker =
+                generateMarker(posX, posY, posZ,
+                               alpha, scale, height);
+
+  EXPECT_EQ(posX, marker.pose.position.x);
+  EXPECT_EQ(posY, marker.pose.position.y);
+  EXPECT_EQ(posZ, marker.pose.position.z);
+  EXPECT_EQ(alpha, marker.color.a);
+  EXPECT_EQ(scale, marker.scale.x);
+  EXPECT_EQ(height, marker.scale.y);
+}
+
 TEST_F(ProcessingTest, passValidSize)
 {
   int xSize = 12;
@@ -80,7 +105,7 @@ TEST_F(ProcessingTest, passValidSize)
   EXPECT_EQ(grid.size(), xSize);
   for(auto i = 0; i < grid.size(); ++i)
   {
-    EXPECT_EQ(grid.at(i).size(), ySize);
+    EXPECT_EQ(grid[i].size(), ySize);
   }
 }
 
@@ -100,7 +125,7 @@ TEST_F(ProcessingTest, checkCounting)
   EXPECT_TRUE(rv);
 
   // All points should fall into same cell in the grid
-  EXPECT_EQ(grid.at(7).at(5).m_pointCount, 5.f);
+  EXPECT_EQ(grid[7][5].m_pointCount, 5.f);
 }
 
 TEST_F(ProcessingTest, checkCountingSpread)
@@ -111,10 +136,10 @@ TEST_F(ProcessingTest, checkCountingSpread)
 
   bool rv = processCloud(cloudSpread, xSize, ySize, scale, grid);
 
-  EXPECT_EQ(grid.at(6).at(4).m_pointCount, 1.f);
-  EXPECT_EQ(grid.at(7).at(5).m_pointCount, 1.f);
-  EXPECT_EQ(grid.at(8).at(6).m_pointCount, 1.f);
-  EXPECT_EQ(grid.at(9).at(7).m_pointCount, 1.f);
+  EXPECT_EQ(grid[6][4].m_pointCount, 1.f);
+  EXPECT_EQ(grid[7][5].m_pointCount, 1.f);
+  EXPECT_EQ(grid[8][6].m_pointCount, 1.f);
+  EXPECT_EQ(grid[9][7].m_pointCount, 1.f);
 }
 
 TEST_F(ProcessingTest, checkHeight)
@@ -126,7 +151,7 @@ TEST_F(ProcessingTest, checkHeight)
   bool rv = processCloud(cloud, xSize, ySize, scale, grid);
 
   // Expected height is 5.0 which comes from point4 (max z in that cell)
-  EXPECT_EQ(grid.at(7).at(5).m_height, 5.f);
+  EXPECT_EQ(grid[7][5].m_height, 5.f);
 }
 
 TEST_F(FilterTest, passFilter)

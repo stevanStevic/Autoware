@@ -6,16 +6,20 @@
 #include <tf/transform_listener.h>
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
+#include <visualization_msgs/Marker.h>
 
 #include <vector>
 
-constexpr float InitialHeight = -1.f;
-
 struct Cell
 {
-  float m_height;
-  int m_pointCount;
+  static constexpr float InitialHeight = -1.f; //!< Initial max height per cell
 
+  float m_height; //!< Z value of highest point in cell
+  int m_pointCount; //!< Total number of points per cell
+
+  /*!
+   * \brief ctor
+   */
   Cell() : 
     m_height(InitialHeight),
     m_pointCount(0)
@@ -74,8 +78,28 @@ protected:
                                            const int scale,
                                            CellGrid& grid);
 
+    /*!
+   * \brief generateMarker Generates cube marker at 
+   *  given location with given size
+   * \details Helper function for generating all of the markers
+   * \param posX Cordinate x
+   * \param posY Cordinate y
+   * \param posZ Cordinate z
+   * \param alpha Alpha
+   * \param scale Size of of base (width and height)
+   * \param height Marker's height
+   * \return visualization_msgs::Marker Generated marker
+   */
+  visualization_msgs::Marker generateMarker(const int posX, const int posY,
+                                                const int posZ,
+                                                const float alpha,
+                                                const int scale,
+                                                const float height);
+
 private:
   tf::TransformListener m_transformListener; //!< Listener for acquiring transformation
+  
+  std::string m_outputCoordianteFrame; //!< Coordinate sys on which markers will be published
 };
 
 #endif //__LIDAR_OBJECT_GRID__
