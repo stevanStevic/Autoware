@@ -36,6 +36,99 @@ protected:
   pcl::PointCloud<pcl::PointXYZ> filteredCloud;
 };
 
+class ProcessingTest : public LidarObjectGridTest
+{
+  protected:
+  virtual void SetUp()
+  {
+    pcl::PointXYZ point0(1.0, 1.0, 1.0);
+    pcl::PointXYZ point1(1.1, 1.1, 2.0);
+    pcl::PointXYZ point2(1.2, 1.2, 3.0);
+    pcl::PointXYZ point3(1.3, 1.3, 4.0);
+    pcl::PointXYZ point4(1.4, 1.4, 5.0);
+
+    cloud.push_back(point0);
+    cloud.push_back(point1);
+    cloud.push_back(point2);
+    cloud.push_back(point3);
+    cloud.push_back(point4);
+
+    pcl::PointXYZ point5(0.0, 0.0, 1.0);
+    pcl::PointXYZ point6(1.0, 1.0, 1.0);
+    pcl::PointXYZ point7(2.0, 2.0, 1.0);
+    pcl::PointXYZ point8(3.0, 3.0, 1.0);
+
+    cloudSpread.push_back(point5);
+    cloudSpread.push_back(point6);
+    cloudSpread.push_back(point7);
+    cloudSpread.push_back(point8);
+  }
+
+  CellGrid grid;
+  pcl::PointCloud<pcl::PointXYZ> cloud;
+  pcl::PointCloud<pcl::PointXYZ> cloudSpread;
+};
+
+TEST_F(ProcessingTest, passValidSize)
+{
+  int xSize = 12;
+  int ySize = 8;
+
+  bool rv = processCloud(cloud, xSize, ySize, 1, grid);
+  EXPECT_TRUE(rv);
+
+  EXPECT_EQ(grid.size(), xSize);
+  for(auto i = 0; i < grid.size(); ++i)
+  {
+    EXPECT_EQ(grid.at(i).size(), ySize);
+  }
+}
+
+TEST_F(ProcessingTest, passInvalidSize)
+{
+  bool rv = processCloud(cloud, -5, -5, 1, grid);
+  EXPECT_FALSE(rv);
+}
+
+TEST_F(ProcessingTest, checkCounting)
+{
+  int xSize = 12;
+  int ySize = 8;
+  int scale = 1;
+
+  bool rv = processCloud(cloud, xSize, ySize, scale, grid);
+  EXPECT_TRUE(rv);
+
+  // All points should fall into same cell in the grid
+  EXPECT_EQ(grid.at(7).at(5).m_pointCount, 5.f);
+}
+
+TEST_F(ProcessingTest, checkCountingSpread)
+{
+  int xSize = 12;
+  int ySize = 8;
+  int scale = 1;
+
+  bool rv = processCloud(cloudSpread, xSize, ySize, scale, grid);
+
+  EXPECT_EQ(grid.at(6).at(4).m_pointCount, 1.f);
+  EXPECT_EQ(grid.at(7).at(5).m_pointCount, 1.f);
+  EXPECT_EQ(grid.at(8).at(6).m_pointCount, 1.f);
+  EXPECT_EQ(grid.at(9).at(7).m_pointCount, 1.f);
+}
+
+TEST_F(ProcessingTest, checkHeight)
+{
+  int xSize = 12;
+  int ySize = 8;
+  int scale = 1;
+
+  bool rv = processCloud(cloud, xSize, ySize, scale, grid);
+
+  // Expected height is 5.0 which comes from point4 (max z in that cell)
+  EXPECT_EQ(grid.at(7).at(5).m_height, 5.f);
+}
+
 TEST_F(FilterTest, passFilter)
 {
   rv = filterROI(cloud.makeShared(), filteredCloud, 6, 6, 3, 1, 0.1f);
@@ -71,7 +164,6 @@ TEST_F(FilterTest, scaleFilter)
 TEST_F(FilterTest, correctlyFiltered)
 {
   rv = filterROI(cloud.makeShared(), filteredCloud, 6, 6, 3, 1, 0.1f);
-  std::cout << rv << std::endl;
   ASSERT_TRUE(rv);
 
   EXPECT_EQ(3, filteredCloud.size());

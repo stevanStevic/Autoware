@@ -78,3 +78,41 @@ bool LidarObjectGrid::filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr& point
 
   return true;
 }
+
+bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ>& filteredCloud,
+                                           const int xGridSize, 
+                                           const int yGridSize,
+                                           const int scale,
+                                           CellGrid& grid)
+{
+  // Check for negative size
+  if(xGridSize < 0 || yGridSize < 0)
+  {
+    return false;
+  }
+
+  // Resize the grid to appropriate size
+  grid.resize(xGridSize);
+  for(auto i = 0; i < grid.size(); ++i)
+  {
+    grid.at(i).resize(yGridSize);
+  }
+
+  for(auto i = 0; i < filteredCloud.size(); ++i)
+  {
+    float xx = filteredCloud.points[i].x + xGridSize / 2;
+    float yy = filteredCloud.points[i].y + yGridSize / 2;
+
+    int xInd = (int)floor(xx / scale);
+    int yInd = (int)floor(yy / scale);
+
+    grid.at(xInd).at(yInd).m_pointCount++;
+
+    if(filteredCloud.points[i].z > grid.at(xInd).at(yInd).m_height)
+    {
+      grid.at(xInd).at(yInd).m_height = filteredCloud.points[i].z;
+    }
+  }
+
+  return true;
+}
