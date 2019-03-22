@@ -14,15 +14,14 @@ struct Cell
 {
   static constexpr float InitialHeight = -1.f; //!< Initial max height per cell
 
-  float m_height; //!< Z value of highest point in cell
+  float m_height;   //!< Z value of highest point in cell
   int m_pointCount; //!< Total number of points per cell
 
   /*!
    * \brief ctor
    */
-  Cell() : 
-    m_height(InitialHeight),
-    m_pointCount(0)
+  Cell() : m_height(InitialHeight),
+           m_pointCount(0)
   {
   }
 };
@@ -41,7 +40,7 @@ protected:
    * \param transformation
    * \return true if successful
    */
-  bool getTransforamtion(tf::StampedTransform& transformation);
+  bool getTransforamtion(tf::StampedTransform &transformation);
 
   /*!
    * \brief filterROI filtering point cloud to leave only ROI
@@ -55,13 +54,13 @@ protected:
    * \param thrashold     small value not to take edge cases
    * \return true if values are correct
    */
-  bool filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr& pointCloud,
-                                           pcl::PointCloud<pcl::PointXYZ>& filteredCloud,
-                                           const int xGridSize,
-                                           const int yGridSize,
-                                           const int height,
-                                           const int scale,
-                                           const float thrashold);
+  bool filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr &pointCloud,
+                 pcl::PointCloud<pcl::PointXYZ> &filteredCloud,
+                 const int xGridSize,
+                 const int yGridSize,
+                 const int height,
+                 const int scale,
+                 const float thrashold);
 
   /*!
    * \brief processCloud Create cell grid from filtered cloud
@@ -72,13 +71,13 @@ protected:
    * \param grid Output value, will be filled with appropriate cell grid
    * \return true if successful
    */
-  bool processCloud(const pcl::PointCloud<pcl::PointXYZ>& filteredCloud,
-                                           const int xGridSize, 
-                                           const int yGridSize,
-                                           const int scale,
-                                           CellGrid& grid);
+  bool processCloud(const pcl::PointCloud<pcl::PointXYZ> &filteredCloud,
+                    const int xGridSize,
+                    const int yGridSize,
+                    const int scale,
+                    CellGrid &grid);
 
-    /*!
+  /*!
    * \brief generateMarker Generates cube marker at 
    *  given location with given size
    * \details Helper function for generating all of the markers
@@ -88,18 +87,40 @@ protected:
    * \param alpha Alpha
    * \param scale Size of of base (width and height)
    * \param height Marker's height
-   * \return visualization_msgs::Marker Generated marker
+   * \return Generated marker
    */
   visualization_msgs::Marker generateMarker(const int posX, const int posY,
-                                                const int posZ,
-                                                const float alpha,
-                                                const int scale,
-                                                const float height);
+                                            const int posZ,
+                                            const float alpha,
+                                            const int scale,
+                                            const float height);
+
+  /*!
+   * \brief generateMarkers Generate vector of markers which are ready for publishing
+   * \param grid Cell grid
+   * \param scale Cell size
+   * \param markers Generated markers
+   * \return true if successful
+   */
+  bool generateMarkers(CellGrid &grid, const int scale,
+                       std::vector<visualization_msgs::Marker> &markers);
+
+    /*!
+   * \brief calculateCellAlpha Calculate value of alpha component
+   *  based on cell's point count
+   * \param pointCount Total number of points in cell
+   * \return Value of alpha
+   */
+  float calculateCellAlpha(const int pointCount)
+  {
+    return static_cast<float>(pointCount) / static_cast<float>(m_maxPointsPerCell);
+  }
 
 private:
   tf::TransformListener m_transformListener; //!< Listener for acquiring transformation
-  
+
   std::string m_outputCoordianteFrame; //!< Coordinate sys on which markers will be published
+  int m_maxPointsPerCell; //!< Max points per cell
 };
 
 #endif //__LIDAR_OBJECT_GRID__

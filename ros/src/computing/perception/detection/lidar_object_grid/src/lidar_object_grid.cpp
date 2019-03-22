@@ -2,13 +2,12 @@
 
 #include "lidar_object_grid/lidar_object_grid.hpp"
 
-LidarObjectGrid::LidarObjectGrid() :
-    m_outputCoordianteFrame("base_link") // TODO: replace this later when args parsing is implemented
+LidarObjectGrid::LidarObjectGrid() : m_outputCoordianteFrame("base_link"), // TODO: replace this later when args parsing is implemented
+                                     m_maxPointsPerCell(300)               // TODO: Also fix this
 {
-
 }
 
-bool LidarObjectGrid::getTransforamtion(tf::StampedTransform& transformation)
+bool LidarObjectGrid::getTransforamtion(tf::StampedTransform &transformation)
 {
   try
   {
@@ -22,7 +21,7 @@ bool LidarObjectGrid::getTransforamtion(tf::StampedTransform& transformation)
                                         ros::Time(0),
                                         transformation);
   }
-  catch(tf::TransformException& e)
+  catch (tf::TransformException &e)
   {
     ROS_INFO("%s", e.what());
     return false;
@@ -31,17 +30,17 @@ bool LidarObjectGrid::getTransforamtion(tf::StampedTransform& transformation)
   return true;
 }
 
-bool LidarObjectGrid::filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr& pointCloud,
-                                pcl::PointCloud<pcl::PointXYZ>& filteredCloud,
+bool LidarObjectGrid::filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr &pointCloud,
+                                pcl::PointCloud<pcl::PointXYZ> &filteredCloud,
                                 const int xGridSize,
                                 const int yGridSize,
                                 const int height,
                                 const int scale,
                                 const float thrashold)
 {
-  if((xGridSize & 0x1 != 0) || (xGridSize <= 0) ||
-     (yGridSize & 0x1 != 0) || (yGridSize <= 0) ||
-     (height <= 0) || (scale <= 0) || thrashold <= 0)
+  if ((xGridSize & 0x1 != 0) || (xGridSize <= 0) ||
+      (yGridSize & 0x1 != 0) || (yGridSize <= 0) ||
+      (height <= 0) || (scale <= 0) || thrashold <= 0)
   {
     return false;
   }
@@ -51,20 +50,19 @@ bool LidarObjectGrid::filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr& point
   int xActualHeight = height * scale;
 
   // Set filters
-  pcl::ConditionAnd<pcl::PointXYZ>::Ptr range_cond (new
-                                                    pcl::ConditionAnd<pcl::PointXYZ> ());
-  range_cond->addComparison (pcl::FieldComparison<pcl::PointXYZ>::ConstPtr (new pcl::FieldComparison<pcl::PointXYZ> (
-                                                                              "x", pcl::ComparisonOps::GT, -xActualSize / 2 + thrashold)));
-  range_cond->addComparison (pcl::FieldComparison<pcl::PointXYZ>::ConstPtr (new pcl::FieldComparison<pcl::PointXYZ> (
-                                                                              "x", pcl::ComparisonOps::LT, xActualSize / 2 - thrashold)));
-  range_cond->addComparison (pcl::FieldComparison<pcl::PointXYZ>::ConstPtr (new pcl::FieldComparison<pcl::PointXYZ> (
-                                                                              "y", pcl::ComparisonOps::GT, -yActualSize / 2 + thrashold)));
-  range_cond->addComparison (pcl::FieldComparison<pcl::PointXYZ>::ConstPtr (new pcl::FieldComparison<pcl::PointXYZ> (
-                                                                              "y", pcl::ComparisonOps::LT, yActualSize / 2 - thrashold)));
-  range_cond->addComparison (pcl::FieldComparison<pcl::PointXYZ>::ConstPtr (new pcl::FieldComparison<pcl::PointXYZ> (
-                                                                              "z", pcl::ComparisonOps::GT, 0.2)));  // Remove ground
-  range_cond->addComparison (pcl::FieldComparison<pcl::PointXYZ>::ConstPtr (new pcl::FieldComparison<pcl::PointXYZ> (
-                                                                              "z", pcl::ComparisonOps::LT, xActualHeight)));
+  pcl::ConditionAnd<pcl::PointXYZ>::Ptr range_cond(new pcl::ConditionAnd<pcl::PointXYZ>());
+  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "x", pcl::ComparisonOps::GT, -xActualSize / 2 + thrashold)));
+  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "x", pcl::ComparisonOps::LT, xActualSize / 2 - thrashold)));
+  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "y", pcl::ComparisonOps::GT, -yActualSize / 2 + thrashold)));
+  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "y", pcl::ComparisonOps::LT, yActualSize / 2 - thrashold)));
+  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "z", pcl::ComparisonOps::GT, 0.2))); // Remove ground
+  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "z", pcl::ComparisonOps::LT, xActualHeight)));
   pcl::ConditionalRemoval<pcl::PointXYZ> conditionExecutor;
   conditionExecutor.setCondition(range_cond);
   conditionExecutor.setInputCloud(pointCloud);
@@ -80,26 +78,26 @@ bool LidarObjectGrid::filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr& point
   return true;
 }
 
-bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ>& filteredCloud,
-                                           const int xGridSize, 
-                                           const int yGridSize,
-                                           const int scale,
-                                           CellGrid& grid)
+bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ> &filteredCloud,
+                                   const int xGridSize,
+                                   const int yGridSize,
+                                   const int scale,
+                                   CellGrid &grid)
 {
   // Check for negative size
-  if(xGridSize < 0 || yGridSize < 0)
+  if (xGridSize < 0 || yGridSize < 0)
   {
     return false;
   }
 
   // Resize the grid to appropriate size
   grid.resize(xGridSize);
-  for(auto i = 0; i < grid.size(); ++i)
+  for (auto i = 0; i < grid.size(); ++i)
   {
     grid[i].resize(yGridSize);
   }
 
-  for(auto i = 0; i < filteredCloud.size(); ++i)
+  for (auto i = 0; i < filteredCloud.size(); ++i)
   {
     float xx = filteredCloud.points[i].x + xGridSize / 2;
     float yy = filteredCloud.points[i].y + yGridSize / 2;
@@ -109,7 +107,7 @@ bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ>& filtere
 
     grid[xInd][yInd].m_pointCount++;
 
-    if(filteredCloud.points[i].z > grid[xInd][yInd].m_height)
+    if (filteredCloud.points[i].z > grid[xInd][yInd].m_height)
     {
       grid[xInd][yInd].m_height = filteredCloud.points[i].z;
     }
@@ -119,15 +117,15 @@ bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ>& filtere
 }
 
 visualization_msgs::Marker LidarObjectGrid::generateMarker(const int posX, const int posY,
-                                                const int posZ,
-                                                const float alpha,
-                                                const int scale,
-                                                const float height)
+                                                           const int posZ,
+                                                           const float alpha,
+                                                           const int scale,
+                                                           const float height)
 {
-  visualization_msgs::Marker marker;  
+  visualization_msgs::Marker marker;
   marker.header.frame_id = m_outputCoordianteFrame;
   marker.header.stamp = ros::Time();
-  marker.ns =  std::to_string(static_cast<int>(posX)) + std::to_string(static_cast<int>(posY));
+  marker.ns = std::to_string(static_cast<int>(posX)) + std::to_string(static_cast<int>(posY));
   marker.id = 0;
   marker.type = visualization_msgs::Marker::CUBE;
   marker.action = visualization_msgs::Marker::ADD;
@@ -144,7 +142,59 @@ visualization_msgs::Marker LidarObjectGrid::generateMarker(const int posX, const
   marker.color.a = alpha;
   marker.color.r = 0.0;
   marker.color.g = 1.0;
-  marker.color.b = 0.0; 
+  marker.color.b = 0.0;
 
   return marker;
+}
+
+bool LidarObjectGrid::generateMarkers(CellGrid &grid, const int scale,
+                                      std::vector<visualization_msgs::Marker> &markers)
+{
+  int carX1 = -2;
+  int carX2 = 2;
+  int carY1 = -2;
+  int carY2 = 4;
+
+  if (grid.empty())
+  {
+    return false;
+  }
+
+  int xGridSize = grid.size();
+  int yGridSize = grid[0].size();
+
+  for (auto x = 0; x < grid.size(); ++x)
+  {
+    for (auto y = 0; y < grid[0].size(); ++y)
+    {
+      int xDraw = (x - xGridSize / 2) + scale / 2;
+      int yDraw = (y - yGridSize / 2) + scale / 2;
+
+      // Don't consider detections from test vehicle itself
+      int count = 0;
+      if ((xDraw > carX1 && xDraw < carX2) &&
+          (yDraw > carY1 && yDraw < carY2))
+      {
+        count = 0;
+      }
+      else
+      {
+        count = grid[x][y].m_pointCount;
+      }
+      
+      markers.push_back(
+          generateMarker(
+              xDraw,
+              yDraw,
+              grid[x][y].m_height / 2,
+              calculateCellAlpha(count),
+              scale,
+              grid[x][y].m_height));
+
+      grid[x][y].m_pointCount = 0;
+      grid[x][y].m_height = Cell::InitialHeight;
+    }
+  }
+
+  return true;
 }

@@ -7,7 +7,6 @@
 class LidarObjectGridTest : public testing::Test, public LidarObjectGrid
 {
 protected:
-
 private:
   ros::NodeHandle nodeHandle; //!< ROS node handle
 };
@@ -38,7 +37,7 @@ protected:
 
 class ProcessingTest : public LidarObjectGridTest
 {
-  protected:
+protected:
   virtual void SetUp()
   {
     pcl::PointXYZ point0(1.0, 1.0, 1.0);
@@ -73,6 +72,93 @@ class GenerateSingleMarker : public LidarObjectGridTest
 {
 };
 
+class GenerateMultipleMarkers : public LidarObjectGridTest
+{
+protected:
+  virtual void SetUp()
+  {
+    int gridX = 12;
+    int gridY = 8;
+
+    grid.resize(gridX);
+    for (auto i = 0; i < gridX; ++i)
+    {
+      grid[i].resize(gridY);
+      for (auto j = 0; j < gridY; ++j)
+      {
+        grid[i][j].m_pointCount = 5;
+        grid[i][j].m_height = 3;
+      }
+    }
+  }
+
+  CellGrid grid;
+  int cellSize = 1;
+};
+
+TEST_F(GenerateMultipleMarkers, testAlphaCalculation)
+{
+  float alpha = calculateCellAlpha(150);
+
+  EXPECT_EQ(0.5f, alpha);
+}
+
+TEST_F(GenerateMultipleMarkers, multiMarkerGenerationNonEmptyGrid)
+{
+  std::vector<visualization_msgs::Marker> markers;
+  bool rv = generateMarkers(grid, cellSize, markers);
+
+  EXPECT_TRUE(rv);
+  EXPECT_FALSE(markers.empty());
+}
+
+TEST_F(GenerateMultipleMarkers, multiMarkerGenerationEmptyGrid)
+{
+  CellGrid emptyGrid;
+  std::vector<visualization_msgs::Marker> markers;
+  bool rv = generateMarkers(emptyGrid, cellSize, markers);
+
+  EXPECT_FALSE(rv);
+}
+
+TEST_F(GenerateMultipleMarkers, multiMarkerGenerationCheckSize)
+{
+  std::vector<visualization_msgs::Marker> markers;
+  bool rv = generateMarkers(grid, cellSize, markers);
+
+  EXPECT_TRUE(rv);
+  EXPECT_EQ(grid.size() * grid[0].size(), markers.size());
+}
+
+TEST_F(GenerateMultipleMarkers, multiMarkerGenerationCheckMarker)
+{
+  std::vector<visualization_msgs::Marker> markers;
+  CellGrid gridBackup = grid;
+
+  bool rv = generateMarkers(grid, 1, markers);
+
+  EXPECT_TRUE(rv);
+  EXPECT_EQ(gridBackup[0][0].m_height, markers[0].scale.z);
+}
+
+TEST_F(GenerateMultipleMarkers, multiMarkerCheckGridCleanup)
+{
+  std::vector<visualization_msgs::Marker> markers;
+
+  bool rv = generateMarkers(grid, cellSize, markers);
+
+  EXPECT_TRUE(rv);
+
+  for(auto x = 0; x < grid.size(); ++x)
+  {
+    for(auto y = 0; y < grid[x].size(); ++y)
+    {
+      EXPECT_EQ(grid[x][y].m_pointCount, 0);
+      EXPECT_EQ(grid[x][y].m_height, -1.f);
+    }
+  }
+}
+
 TEST_F(GenerateSingleMarker, markerGeneration)
 {
   int posX = 1;
@@ -83,8 +169,8 @@ TEST_F(GenerateSingleMarker, markerGeneration)
   float height = 1.f;
 
   visualization_msgs::Marker marker =
-                generateMarker(posX, posY, posZ,
-                               alpha, scale, height);
+      generateMarker(posX, posY, posZ,
+                     alpha, scale, height);
 
   EXPECT_EQ(posX, marker.pose.position.x);
   EXPECT_EQ(posY, marker.pose.position.y);
@@ -103,7 +189,7 @@ TEST_F(ProcessingTest, passValidSize)
   EXPECT_TRUE(rv);
 
   EXPECT_EQ(grid.size(), xSize);
-  for(auto i = 0; i < grid.size(); ++i)
+  for (auto i = 0; i < grid.size(); ++i)
   {
     EXPECT_EQ(grid[i].size(), ySize);
   }
@@ -218,7 +304,8 @@ TEST_F(LidarObjectGridTest, aquireTransformationOutput)
   EXPECT_EQ(correctTransformation.getRotation(), transformation.getRotation());
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
   ros::init(argc, argv, "lidar_object_grid_test");
   ::testing::InitGoogleTest(&argc, argv);
 
