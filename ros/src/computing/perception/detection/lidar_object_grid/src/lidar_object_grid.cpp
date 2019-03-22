@@ -2,9 +2,89 @@
 
 #include "lidar_object_grid/lidar_object_grid.hpp"
 
-LidarObjectGrid::LidarObjectGrid() : m_outputCoordianteFrame("base_link"), // TODO: replace this later when args parsing is implemented
-                                     m_maxPointsPerCell(300)               // TODO: Also fix this
+LidarObjectGrid::LidarObjectGrid() :
+  m_latestCloudMessage(nullptr),
+  m_outputCoordianteFrame("base_link"), // TODO: replace this later when args parsing is implemented
+  m_maxPointsPerCell(300)               // TODO: Also fix this
 {
+}
+
+void LidarObjectGrid::initNode()
+{
+  //TODO: Take parameters from launch
+
+  // Subscribe to points raw topic
+  m_pointCloudSub = nodeHandle.subscribe("points_raw", 1000, &LidarObjectGrid::pointCloudCallback, this);
+
+  // Advertise markers topic
+  m_markerPub = nodeHandle.advertise<visualization_msgs::Marker>("visualization_marker", 1);
+
+  ROS_INFO("Init node - complete");
+}
+
+void LidarObjectGrid::startNode()
+{
+  ros::Rate loopRate(10);
+
+  ROS_INFO("Starting node");
+
+  while(ros::ok())
+  {
+    ros::spinOnce();
+    // loopRate.sleep();
+    tf::StampedTransform transforamtion;
+    bool rv = getTransforamtion(transforamtion);
+    if(!rv)
+    {
+      // Don't do any processing if 
+      // transforamtion is not acquired succesfully
+      continue;
+    }
+
+    // If no msg is acquired don't execute loop
+    // Protection for initial
+    if(m_latestCloudMessage == nullptr)
+    {
+      continue;
+    }
+
+    // Convert received msg to point cloud
+    pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
+    pcl::fromROSMsg(*m_latestCloudMessage, *cloud);
+
+    pcl::PointCloud<pcl::PointXYZ>::Ptr transformedCloud(new pcl::PointCloud<pcl::PointXYZ>);;
+    pcl_ros::transformPointCloud(*cloud, *transformedCloud, transforamtion);
+
+
+    pcl::PointCloud<pcl::PointXYZ> filteredCloud;
+    rv = filterROI(transformedCloud, filteredCloud, 12, 8, 5, 1, 0.1f);
+    
+    // If ROI filtering is not successful, continue
+    if(!rv)
+    {
+      continue;
+    }
+
+    CellGrid grid;
+    rv = processCloud(filteredCloud, 12, 8, 1, grid);
+    if(!rv)
+    {
+      continue;
+    }
+
+    std::vector<visualization_msgs::Marker> markers;
+    rv = generateMarkers(grid, 1, markers);
+    if(!rv)
+    {
+      continue;
+    }
+
+    // Publish each marker
+    for(auto& m : markers)
+    {
+      m_markerPub.publish(m);
+    }
+  }
 }
 
 bool LidarObjectGrid::getTransforamtion(tf::StampedTransform &transformation)
@@ -150,10 +230,11 @@ visualization_msgs::Marker LidarObjectGrid::generateMarker(const int posX, const
 bool LidarObjectGrid::generateMarkers(CellGrid &grid, const int scale,
                                       std::vector<visualization_msgs::Marker> &markers)
 {
-  int carX1 = -2;
-  int carX2 = 2;
+  // Test vehicle isolation points
   int carY1 = -2;
-  int carY2 = 4;
+  int carY2 = 2;
+  int carX1 = -2;
+  int carX2 = 4;
 
   if (grid.empty())
   {
@@ -197,4 +278,10 @@ bool LidarObjectGrid::generateMarkers(CellGrid &grid, const int scale,
   }
 
   return true;
+}
+
+void LidarObjectGrid::pointCloudCallback(const sensor_msgs::PointCloud2Ptr& cloudMsg)
+{
+  // Acquire latest point cloud message pointer
+  m_latestCloudMessage = cloudMsg;
 }

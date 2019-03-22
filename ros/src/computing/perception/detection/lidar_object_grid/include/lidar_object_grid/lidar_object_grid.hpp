@@ -6,7 +6,10 @@
 #include <tf/transform_listener.h>
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
+#include <pcl_conversions/pcl_conversions.h>
+#include <pcl_ros/transforms.h>
 #include <visualization_msgs/Marker.h>
+#include <sensor_msgs/PointCloud2.h>
 
 #include <vector>
 
@@ -32,7 +35,20 @@ using CellGrid = std::vector<std::vector<Cell>>;
 class LidarObjectGrid
 {
 public:
+  /*!
+   * \brief LidarObjectGrid ctor
+   */
   LidarObjectGrid();
+
+  /*!
+   * \brief Inits node's com
+   */
+  void initNode();
+
+  /*!
+   * \brief Starts node processing loop
+   */
+  void startNode();
 
 protected:
   /*!
@@ -105,7 +121,7 @@ protected:
   bool generateMarkers(CellGrid &grid, const int scale,
                        std::vector<visualization_msgs::Marker> &markers);
 
-    /*!
+  /*!
    * \brief calculateCellAlpha Calculate value of alpha component
    *  based on cell's point count
    * \param pointCount Total number of points in cell
@@ -117,7 +133,20 @@ protected:
   }
 
 private:
+  /*!
+   * \brief pointCloudCallback Function which is 
+   *  triggered when point cloud message is received
+   * \param cloudMsg Received PointCloud2 message
+   */
+  void pointCloudCallback(const sensor_msgs::PointCloud2Ptr& cloudMsg);
+
+  ros::NodeHandle nodeHandle; //!< Node handle
+
+  sensor_msgs::PointCloud2Ptr m_latestCloudMessage; //!< Latest received cloud message
+  
   tf::TransformListener m_transformListener; //!< Listener for acquiring transformation
+  ros::Subscriber m_pointCloudSub; //!< Subscriber for receiving point cloud msgs
+  ros::Publisher m_markerPub; //!< Publisher for publishing markers
 
   std::string m_outputCoordianteFrame; //!< Coordinate sys on which markers will be published
   int m_maxPointsPerCell; //!< Max points per cell
