@@ -2,16 +2,38 @@
 
 #include "lidar_object_grid/lidar_object_grid.hpp"
 
-LidarObjectGrid::LidarObjectGrid() :
-  m_latestCloudMessage(nullptr),
-  m_outputCoordianteFrame("base_link"), // TODO: replace this later when args parsing is implemented
-  m_maxPointsPerCell(300)               // TODO: Also fix this
+LidarObjectGrid::LidarObjectGrid() : m_latestCloudMessage(nullptr),
+                                     m_inputTopic(""),
+                                     m_outputTopic(""),
+                                     m_outputCoordianteFrame(""),
+                                     m_gridXSize(0),
+                                     m_gridYSize(0),
+                                     m_cellSize(0),
+                                     m_maxPointsPerCell(300),
+                                     m_objectHeight(0)
 {
 }
 
 void LidarObjectGrid::initNode()
 {
-  //TODO: Take parameters from launch
+  nodeHandle.param<std::string>("inputTopic", m_inputTopic, "points_raw");
+  nodeHandle.param<std::string>("outputTopic", m_outputTopic, "visualization_marker");
+  nodeHandle.param<std::string>("outputCordinateFrame", m_outputCoordianteFrame, "base_link");
+  nodeHandle.param("gridX", m_gridXSize, 12);
+  nodeHandle.param("gridY", m_gridYSize, 8);
+  nodeHandle.param("cellSize", m_cellSize, 1);
+  nodeHandle.param("maxPoints", m_maxPointsPerCell, 300);
+  nodeHandle.param("objectH", m_objectHeight, 5);
+
+  ROS_INFO("Params:");
+  ROS_INFO("inputTopic: %s", m_inputTopic.c_str());
+  ROS_INFO("outputTopic: %s", m_outputTopic.c_str());
+  ROS_INFO("outputCordinateFrame: %s", m_outputCoordianteFrame.c_str());
+  ROS_INFO("GridX: %d", m_gridXSize);
+  ROS_INFO("GridY: %d", m_gridYSize);
+  ROS_INFO("cellSize: %d", m_cellSize);
+  ROS_INFO("maxPoints: %d", m_maxPointsPerCell);
+  ROS_INFO("objectH: %d", m_objectHeight);
 
   // Subscribe to points raw topic
   m_pointCloudSub = nodeHandle.subscribe("points_raw", 1000, &LidarObjectGrid::pointCloudCallback, this);
@@ -28,22 +50,22 @@ void LidarObjectGrid::startNode()
 
   ROS_INFO("Starting node");
 
-  while(ros::ok())
+  while (ros::ok())
   {
     ros::spinOnce();
-    // loopRate.sleep();
+
     tf::StampedTransform transforamtion;
     bool rv = getTransforamtion(transforamtion);
-    if(!rv)
+    if (!rv)
     {
-      // Don't do any processing if 
+      // Don't do any processing if
       // transforamtion is not acquired succesfully
       continue;
     }
 
     // If no msg is acquired don't execute loop
     // Protection for initial
-    if(m_latestCloudMessage == nullptr)
+    if (m_latestCloudMessage == nullptr)
     {
       continue;
     }
@@ -52,35 +74,43 @@ void LidarObjectGrid::startNode()
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
     pcl::fromROSMsg(*m_latestCloudMessage, *cloud);
 
-    pcl::PointCloud<pcl::PointXYZ>::Ptr transformedCloud(new pcl::PointCloud<pcl::PointXYZ>);;
+    pcl::PointCloud<pcl::PointXYZ>::Ptr transformedCloud(new pcl::PointCloud<pcl::PointXYZ>);
+    ;
     pcl_ros::transformPointCloud(*cloud, *transformedCloud, transforamtion);
 
-
     pcl::PointCloud<pcl::PointXYZ> filteredCloud;
-    rv = filterROI(transformedCloud, filteredCloud, 12, 8, 5, 1, 0.1f);
-    
+    rv = filterROI(transformedCloud, filteredCloud,
+                   m_gridXSize,
+                   m_gridYSize,
+                   m_objectHeight,
+                   m_cellSize,
+                   Treshold);
+
     // If ROI filtering is not successful, continue
-    if(!rv)
+    if (!rv)
     {
       continue;
     }
 
     CellGrid grid;
-    rv = processCloud(filteredCloud, 12, 8, 1, grid);
-    if(!rv)
+    rv = processCloud(filteredCloud, m_gridXSize,
+                      m_gridYSize,
+                      m_cellSize,
+                      grid);
+    if (!rv)
     {
       continue;
     }
 
     std::vector<visualization_msgs::Marker> markers;
-    rv = generateMarkers(grid, 1, markers);
-    if(!rv)
+    rv = generateMarkers(grid, m_cellSize, markers);
+    if (!rv)
     {
       continue;
     }
 
     // Publish each marker
-    for(auto& m : markers)
+    for (auto &m : markers)
     {
       m_markerPub.publish(m);
     }
@@ -262,7 +292,7 @@ bool LidarObjectGrid::generateMarkers(CellGrid &grid, const int scale,
       {
         count = grid[x][y].m_pointCount;
       }
-      
+
       markers.push_back(
           generateMarker(
               xDraw,
@@ -280,7 +310,7 @@ bool LidarObjectGrid::generateMarkers(CellGrid &grid, const int scale,
   return true;
 }
 
-void LidarObjectGrid::pointCloudCallback(const sensor_msgs::PointCloud2Ptr& cloudMsg)
+void LidarObjectGrid::pointCloudCallback(const sensor_msgs::PointCloud2Ptr &cloudMsg)
 {
   // Acquire latest point cloud message pointer
   m_latestCloudMessage = cloudMsg;

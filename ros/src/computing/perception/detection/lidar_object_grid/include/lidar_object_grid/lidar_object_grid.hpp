@@ -35,6 +35,8 @@ using CellGrid = std::vector<std::vector<Cell>>;
 class LidarObjectGrid
 {
 public:
+  static constexpr float Treshold = 0.1f;
+
   /*!
    * \brief LidarObjectGrid ctor
    */
@@ -148,8 +150,15 @@ private:
   ros::Subscriber m_pointCloudSub; //!< Subscriber for receiving point cloud msgs
   ros::Publisher m_markerPub; //!< Publisher for publishing markers
 
+  // Node parameters
+  std::string m_inputTopic; //!< Input topic for point cloud
+  std::string m_outputTopic; //!< Output topic for publishing markers
   std::string m_outputCoordianteFrame; //!< Coordinate sys on which markers will be published
+  int m_gridXSize; //!< Object grid size X
+  int m_gridYSize; //!< Object grid size Y
+  int m_cellSize; //!< Object grid cell size
   int m_maxPointsPerCell; //!< Max points per cell
+  int m_objectHeight; //!< Max object height
 };
 
 #endif //__LIDAR_OBJECT_GRID__
