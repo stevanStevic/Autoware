@@ -1,0 +1,14 @@
+<!-- Running this test requires that whole autoware enviroment is running -->
+<!-- This test will only pass if it's called with rostest and reuse-master flag specified -->
+<launch>
+    <param name="inputTopic" value="points_raw" />
+    <param name="outputTopic" value="visualization_marker" />
+    <param name="outputCordinateFrame" value="base_link" />
+    <param name="gridX" value="12" />
+    <param name="gridY" value="8" />
+    <param name="cellSize" value="1" />
+    <param name="maxPoints" value="300" />
+    <param name="objectH" value="5.0" />
+    
+    <test test-name="lidar_visualisation_tf_test" pkg="lidar_object_grid" type="lidar_object_grid-tf-test"/>
+</launch>

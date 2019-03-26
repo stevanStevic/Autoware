@@ -14,6 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
   tf
   tf_conversions
   visualization_msgs
+  rostest
+  roslaunch
 )
 
 ## System dependencies are found with CMake's conventions
@@ -202,6 +204,30 @@ if(TARGET ${PROJECT_NAME}-test)
      ${Boost_SYSTEM_LIBRARY}
      )
 endif()
+
+## Add integration test
+## Special parameter --reuse-master is used to attach to 
+## existing master on which messages are exchanged
+add_rostest(launch/lidar_object_grid_publish.test ARGS arg1:= --reuse-master)
+
+## FIXME: Find a way to pass arguments to this rostest call
+## because --reuse-master flag must be used
+## This test will always fail on running catkin_make run_test
+## For test to succeed use rostest call with --reuse-master flag
+
+## rostest lidar_object_grid lidar_object_grid_tf.test --reuse-master
+add_rostest_gtest(
+  ${PROJECT_NAME}-tf-test 
+  launch/lidar_object_grid_tf.test
+  test/test_lidar_object_grid_tf.cpp
+)
+
+target_link_libraries(${PROJECT_NAME}-tf-test
+  ${PROJECT_NAME}
+  ${catkin_LIBRARIES}
+  ${Boost_SYSTEM_LIBRARY}
+)
+
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
