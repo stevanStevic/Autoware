@@ -99,6 +99,16 @@ TEST_F(FilterTest, filterTestFilteringWithOffsetForApp)
     EXPECT_EQ(filteredCloud.size(), 2);
 }
 
+TEST_F(LidarStoppingDistanceMonitorTest, stoppingDistanceCalculation)
+{
+    double curVel = 3.0;
+    double prevVel = 0.0;
+    double maxDec = -3.0;
+    double distance;
+    distance = calculateBreakingDistance(curVel, prevVel, maxDec);
+    EXPECT_EQ(distance, 0.375);
+}
+
 int main(int argc, char **argv)
 {
     ros::init(argc, argv, "lidar_stopping_distance_monitor_test");
