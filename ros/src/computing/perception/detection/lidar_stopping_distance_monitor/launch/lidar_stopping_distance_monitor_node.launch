@@ -1,3 +1,27 @@
-<launch>    
-    <node pkg="lidar_stopping_distance_monitor" name="lidar_stopping_distance_monitor" type="lidar_stopping_distance_monitor_node"/>
+<launch>
+    <arg name="points_topic" default="/points_raw"/>
+    <arg name="velocity_topic" default="/estimated_vel"/>
+    <arg name="stopping_distance_topic" default="/stopping_distance"/>
+    <arg name="free_distance_topic" default="/free_space"/>
+
+    <arg name="output_coordinate_frame" default="base_link"/>
+    <arg name="lane_width" default="2.0"/>
+    <arg name="roi_length" default="10.0"/>
+    <arg name="max_height" default="3.0"/>
+    <arg name="min_height" default="0.9"/>
+    <arg name="max_vehicle_deceleration" default="-3.0"/>
+
+    <node pkg="lidar_stopping_distance_monitor" name="lidar_stopping_distance_monitor" type="lidar_stopping_distance_monitor_node">
+        <remap from="/points_raw" to="$(arg points_topic)"/>
+        <remap from="/estimated_vel" to="$(arg velocity_topic)"/>
+        <remap from="/stopping_distance" to="$(arg stopping_distance_topic)"/>
+        <remap from="/free_space" to="$(arg free_distance_topic)"/>
+
+        <param name="output_coordinate_frame" value="$(arg output_coordinate_frame)"/>
+        <param name="lane_width" value="$(arg lane_width)"/>
+        <param name="roi_length" value="$(arg roi_length)"/>
+        <param name="max_height" value="$(arg max_height)"/>
+        <param name="min_height" value="$(arg min_height)"/>
+        <param name="max_vehicle_deceleration" value="$(arg max_vehicle_deceleration)"/>
+    </node>
 </launch>
