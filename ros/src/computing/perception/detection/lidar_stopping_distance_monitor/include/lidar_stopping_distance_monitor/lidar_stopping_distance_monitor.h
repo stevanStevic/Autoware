@@ -8,6 +8,8 @@
 #include <pcl/filters/conditional_removal.h>
 #include <sensor_msgs/PointCloud2.h>
 
+#include <float.h>
+
 class LidarStoppingDistanceMonitor
 {
 public:
@@ -33,8 +35,26 @@ protected:
     return (-averageVel * averageVel) / (2 * maxDeceleration);
   }
 
+  /*!
+   * \brief getTransforamtion Acquire valid transforamtion vec
+   * \param transformation
+   * \return true if successful
+   */
+  bool getTransforamtion(tf::StampedTransform &transformation);
+
+  /*!
+   * \brief findClosestPoint Searches for point in point cloud with lowest value of x
+   * \param found point
+   * \param filteredCloud input cloud which has already been filtered fro ROI
+   * \return true if successful
+   */
+  bool findClosestPoint(pcl::PointXYZ& point, 
+                const pcl::PointCloud<pcl::PointXYZ>& filteredCloud);
+
 private:
   ros::NodeHandle m_nodeHandle; //!< Node handle
+
+  tf::TransformListener m_transformListener; //!< Listener for acquiring transformation
 
   //Node Params
   std::string m_outputCoordinateFrame; //!< Coordinate frame

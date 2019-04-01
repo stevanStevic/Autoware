@@ -49,14 +49,14 @@ class FilterTest : public LidarStoppingDistanceMonitorTest
         pcl::PointXYZ point12(5 + realOffset, 0, 1); //T
         pcl::PointXYZ point13(10 + realOffset, 0, 1); //F
         pcl::PointXYZ point14(-9 + realOffset, 1, 1); //F
-        pcl::PointXYZ point15(2 + realOffset, 2, 1); //T
+        pcl::PointXYZ point15(2 + realOffset, 1.0, 1); //T
         pcl::PointXYZ point16(3 + realOffset, 5, 1); //F
 
-        appOffsetCloud.push_back(point6);
-        appOffsetCloud.push_back(point7);
-        appOffsetCloud.push_back(point8);
-        appOffsetCloud.push_back(point9);
-        appOffsetCloud.push_back(point10);
+        appOffsetCloud.push_back(point12);
+        appOffsetCloud.push_back(point13);
+        appOffsetCloud.push_back(point14);
+        appOffsetCloud.push_back(point15);
+        appOffsetCloud.push_back(point16);
     }
 
     bool rv;
@@ -64,6 +64,32 @@ class FilterTest : public LidarStoppingDistanceMonitorTest
     pcl::PointCloud<pcl::PointXYZ> offsetCloud;
     pcl::PointCloud<pcl::PointXYZ> appOffsetCloud;
     pcl::PointCloud<pcl::PointXYZ> filteredCloud;
+};
+
+class FindClosestPointTest : public FilterTest
+{
+protected:
+    virtual void SetUp()
+    {
+        double realOffset = 9;
+
+        pcl::PointXYZ point1(5 + realOffset, 0, 1); //T
+        pcl::PointXYZ point2(10 + realOffset, 0, 1); //F
+        pcl::PointXYZ point3(-9 + realOffset, 1, 1); //F
+        pcl::PointXYZ point4(2 + realOffset, 1, 1); //T
+        pcl::PointXYZ point5(3 + realOffset, 5, 1); //F
+
+        inputCloud.push_back(point1);
+        inputCloud.push_back(point2);
+        inputCloud.push_back(point3);
+        inputCloud.push_back(point4);
+        inputCloud.push_back(point5);
+
+        rv = filterROI(inputCloud.makeShared(), filteredInputCloud, 10, 2.0, 9.0, 1.0, -1.0);
+    }
+
+    pcl::PointCloud<pcl::PointXYZ> inputCloud;
+    pcl::PointCloud<pcl::PointXYZ> filteredInputCloud;
 };
 
 TEST_F(FilterTest, filterTestInvalidInput)
@@ -107,6 +133,33 @@ TEST_F(LidarStoppingDistanceMonitorTest, stoppingDistanceCalculation)
     double distance;
     distance = calculateBreakingDistance(curVel, prevVel, maxDec);
     EXPECT_EQ(distance, 0.375);
+}
+
+TEST_F(FindClosestPointTest, invalidInput)
+{
+    pcl::PointCloud<pcl::PointXYZ> pointCloud;
+    pcl::PointXYZ point;
+
+    rv = findClosestPoint(point, pointCloud);
+    EXPECT_FALSE(rv);
+}
+
+TEST_F(FindClosestPointTest, validInput)
+{
+    pcl::PointXYZ point;
+
+    rv = findClosestPoint(point, filteredInputCloud);
+    EXPECT_TRUE(rv);
+}
+
+TEST_F(FindClosestPointTest, checkFoundPoint)
+{
+    pcl::PointXYZ point;
+    rv = findClosestPoint(point, filteredInputCloud);
+    EXPECT_TRUE(rv);
+
+    // Point with lowest value of x
+    EXPECT_EQ(point.x, 11.0);
 }
 
 int main(int argc, char **argv)
