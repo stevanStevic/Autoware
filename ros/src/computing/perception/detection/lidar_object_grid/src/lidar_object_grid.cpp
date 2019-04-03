@@ -2,6 +2,9 @@
 
 #include "lidar_object_grid/lidar_object_grid.hpp"
 
+namespace LidarDetector {
+namespace OcuppancyGrid3D {
+
 LidarObjectGrid::LidarObjectGrid() : m_latestCloudMessage(nullptr),
                                      m_inputTopic(""),
                                      m_outputTopic(""),
@@ -14,7 +17,7 @@ LidarObjectGrid::LidarObjectGrid() : m_latestCloudMessage(nullptr),
 {
 }
 
-void LidarObjectGrid::initNode()
+bool LidarObjectGrid::initNode()
 {
   nodeHandle.param<std::string>("inputTopic", m_inputTopic, "points_raw");
   nodeHandle.param<std::string>("outputTopic", m_outputTopic, "visualization_marker");
@@ -35,13 +38,41 @@ void LidarObjectGrid::initNode()
   ROS_INFO("maxPoints: %d", m_maxPointsPerCell);
   ROS_INFO("objectH: %d", m_objectHeight);
 
+  if ((m_gridXSize & 0x1 != 0) || (m_gridXSize <= 0) ||
+      (m_gridYSize & 0x1 != 0) || (m_gridYSize <= 0) ||
+      (m_objectHeight <= 0) || (m_cellSize <= 0))
+  {
+    return false;
+  }
+
+  int xActualSize = m_gridXSize * m_cellSize;
+  int yActualSize = m_gridYSize * m_cellSize;
+  int xActualHeight = m_objectHeight * m_cellSize;
+
+  // Create filter
+  m_rangeCond = boost::make_shared<pcl::ConditionAnd<pcl::PointXYZ>>();
+  m_rangeCond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "x", pcl::ComparisonOps::GT, -xActualSize / 2 + Treshold)));
+  m_rangeCond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "x", pcl::ComparisonOps::LT, xActualSize / 2 - Treshold)));
+  m_rangeCond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "y", pcl::ComparisonOps::GT, -yActualSize / 2 + Treshold)));
+  m_rangeCond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "y", pcl::ComparisonOps::LT, yActualSize / 2 - Treshold)));
+  m_rangeCond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "z", pcl::ComparisonOps::GT, 0.2))); // Remove ground
+  m_rangeCond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
+      "z", pcl::ComparisonOps::LT, xActualHeight)));
+
   // Subscribe to points raw topic
-  m_pointCloudSub = nodeHandle.subscribe("points_raw", 1000, &LidarObjectGrid::pointCloudCallback, this);
+  m_pointCloudSub = nodeHandle.subscribe(m_inputTopic, 1, &LidarObjectGrid::pointCloudCallback, this);
 
   // Advertise markers topic
-  m_markerPub = nodeHandle.advertise<visualization_msgs::Marker>("visualization_marker", 1);
+  m_markerPub = nodeHandle.advertise<visualization_msgs::Marker>(m_outputTopic, 1);
 
   ROS_INFO("Init node - complete");
+
+  return true;
 }
 
 void LidarObjectGrid::startNode()
@@ -79,12 +110,7 @@ void LidarObjectGrid::startNode()
     pcl_ros::transformPointCloud(*cloud, *transformedCloud, transforamtion);
 
     pcl::PointCloud<pcl::PointXYZ> filteredCloud;
-    rv = filterROI(transformedCloud, filteredCloud,
-                   m_gridXSize,
-                   m_gridYSize,
-                   m_objectHeight,
-                   m_cellSize,
-                   Treshold);
+    filterROI(transformedCloud, filteredCloud);
 
     // If ROI filtering is not successful, continue
     if (!rv)
@@ -140,52 +166,21 @@ bool LidarObjectGrid::getTransforamtion(tf::StampedTransform &transformation)
   return true;
 }
 
-bool LidarObjectGrid::filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr &pointCloud,
-                                pcl::PointCloud<pcl::PointXYZ> &filteredCloud,
-                                const int xGridSize,
-                                const int yGridSize,
-                                const int height,
-                                const int scale,
-                                const float thrashold)
+void LidarObjectGrid::filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr &pointCloud,
+                                pcl::PointCloud<pcl::PointXYZ> &filteredCloud)
 {
-  if ((xGridSize & 0x1 != 0) || (xGridSize <= 0) ||
-      (yGridSize & 0x1 != 0) || (yGridSize <= 0) ||
-      (height <= 0) || (scale <= 0) || thrashold <= 0)
-  {
-    return false;
-  }
-
-  int xActualSize = xGridSize * scale;
-  int yActualSize = yGridSize * scale;
-  int xActualHeight = height * scale;
-
-  // Set filters
-  pcl::ConditionAnd<pcl::PointXYZ>::Ptr range_cond(new pcl::ConditionAnd<pcl::PointXYZ>());
-  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
-      "x", pcl::ComparisonOps::GT, -xActualSize / 2 + thrashold)));
-  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
-      "x", pcl::ComparisonOps::LT, xActualSize / 2 - thrashold)));
-  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
-      "y", pcl::ComparisonOps::GT, -yActualSize / 2 + thrashold)));
-  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
-      "y", pcl::ComparisonOps::LT, yActualSize / 2 - thrashold)));
-  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
-      "z", pcl::ComparisonOps::GT, 0.2))); // Remove ground
-  range_cond->addComparison(pcl::FieldComparison<pcl::PointXYZ>::ConstPtr(new pcl::FieldComparison<pcl::PointXYZ>(
-      "z", pcl::ComparisonOps::LT, xActualHeight)));
   pcl::ConditionalRemoval<pcl::PointXYZ> conditionExecutor;
-  conditionExecutor.setCondition(range_cond);
+
+  conditionExecutor.setCondition(m_rangeCond);
   conditionExecutor.setInputCloud(pointCloud);
-  conditionExecutor.setKeepOrganized(true);
+//  conditionExecutor.setKeepOrganized(true);
 
   // Apply filter
   conditionExecutor.filter(filteredCloud);
 
   // Remove nans
-  std::vector<int> indices;
-  pcl::removeNaNFromPointCloud(filteredCloud, filteredCloud, indices);
-
-  return true;
+//  std::vector<int> indices;
+//  pcl::removeNaNFromPointCloud(filteredCloud, filteredCloud, indices);
 }
 
 bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ> &filteredCloud,
@@ -226,8 +221,8 @@ bool LidarObjectGrid::processCloud(const pcl::PointCloud<pcl::PointXYZ> &filtere
   return true;
 }
 
-visualization_msgs::Marker LidarObjectGrid::generateMarker(const int posX, const int posY,
-                                                           const int posZ,
+visualization_msgs::Marker LidarObjectGrid::generateMarker(const float posX, const float posY,
+                                                           const float posZ,
                                                            const float alpha,
                                                            const int scale,
                                                            const float height)
@@ -315,3 +310,6 @@ void LidarObjectGrid::pointCloudCallback(const sensor_msgs::PointCloud2Ptr &clou
   // Acquire latest point cloud message pointer
   m_latestCloudMessage = cloudMsg;
 }
+
+} // namespace OcuppancyGrid3D
+} // namespace LidarDetector

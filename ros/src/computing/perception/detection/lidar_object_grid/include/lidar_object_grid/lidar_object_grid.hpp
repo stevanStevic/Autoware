@@ -8,10 +8,14 @@
 #include <pcl/point_types.h>
 #include <pcl_conversions/pcl_conversions.h>
 #include <pcl_ros/transforms.h>
+#include <pcl/filters/conditional_removal.h>
 #include <visualization_msgs/Marker.h>
 #include <sensor_msgs/PointCloud2.h>
 
 #include <vector>
+
+namespace LidarDetector {
+namespace OcuppancyGrid3D {
 
 struct Cell
 {
@@ -45,7 +49,7 @@ public:
   /*!
    * \brief Inits node's com
    */
-  void initNode();
+  bool initNode();
 
   /*!
    * \brief Starts node processing loop
@@ -65,20 +69,9 @@ protected:
    * \details Grid size by X and Y must be even numbers
    * \param pointCloud    cloud to be filtered
    * \param filteredCloud filtered cloud
-   * \param xGridSize     size of grid by X
-   * \param yGridSize     size of grid by Y
-   * \param height        height of the grid
-   * \param scale         cell size
-   * \param thrashold     small value not to take edge cases
-   * \return true if values are correct
    */
-  bool filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr &pointCloud,
-                 pcl::PointCloud<pcl::PointXYZ> &filteredCloud,
-                 const int xGridSize,
-                 const int yGridSize,
-                 const int height,
-                 const int scale,
-                 const float thrashold);
+  void filterROI(const pcl::PointCloud<pcl::PointXYZ>::Ptr &pointCloud,
+                 pcl::PointCloud<pcl::PointXYZ> &filteredCloud);
 
   /*!
    * \brief processCloud Create cell grid from filtered cloud
@@ -107,8 +100,8 @@ protected:
    * \param height Marker's height
    * \return Generated marker
    */
-  visualization_msgs::Marker generateMarker(const int posX, const int posY,
-                                            const int posZ,
+  visualization_msgs::Marker generateMarker(const float posX, const float posY,
+                                            const float posZ,
                                             const float alpha,
                                             const int scale,
                                             const float height);
@@ -146,7 +139,9 @@ private:
 
   sensor_msgs::PointCloud2Ptr m_latestCloudMessage; //!< Latest received cloud message
   
+  pcl::ConditionAnd<pcl::PointXYZ>::Ptr m_rangeCond;
   tf::TransformListener m_transformListener; //!< Listener for acquiring transformation
+
   ros::Subscriber m_pointCloudSub; //!< Subscriber for receiving point cloud msgs
   ros::Publisher m_markerPub; //!< Publisher for publishing markers
 
@@ -160,5 +155,8 @@ private:
   int m_maxPointsPerCell; //!< Max points per cell
   int m_objectHeight; //!< Max object height
 };
+
+} // namespace OcuppancyGrid3D
+} // namespace LidarDetector
 
 #endif //__LIDAR_OBJECT_GRID__

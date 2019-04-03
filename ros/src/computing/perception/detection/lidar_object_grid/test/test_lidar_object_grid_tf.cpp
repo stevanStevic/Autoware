@@ -3,6 +3,9 @@
 
 #include "lidar_object_grid/lidar_object_grid.hpp"
 
+namespace LidarDetector {
+namespace OcuppancyGrid3D {
+
 class LidarObjectGridTest : public testing::Test, public LidarObjectGrid
 {
 protected:
@@ -33,6 +36,9 @@ TEST_F(LidarObjectGridTest, aquireTransformationOutput)
   EXPECT_EQ(correctTransformation.getOrigin(), transformation.getOrigin());
   EXPECT_EQ(correctTransformation.getRotation(), transformation.getRotation());
 }
+
+} // namespace OcuppancyGrid3D
+} // namespace LidarDetector
 
 int main(int argc, char** argv)
 {
