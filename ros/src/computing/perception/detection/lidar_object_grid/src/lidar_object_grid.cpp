@@ -85,6 +85,8 @@ void LidarObjectGrid::startNode()
   {
     ros::spinOnce();
 
+    auto start_ = ros::WallTime::now();
+
     tf::StampedTransform transforamtion;
     bool rv = getTransforamtion(transforamtion);
     if (!rv)
@@ -127,6 +129,11 @@ void LidarObjectGrid::startNode()
     {
       continue;
     }
+
+    auto end_ = ros::WallTime::now();
+
+    double execution_time = (end_ - start_).toNSec() * 1e-6;
+    ROS_INFO("Exec time (ms): %lf\n", execution_time);
 
     std::vector<visualization_msgs::Marker> markers;
     rv = generateMarkers(grid, m_cellSize, markers);
